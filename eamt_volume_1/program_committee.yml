@@ -1,0 +1,1443 @@
+- entries:
+  - emails: vera.cabarrao@unbabel.com
+    first_name: Vera
+    homepage: https://unbabel.com/research/
+    institution: Unbabel
+    last_name: Cabarrão
+    name: Vera Cabarrão
+    username: ~Vera_Cabarrão1
+  - emails: kchatzitheodorou@gmail.com
+    first_name: Konstantinos
+    homepage: https://www.linkedin.com/in/konstantinos-chatzitheodorou-25044b24/
+    last_name: Chatzitheodorou
+    name: Konstantinos Chatzitheodorou
+    username: ~Konstantinos_Chatzitheodorou1
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    institution: University of Sheffield
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  - dblp_id: https://dblp.org/pid/185/5566
+    emails: x.song@sheffield.ac.uk
+    first_name: Xingyi
+    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
+    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    institution: University of Sheffield
+    last_name: Song
+    name: Xingyi Song
+    orcid: https://orcid.org/0000-0002-4188-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762R
+    username: ~Xingyi_Song1
+  role: Implementations Case Studies Track Program Chairs
+- entries:
+  - emails: patrick.cadwell@dcu.ie
+    first_name: Patrick
+    institution: Dublin City University
+    last_name: Cadwell
+    name: Patrick Cadwell
+    orcid: https://orcid.org/0000-0002-2371-4378
+    username: ~Patrick_Cadwell1
+  - dblp_id: https://dblp.org/pid/76/8162
+    emails: lapshinovakoltun@uni-hildesheim.de
+    first_name: Ekaterina
+    google_scholar_id: https://scholar.google.com/citations?user=kzIiTmAAAAAJ&hl=de
+    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/lapshinova
+    institution: Universität Hildesheim
+    last_name: Lapshinova-Koltunski
+    name: Ekaterina Lapshinova-Koltunski
+    orcid: https://orcid.org/0000-0002-5618-8087
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Lapshinova-Koltunski/2706548
+    username: ~Ekaterina_Lapshinova-Koltunski2
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    institution: University of Sheffield
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  - dblp_id: https://dblp.org/pid/185/5566
+    emails: x.song@sheffield.ac.uk
+    first_name: Xingyi
+    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
+    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    institution: University of Sheffield
+    last_name: Song
+    name: Xingyi Song
+    orcid: https://orcid.org/0000-0002-4188-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
+    username: ~Xingyi_Song1
+  role: Research Translators Users Track Program Chairs
+- entries:
+  - dblp_id: https://dblp.org/pid/146/4432
+    emails: rachel.bawden@inria.fr
+    first_name: Rachel
+    google_scholar_id: https://scholar.google.co.uk/citations?user=G3DS5GAAAAAJ&hl=en
+    homepage: https://rbawden.github.io
+    institution: Inria
+    last_name: Bawden
+    name: Rachel Bawden
+    orcid: https://orcid.org/0000-0001-9553-1768
+    semantic_scholar_id: https://www.semanticscholar.org/author/Rachel-Bawden/48983885
+    username: ~Rachel_Bawden1
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    institution: University of Sheffield
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  - dblp_id: https://dblp.org/pid/185/5566
+    emails: x.song@sheffield.ac.uk
+    first_name: Xingyi
+    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
+    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    institution: University of Sheffield
+    last_name: Song
+    name: Xingyi Song
+    orcid: https://orcid.org/0000-0002-4188-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
+    username: ~Xingyi_Song1
+  - dblp_id: https://dblp.org/pid/93/10489
+    emails: vmsanchez@dlsi.ua.es
+    first_name: Víctor
+    google_scholar_id: https://scholar.google.es/citations?user=QzMP_B8AAAAJ&hl=es
+    homepage: https://www.dlsi.ua.es/~vmsanchez
+    institution: Universidad de Alicante
+    last_name: Sánchez-Cartagena
+    middle_name: M.
+    name: Víctor M. Sánchez-Cartagena
+    orcid: https://orcid.org/0000-0001-9600-6885
+    semantic_scholar_id: https://www.semanticscholar.org/author/V.-M.-S%C3%A1nchez-Cartagena/1399637675
+    username: ~Víctor_M._Sánchez-Cartagena1
+  role: Technical Track Program Chairs
+- entries:
+  - dblp_id: https://dblp.org/pid/12/5915
+    emails: bhaddow@ed.ac.uk
+    first_name: Barry
+    google_scholar_id: https://scholar.google.com/citations?user=6NqRjRYAAAAJ&hl=en
+    homepage: https://homepages.inf.ed.ac.uk/bhaddow/
+    institution: University of Edinburgh
+    last_name: Haddow
+    name: Barry Haddow
+    username: ~Barry_Haddow1
+  - dblp_id: https://dblp.org/pid/65/6363.html
+    emails: monizhelena3@gmail.com
+    first_name: Helena
+    google_scholar_id: https://scholar.google.com/citations?user=G3CcA6YAAAAJ&hl=en
+    homepage: https://www.hlt.inesc-id.pt/w/Helena_Moniz
+    institution: Universidade de Lisboa
+    last_name: Moniz
+    middle_name: Silva
+    name: Helena Silva Moniz
+    orcid: https://orcid.org/0000-0003-0900-6938
+    semantic_scholar_id: https://www.semanticscholar.org/author/Helena-Moniz/2504458
+    username: ~Helena_Silva_Moniz1
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    institution: University of Sheffield
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  - dblp_id: https://dblp.org/pid/185/5566
+    emails: x.song@sheffield.ac.uk
+    first_name: Xingyi
+    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
+    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    institution: University of Sheffield
+    last_name: Song
+    name: Xingyi Song
+    orcid: https://orcid.org/0000-0002-4188-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
+    username: ~Xingyi_Song1
+  role: Thesis Award Program Chairs
+- entries:
+  - dblp_id: https://dblp.org/pid/127/0183
+    emails: dipteshkanojia@gmail.com
+    first_name: Diptesh
+    google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
+    homepage: http://dipteshkanojia.github.io
+    institution: University of Surrey
+    last_name: Kanojia
+    name: Diptesh Kanojia
+    orcid: https://orcid.org/0000-0001-8814-0080
+    semantic_scholar_id: https://www.semanticscholar.org/author/Diptesh-Kanojia/2920443
+    username: ~Diptesh_Kanojia1
+  - emails: mary.nurminen@tuni.fi
+    first_name: Mary
+    homepage: https://orcid.org/0000-0002-2380-6950
+    institution: Tampere University
+    last_name: Nurminen
+    name: Mary Nurminen
+    orcid: https://orcid.org/0000-0002-2380-6950
+    username: ~Mary_Nurminen1
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    institution: University of Sheffield
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  - dblp_id: https://dblp.org/pid/185/5566
+    emails: x.song@sheffield.ac.uk
+    first_name: Xingyi
+    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
+    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    institution: University of Sheffield
+    last_name: Song
+    name: Xingyi Song
+    orcid: https://orcid.org/0000-0002-4188-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
+    username: ~Xingyi_Song1
+  role: Tutorials Track Program Chairs
+- entries:
+  - dblp_id: https://dblp.org/pid/127/0183
+    emails: dipteshkanojia@gmail.com
+    first_name: Diptesh
+    google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
+    homepage: http://dipteshkanojia.github.io
+    institution: University of Surrey
+    last_name: Kanojia
+    name: Diptesh Kanojia
+    orcid: https://orcid.org/0000-0001-8814-0080
+    semantic_scholar_id: https://www.semanticscholar.org/author/Diptesh-Kanojia/2920443
+    username: ~Diptesh_Kanojia1
+  - emails: mary.nurminen@tuni.fi
+    first_name: Mary
+    homepage: https://orcid.org/0000-0002-2380-6950
+    institution: Tampere University
+    last_name: Nurminen
+    name: Mary Nurminen
+    orcid: https://orcid.org/0000-0002-2380-6950
+    username: ~Mary_Nurminen1
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    institution: University of Sheffield
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  - dblp_id: https://dblp.org/pid/185/5566
+    emails: x.song@sheffield.ac.uk
+    first_name: Xingyi
+    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
+    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    institution: University of Sheffield
+    last_name: Song
+    name: Xingyi Song
+    orcid: https://orcid.org/0000-0002-4188-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
+    username: ~Xingyi_Song1
+  role: Workshops Track Program Chairs
+- entries:
+  - dblp_id: https://dblp.org/pid/48/8160
+    emails: eleftherios.avramidis@dfki.de
+    first_name: Eleftherios
+    google_scholar_id: https://scholar.google.gr/citations?user=HhcsbYgAAAAJ&hl=en
+    homepage: https://www.dfki.de/~elav01/
+    last_name: Avramidis
+    name: Eleftherios Avramidis
+    orcid: https://orcid.org/0000-0002-5671-573X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Eleftherios-Avramidis/2837687
+    username: ~Eleftherios_Avramidis1
+  - dblp_id: https://dblp.org/pid/221/5998
+    emails: fbane@translations.com
+    first_name: Fred
+    homepage: https://www.linkedin.com/in/fwbane
+    last_name: Bane
+    name: Fred Bane
+    username: ~Fred_Bane1
+  - emails: adam@bittlingmayer.org
+    first_name: Adam
+    homepage: https://modelfront.com
+    last_name: Bittlingmayer
+    name: Adam Bittlingmayer
+    username: ~Adam_Bittlingmayer1
+  - emails: marianna@unbabel.com
+    first_name: Marianna
+    homepage: https://www.linkedin.com/in/marianna-buchicchio/
+    last_name: Buchicchio
+    name: Marianna Buchicchio
+    username: ~Marianna_Buchicchio1
+  - emails: laura.casanellas@gmail.com
+    first_name: Laura
+    homepage: https://www.magicbeansagency.com/laura-casanellas
+    last_name: Casanellas
+    name: Laura Casanellas
+    username: ~Laura_Casanellas1
+  - emails: kd@custom.mt
+    first_name: Konstantin
+    homepage: https://custom.mt/
+    last_name: Dranch
+    name: Konstantin Dranch
+    username: ~Konstantin_Dranch1
+  - emails: laki.laszlo@gmail.com
+    first_name: László
+    google_scholar_id: https://scholar.google.com/citations?user=CvumbN4AAAAJ&hl=hu
+    last_name: Laki
+    middle_name: János
+    name: László János Laki
+    username: ~László_János_Laki1
+  - emails: mara.nunziatini@welocalize.com
+    first_name: Mara
+    homepage: https://www.welocalize.com/
+    last_name: Nunziatini
+    name: Mara Nunziatini
+    username: ~Mara_Nunziatini1
+  - dblp_id: https://dblp.org/pid/185/5563
+    emails: patelrajnath@gmail.com
+    first_name: Raj
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=tmjg3d0AAAAJ
+    homepage: https://patelrajnath.github.io/
+    last_name: Patel
+    middle_name: Nath
+    name: Raj Nath Patel
+    orcid: https://orcid.org/0000-0001-7560-9601
+    semantic_scholar_id: https://www.semanticscholar.org/author/Raj-Nath-Patel/3457270
+    username: ~Raj_Nath_Patel1
+  - emails: spyridon.pilos@eca.europa.eu
+    first_name: Spyridon
+    last_name: Pilos
+    name: Spyridon Pilos
+    username: ~Spyridon_Pilos1
+  - emails: hrossi@sdl.com
+    first_name: Heather
+    last_name: Rossi
+    name: Heather Rossi
+    username: ~Heather_Rossi1
+  - emails: ks@inten.to
+    first_name: Konstantin
+    homepage: https://inten.to
+    last_name: Savenkov
+    name: Konstantin Savenkov
+    username: ~Konstantin_Savenkov1
+  - emails: marina.sanchez@unbabel.com
+    first_name: Marina
+    google_scholar_id: https://scholar.google.com/citations?user=vuArv-AAAAAJ&hl=es
+    last_name: Torrón
+    middle_name: Sánchez
+    name: Marina Sánchez Torrón
+    username: ~Marina_Sánchez_Torrón1
+  - emails: azaretskaya@gmail.com
+    first_name: Anna
+    homepage: https://www.linkedin.com/in/anna-zaretskaya-05283a53/
+    last_name: Zaretskaya
+    name: Anna Zaretskaya
+    username: ~Anna_Zaretskaya1
+  - emails: salvarezvid@uoc.edu
+    first_name: Sergi
+    google_scholar_id: https://scholar.google.com/citations?user=DRPw_qwAAAAJ&hl=ca&oi=sra
+    last_name: Alvarez-Vidal
+    name: Sergi Alvarez-Vidal
+    orcid: https://orcid.org/0000-0002-6355-4559
+    username: ~Sergi_Alvarez-Vidal1
+  - emails: nora.aranberri@ehu.eus
+    first_name: Nora
+    homepage: http://ixa.si.ehu.es/node/25
+    last_name: Aranberri
+    name: Nora Aranberri
+    username: ~Nora_Aranberri1
+  - emails: lynne.bowker@uottawa.ca
+    first_name: Lynne
+    last_name: Bowker
+    name: Lynne Bowker
+    orcid: https://orcid.org/0000-0002-0848-1035
+    username: ~Lynne_Bowker1
+  - emails: vicent.brivaiglesias2@mail.dcu.ie
+    first_name: Vicent
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=wHpPp54AAAAJ&view_op=list_works&authuser=1
+    last_name: Briva-Iglesias
+    name: Vicent Briva-Iglesias
+    username: ~Vicent_Briva-Iglesias1
+  - emails: joo.cavalheirocamargo2@mail.dcu.ie
+    first_name: João
+    google_scholar_id: https://scholar.google.com/citations?user=E6Jr2EQAAAAJ&hl=en&oi=ao
+    last_name: Camargo
+    middle_name: Lucas Cavalheiro
+    name: João Lucas Cavalheiro Camargo
+    orcid: https://orcid.org/0000-0003-3746-1225
+    username: ~João_Lucas_Cavalheiro_Camargo1
+  - dblp_id: https://dblp.org/pid/74/6798
+    emails: mcarl6@kent.edu
+    first_name: Michael
+    last_name: Carl
+    name: Michael Carl
+    username: ~Michael_Carl1
+  - emails: dragos.ioan.ciobanu@univie.ac.at
+    first_name: Dragoș
+    homepage: https://haitrans.univie.ac.at/
+    last_name: Ciobanu
+    name: Dragoș Ciobanu
+    orcid: https://orcid.org/0000-0002-6475-080X
+    username: ~Dragoș_Ciobanu1
+  - emails: oliver.czulo@uni-leipzig.de
+    first_name: Oliver
+    homepage: https://orcid.org/0000-0003-4408-5811
+    last_name: Czulo
+    name: Oliver Czulo
+    orcid: https://orcid.org/0000-0003-4408-5811
+    username: ~Oliver_Czulo1
+  - dblp_id: https://dblp.org/pid/146/3944
+    emails: joke.daems@ugent.be
+    first_name: Joke
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=SgHTknIAAAAJ
+    homepage: https://research.flw.ugent.be/nl/joke.daems
+    last_name: Daems
+    name: Joke Daems
+    orcid: https://orcid.org/0000-0003-3734-5160
+    username: ~Joke_Daems1
+  - emails: c.j.m.declercq@uu.nl
+    first_name: Christophe
+    homepage: https://www.uu.nl/medewerkers/CJMDeclercq
+    last_name: Declercq
+    name: Christophe Declercq
+    username: ~Christophe_Declercq1
+  - emails: deilen@uni-hildesheim.de
+    first_name: Dr.
+    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/mitglieder/deilen/
+    last_name: Deilen
+    middle_name: Silvana
+    name: Dr. Silvana Deilen
+    username: ~Dr._Silvana_Deilen1
+  - emails: f.docarmo@surrey.ac.uk
+    first_name: Félix
+    homepage: https://www.surrey.ac.uk/people/felix-do-carmo
+    last_name: Do Carmo
+    name: Félix do Carmo
+    orcid: https://orcid.org/0000-0003-4193-3854
+    username: ~Félix_do_Carmo1
+  - emails: a.g.dorst@hum.leidenuniv.nl
+    first_name: Aletta
+    homepage: https://www.universiteitleiden.nl/en/staffmembers/lettie-dorst#tab-1
+    last_name: Dorst
+    middle_name: G.
+    name: Aletta G. Dorst
+    orcid: https://orcid.org/0000-0003-2520-3157
+    username: ~Aletta_G._Dorst1
+  - emails: m.a.fernandezparra@swansea.ac.uk
+    first_name: Maria
+    homepage: https://www.swansea.ac.uk/staff/m.a.fernandezparra/
+    last_name: Fernandez-Parra
+    name: Maria Fernandez-Parra
+    username: ~Maria_Fernandez-Parra1
+  - dblp_id: https://dblp.org/pid/36/2553
+    emails: federico.gaspari@adaptcentre.ie
+    first_name: Federico
+    google_scholar_id: https://scholar.google.com/citations?user=qx8IOGYAAAAJ
+    homepage: https://www.adaptcentre.ie/experts/federico-gaspari/
+    last_name: Gaspari
+    name: Federico Gaspari
+    orcid: https://orcid.org/0000-0003-3808-8418
+    username: ~Federico_Gaspari1
+  - emails: jj2731@nyu.edu
+    first_name: Junyan
+    google_scholar_id: https://scholar.google.com/citations?user=HCcK944AAAAJ&hl=en&oi=ao
+    last_name: Jiang
+    name: Junyan Jiang
+    username: ~Junyan_Jiang2
+  - emails: ramune.kaspere@ktu.lt
+    first_name: Ramunė
+    last_name: Kasperė
+    name: Ramunė Kasperė
+    orcid: https://orcid.org/0000-0003-0782-3758
+    username: ~Ramunė_Kasperė1
+  - emails: dorothy.kenny@dcu.ie
+    first_name: Dorothy
+    homepage: https://www.dcu.ie/salis/people/dorothy-kenny
+    last_name: Kenny
+    name: Dorothy Kenny
+    username: ~Dorothy_Kenny1
+  - emails: maarit.koponen@uef.fi
+    first_name: Maarit
+    homepage: https://uefconnect.uef.fi/en/person/maarit.koponen/
+    last_name: Koponen
+    name: Maarit Koponen
+    username: ~Maarit_Koponen1
+  - emails: rudy.loock@univ-lille.fr
+    first_name: Rudy
+    homepage: https://pro.univ-lille.fr/rudy-loock
+    last_name: Loock
+    name: Rudy Loock
+    username: ~Rudy_Loock1
+  - emails: lieve.macken@ugent.be
+    first_name: Lieve
+    google_scholar_id: https://scholar.google.be/citations?user=9xhtthkAAAAJ&hl=nl&oi=ao
+    homepage: https://lt3.ugent.be/people/lieve-macken/
+    last_name: Macken
+    name: Lieve Macken
+    orcid: https://orcid.org/0000-0001-7516-7487
+    username: ~Lieve_Macken1
+  - dblp_id: https://dblp.org/pid/56/4401
+    emails: aoliverg@uoc.edu
+    first_name: Antoni
+    google_scholar_id: https://scholar.google.com/citations?user=tj0V-BYAAAAJ&h
+    homepage: https://www.researchgate.net/profile/Antoni-Oliver-3
+    last_name: Oliver
+    name: Antoni Oliver
+    orcid: https://orcid.org/0000-0001-8399-3770
+    semantic_scholar_id: https://www.semanticscholar.org/author/Antoni-Oliver/38997105
+    username: ~Antoni_Oliver1
+  - emails: david.orrego-carmona@warwick.ac.uk
+    first_name: David
+    google_scholar_id: https://scholar.google.com/citations?user=UMdUs2cAAAAJ&hl=en
+    homepage: https://warwick.ac.uk/fac/arts/modernlanguages/academic/davidorregocarmona/
+    last_name: Orrego-Carmona
+    name: David Orrego-Carmona
+    username: ~David_Orrego-Carmona1
+  - emails: mar.sanchezr@uah.es
+    first_name: Maria
+    last_name: Ramos
+    middle_name: Del Mar Sánchez
+    name: Maria del Mar Sánchez Ramos
+    orcid: https://orcid.org/0000-0001-5684-1552
+    username: ~Maria_del_Mar_Sánchez_Ramos1
+  - emails: celrico@ucm.es
+    first_name: Celia
+    google_scholar_id: https://scholar.google.es/citations?user=81eQWkkAAAAJ&hl=es
+    last_name: Rico
+    name: Celia Rico
+    orcid: https://orcid.org/0000-0002-5056-8513
+    username: ~Celia_Rico1
+  - emails: carlos.teixeira@urv.cat
+    first_name: Carlos
+    google_scholar_id: https://scholar.google.com/citations?user=GNrY0SIAAAAJ
+    last_name: Teixeira
+    middle_name: S C
+    name: Carlos S C Teixeira
+    orcid: https://orcid.org/0000-0002-1453-990X
+    username: ~Carlos_S_C_Teixeira1
+  - emails: s.valdez@hum.leidenuniv.nl
+    first_name: Susana
+    homepage: https://www.universiteitleiden.nl/en/staffmembers/s.-valdez/publications#tab-4
+    last_name: Valdez
+    name: Susana Valdez
+    orcid: https://orcid.org/0000-0001-5461-2078
+    username: ~Susana_Valdez1
+  - emails: m.vela@mx.uni-saarland.de
+    first_name: Mihaela
+    homepage: https://www.uni-saarland.de/fachrichtung/lst/personen/personen-a-z/mihaela-vela.html
+    last_name: Vela
+    name: Mihaela Vela
+    username: ~Mihaela_Vela2
+  - emails: l.nunesvieira@bristol.ac.uk
+    first_name: Lucas
+    homepage: https://research-information.bris.ac.uk/en/persons/lucas-nunes-vieira/
+    last_name: Vieira
+    middle_name: Nunes
+    name: Lucas Nunes Vieira
+    username: ~Lucas_Nunes_Vieira1
+  - dblp_id: https://dblp.org/pid/210/7863.html
+    emails: swetaagrawal20@gmail.com
+    first_name: Sweta
+    google_scholar_id: https://scholar.google.com/citations?user=Avsw9IkAAAAJ&hl=en
+    homepage: https://sweta20.github.io/
+    last_name: Agrawal
+    name: Sweta Agrawal
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sweta-Agrawal/5112699
+    username: ~Sweta_Agrawal1
+  - dblp_id: https://dblp.org/pid/48/8160
+    emails: eleftherios.avramidis@dfki.de
+    first_name: Eleftherios
+    google_scholar_id: https://scholar.google.gr/citations?user=HhcsbYgAAAAJ&hl=en
+    homepage: https://www.dfki.de/~elav01/
+    last_name: Avramidis
+    name: Eleftherios Avramidis
+    orcid: https://orcid.org/0000-0002-5671-573X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Eleftherios-Avramidis/2837687
+    username: ~Eleftherios_Avramidis1
+  - dblp_id: https://dblp.org/pid/125/2781
+    emails: bahar@cs.rwth-aachen.de
+    first_name: Parnia
+    google_scholar_id: https://scholar.google.de/citations?user=eyc24McAAAAJ&hl=en
+    homepage: https://www-i6.informatik.rwth-aachen.de/~bahar/
+    last_name: Bahar
+    name: Parnia Bahar
+    username: ~Parnia_Bahar2
+  - dblp_id: https://dblp.org/pid/86/7823
+    emails: loicbarrault@fb.com
+    first_name: Loic
+    google_scholar_id: https://scholar.google.fr/citations?user=S6Xj1BYAAAAJ
+    homepage: https://loicbarrault.github.io/
+    last_name: Barrault
+    name: Loic Barrault
+    orcid: https://orcid.org/0000-0002-0634-6147
+    semantic_scholar_id: https://www.semanticscholar.org/author/Lo%C3%AFc-Barrault/2934336
+    username: ~Loic_Barrault1
+  - dblp_id: https://dblp.org/pid/246/4761
+    emails: magda.biesialska@gmail.com
+    first_name: Magdalena
+    google_scholar_id: https://scholar.google.com/citations?user=KTtSSnwAAAAJ&hl=en
+    last_name: Biesialska
+    name: Magdalena Biesialska
+    username: ~Magdalena_Biesialska1
+  - dblp_id: https://dblp.org/pid/126/8641
+    emails: sheila.castilho@adaptcentre.ie
+    first_name: Sheila
+    google_scholar_id: https://scholar.google.com/citations?user=mANFFWIAAAAJ
+    last_name: Castilho
+    name: Sheila Castilho
+    orcid: https://orcid.org/0000-0002-8416-6555
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sheila-Castilho/3041243
+    username: ~Sheila_Castilho1
+  - dblp_id: https://dblp.org/pid/50/2768
+    emails: chloe.clavel@telecom-paristech.fr
+    first_name: Chloé
+    google_scholar_id: https://scholar.google.fr/citations?user=TAZbfksAAAAJ&hl=en
+    homepage: https://clavel.wp.imt.fr/
+    last_name: Clavel
+    name: Chloé Clavel
+    username: ~Chloé_Clavel2
+  - dblp_id: https://dblp.org/pid/54/5373
+    emails: eric.de\_la\_clergerie@inria.fr
+    first_name: Éric
+    google_scholar_id: https://scholar.google.com/citations?user=olKxDUMAAAAJ&hl=fr
+    homepage: http://alpage.inria.fr/~clerger
+    last_name: Clergerie
+    middle_name: Villemonte De La
+    name: Éric Villemonte de la Clergerie
+    orcid: https://orcid.org/0000-0001-6428-9219
+    semantic_scholar_id: https://www.semanticscholar.org/author/%C3%89ric-Villemonte-de-la-Clergerie/2598776
+    username: ~Éric_Villemonte_de_la_Clergerie1
+  - dblp_id: https://dblp.org/pid/127/0168
+    emails: prajdabre@gmail.com
+    first_name: Raj
+    google_scholar_id: https://scholar.google.co.jp/citations?user=x91u618AAAAJ&hl=en
+      National Institute of Advanced Industrial Science and Technology
+    last_name: Dabre
+    name: Raj Dabre
+    semantic_scholar_id: https://www.semanticscholar.org/author/Raj-Dabre/3209719
+    username: ~Raj_Dabre1
+  - dblp_id: https://dblp.org/pid/136/9246.html
+    emails: aswarth.1989@gmail.com
+    first_name: Aswarth Abhilash
+    google_scholar_id: https://scholar.google.com/citations?user=ggzAaCMAAAAJ&hl=en
+    last_name: Dara
+    name: ASWARTH ABHILASH DARA
+    semantic_scholar_id: https://www.semanticscholar.org/author/A.-Dara/2311400
+    username: ~ASWARTH_ABHILASH_DARA2
+  - dblp_id: https://dblp.org/pid/201/9629
+    emails: midobal@prhlt.upv.es
+    first_name: Miguel
+    google_scholar_id: https://scholar.google.com/citations?user=xPE5lMEAAAAJ&hl=en
+    homepage: https://mdomingo.me/
+    last_name: Domingo
+    name: Miguel Domingo
+    orcid: https://orcid.org/0000-0002-7910-4536
+    semantic_scholar_id: https://www.semanticscholar.org/author/Miguel-Domingo/144613610
+    username: ~Miguel_Domingo1
+  - dblp_id: https://dblp.org/pid/37/2379.html
+    emails: echi@lst.hokkai-s-u.ac.jp
+    first_name: Hiroshi
+    google_scholar_id: https://scholar.google.co.jp/scholar?hl=ja&as_sdt=0%2C5&q=hiroshi+echizenya&btnG=
+    homepage: http://www.lst.hokkai-s-u.ac.jp/~echi/eng-index.html
+    last_name: Echizenya
+    name: Hiroshi Echizenya
+    orcid: https://orcid.org/0000-0002-6910-4532
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hiroshi-Echizen-ya/1403031695
+    username: ~Hiroshi_Echizenya1
+  - dblp_id: https://dblp.org/pid/59/7935
+    emails: cristinae.uni@gmail.com
+    first_name: Cristina
+    homepage: https://www.cs.upc.edu/~cristinae/CV/cv.php
+    last_name: España-Bonet
+    name: Cristina España-Bonet
+    orcid: https://orcid.org/0000-0001-5414-4710
+    username: ~Cristina_España-Bonet1
+  - dblp_id: https://dblp.org/pid/33/10489
+    emails: mespla@dlsi.ua.es
+    first_name: Miquel
+    google_scholar_id: https://scholar.google.com/citations?user=LglGgcEAAAAJ&hl=ca&oi=ao
+    homepage: https://www.dlsi.ua.es/~mespla
+    last_name: Esplà-Gomis
+    name: Miquel Esplà-Gomis
+    orcid: https://orcid.org/0000-0002-2682-066X
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Espl%C3%A0-Gomis/1399506397
+    username: ~Miquel_Esplà-Gomis2
+  - dblp_id: https://dblp.org/pid/f/MarcelloFederico
+    emails: mrcfdr@gmail.com
+    first_name: Marcello
+    google_scholar_id: https://scholar.google.com/citations?user=WaGw_qYAAAAJ
+    homepage: http://www.marcellofederico.net
+    last_name: Federico
+    name: Marcello Federico
+    orcid: https://orcid.org/0000-0001-8095-0038
+    semantic_scholar_id: https://www.semanticscholar.org/author/Marcello-Federico/102811815
+    username: ~Marcello_Federico1
+  - dblp_id: https://dblp.org/pid/18/8157
+    emails: fishel@ut.ee
+    first_name: Mark
+    google_scholar_id: https://scholar.google.com/citations?user=K6jhzXcAAAAJ&hl=en
+    homepage: https://tartunlp.ai
+    last_name: Fishel
+    name: Mark Fishel
+    username: ~Mark_Fishel1
+  - dblp_id: https://dblp.org/pid/266/8121
+    emails: mgaido@fbk.eu
+    first_name: Marco
+    google_scholar_id: https://scholar.google.com/citations?user=Ojc1LRYAAAAJ
+    last_name: Gaido
+    name: Marco Gaido
+    orcid: https://orcid.org/0000-0003-4217-1396
+    semantic_scholar_id: https://www.semanticscholar.org/author/Marco-Gaido/1736801422
+    username: ~Marco_Gaido1
+  - emails: aaron.galiano@ua.es
+    first_name: Aarón
+    last_name: Galiano-Jiménez
+    name: Aarón Galiano-Jiménez
+    orcid: https://orcid.org/0000-0002-8107-1411
+    username: ~Aarón_Galiano-Jiménez1
+  - dblp_id: https://dblp.org/pid/194/3473
+    emails: mattiadigangi@gmail.com
+    first_name: Mattia
+    google_scholar_id: https://scholar.google.it/citations?user=JAdTPzgAAAAJ&hl=it&oi=ao
+    last_name: Gangi
+    middle_name: Antonino Di
+    name: Mattia Antonino Di Gangi
+    orcid: https://orcid.org/0000-0003-4491-0025
+    semantic_scholar_id: https://www.semanticscholar.org./author/Mattia-Antonino-Di-Gangi/39640268
+    username: ~Mattia_Antonino_Di_Gangi1
+  - dblp_id: https://dblp.org/pid/142/8606
+    emails: thanhle.ha@zoom.us
+    first_name: Thanh-Le
+    google_scholar_id: https://scholar.google.com/citations?user=dRCJXysAAAAJ
+    last_name: Ha
+    name: Thanh-Le Ha
+    orcid: https://orcid.org/0000-0003-4463-6978
+    username: ~Thanh-Le_Ha1
+  - dblp_id: https://dblp.org/pid/12/5915
+    emails: bhaddow@ed.ac.uk
+    first_name: Barry
+    google_scholar_id: https://scholar.google.com/citations?user=6NqRjRYAAAAJ&hl=en
+    homepage: https://homepages.inf.ed.ac.uk/bhaddow/
+    last_name: Haddow
+    name: Barry Haddow
+    username: ~Barry_Haddow1
+  - emails: rejwanul.haque@setu.ie
+    first_name: Rejwanul
+    google_scholar_id: https://scholar.google.co.uk/citations?user=oztv-gIAAAAJ&hl=en
+    last_name: Haque
+    name: Rejwanul Haque
+    username: ~Rejwanul_Haque1
+  - dblp_id: https://dblp.org/pid/136/9234
+    emails: rebecca.knowles@nrc-cnrc.gc.ca
+    first_name: Rebecca
+    google_scholar_id: https://scholar.google.com/citations?user=7CG_rNoAAAAJ&hl
+    last_name: Knowles
+    name: Rebecca Knowles
+    semantic_scholar_id: https://www.semanticscholar.org/author/R.-Knowles/47511705
+    username: ~Rebecca_Knowles1
+  - dblp_id: https://dblp.org/pid/84/4538.html
+    emails: phi@jhu.edu
+    first_name: Philipp
+    google_scholar_id: https://scholar.google.com/citations?user=OsIZgIYAAAAJ&hl=en
+    homepage: http://www.cs.jhu.edu/~phi/
+    last_name: Koehn
+    name: Philipp Koehn
+    orcid: https://orcid.org/0000-0003-1565-064X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Philipp-Koehn/1755162
+    username: ~Philipp_Koehn2
+  - dblp_id: https://dblp.org/pid/150/3653
+    emails: maria.kunilovskaya@uni-saarland.de
+    first_name: Maria
+    google_scholar_id: https://scholar.google.com/citations?user=kM1BnZYAAAAJ&hl=en&oi=ao
+    homepage: https://kunilovskaya.github.io/
+    last_name: Kunilovskaya
+    name: Maria Kunilovskaya
+    orcid: https://orcid.org/0000-0002-1473-4684
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Kunilovskaya/3138117
+    username: ~Maria_Kunilovskaya1
+  - dblp_id: https://dblp.org/pid/11/1372.html
+    emails: gleusch@ebay.com
+    first_name: Gregor
+    google_scholar_id: https://scholar.google.co.il/citations?user=-vtk0ZkAAAAJ
+    last_name: Leusch
+    name: Gregor Leusch
+    semantic_scholar_id: https://www.semanticscholar.org/author/Gregor-Leusch/3258912
+    username: ~Gregor_Leusch2
+  - dblp_id: https://dblp.org/pid/48/3591
+    emails: andreas.maletti@gmail.com
+    first_name: Andreas
+    homepage: http://www.informatik.uni-leipzig.de/~maletti/
+    last_name: Maletti
+    name: Andreas Maletti
+    orcid: https://orcid.org/0000-0003-3202-0498
+    username: ~Andreas_Maletti1
+  - emails: amiceli@inf.ed.ac.uk
+    first_name: Antonio Valerio
+    google_scholar_id: https://scholar.google.it/citations?user=VXdL2a0AAAAJ
+    homepage: http://homepages.inf.ed.ac.uk/amiceli/
+      and University of Edinburgh
+    last_name: Miceli Barone
+    name: Antonio Valerio Miceli Barone
+    username: ~Antonio_Valerio_Miceli_Barone1
+  - dblp_id: https://dblp.org/pid/143/9465
+    emails: kenton@jhu.edu
+    first_name: Kenton
+    google_scholar_id: https://scholar.google.com/citations?user=JuP-xF8AAAAJ&hl=en&oi=ao
+    homepage: http://www.kentonmurray.com
+    last_name: Murray
+    name: Kenton Murray
+    orcid: https://orcid.org/0000-0002-5628-1003
+    semantic_scholar_id: https://www.semanticscholar.org/author/Kenton-Murray/38730896
+    username: ~Kenton_Murray1
+  - dblp_id: https://dblp.org/pid/185/5556
+    emails: maria.nadejde@gmail.com
+    first_name: Maria
+    google_scholar_id: https://scholar.google.co.uk/citations?user=zAiGJPUAAAAJ&hl=en
+    last_name: Nadejde
+    name: Maria Nadejde
+    semantic_scholar_id: https://www.semanticscholar.org/author/Maria-Nadejde/3456844
+    username: ~Maria_Nadejde1
+  - dblp_id: https://dblp.org/pers/n/Nagata:Masaaki
+    emails: msknagata@gmail.com
+    first_name: Masaaki
+    google_scholar_id: https://scholar.google.com/citations?user=rrrbjMMAAAAJ
+    homepage: http://www.kecl.ntt.co.jp/icl/lirg/members/nagata/index.html
+    last_name: Nagata
+    name: Masaaki Nagata
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Nagata/2364073
+    username: ~Masaaki_Nagata2
+  - dblp_id: https://dblp.org/pid/40/1645
+    emails: zawa13@gmail.com
+    first_name: Toshiaki
+    last_name: Nakazawa
+    name: Toshiaki Nakazawa
+    username: ~Toshiaki_Nakazawa1
+  - dblp_id: https://dblp.org/pid/120/0365
+    emails: jan@niehues.info
+    first_name: Jan
+    google_scholar_id: https://scholar.google.com/citations?user=fO9cszYAAAAJ&hl=en
+    homepage: https://dke.maastrichtuniversity.nl/jan.niehues/
+    last_name: Niehues
+    name: Jan Niehues
+    username: ~Jan_Niehues1
+  - dblp_id: https://dblp.org/pid/83/316
+    emails: c.orasan@surrey.ac.uk
+    first_name: Constantin
+    google_scholar_id: https://scholar.google.com/citations?user=BIFDGBkAAAAJ&hl=en
+    homepage: https://dinel.org.uk
+    last_name: Orasan
+    name: Constantin Orasan
+    semantic_scholar_id: https://www.semanticscholar.org/author/Constantin-Orasan/1786218
+    username: ~Constantin_Orasan1
+  - dblp_id: https://dblp.org/pid/78/1244
+    emails: daniel.ortiz.phd@gmail.com
+    first_name: Daniel
+    google_scholar_id: https://scholar.google.com/citations?user=ov1cMJ0AAAAJ&hl=en
+    last_name: Ortiz-Martínez
+    name: Daniel Ortiz-Martínez
+    username: ~Daniel_Ortiz-Martínez1
+  - dblp_id: https://dblp.org/pid/59/1052
+    emails: pecina@ufal.mff.cuni.cz
+    first_name: Pavel
+    google_scholar_id: https://scholar.google.com/citations?user=NMFKnr8AAAAJ
+    homepage: https://ufal.mff.cuni.cz/pavel-pecina
+    last_name: Pecina
+    name: Pavel Pecina
+    orcid: https://orcid.org/0000-0002-1855-5931
+    semantic_scholar_id: https://www.semanticscholar.org/author/Pavel-Pecina/1758528
+    username: ~Pavel_Pecina1
+  - dblp_id: https://dblp.org/pid/68/11425
+    emails: speitz@apple.com
+    first_name: Stephan
+    google_scholar_id: https://scholar.google.com/citations?user=NMSCU3MAAAAJ&hl=en
+    last_name: Peitz
+    name: Stephan Peitz
+    semantic_scholar_id: https://www.semanticscholar.org/author/Stephan-Peitz/1700238
+    username: ~Stephan_Peitz1
+  - dblp_id: https://dblp.org/pid/85/8177
+    emails: sergiopnk@gmail.com
+    first_name: Sergio
+    last_name: Penkale
+    name: Sergio Penkale
+    username: ~Sergio_Penkale1
+  - dblp_id: https://dblp.org/pid/57/175
+    emails: andrei.popescu-belis@heig-vd.ch
+    first_name: Andrei
+    google_scholar_id: https://scholar.google.com/citations?user=E4kF67wAAAAJ
+    homepage: http://iict-space.heig-vd.ch/apu/
+    last_name: Popescu-Belis
+    name: Andrei Popescu-Belis
+    orcid: https://orcid.org/0000-0003-4934-2071
+    semantic_scholar_id: https://www.semanticscholar.org/author/A.-Popescu-Belis/1401742462
+    username: ~Andrei_Popescu-Belis2
+  - dblp_id: https://dblp.org/pid/31/752
+    emails: maja.popovic.166@gmail.com
+    first_name: Maja
+    google_scholar_id: https://scholar.google.com/citations?user=KdAV2Y0AAAAJ&hl=en
+    homepage: https://www.adaptcentre.ie/about/team
+    last_name: Popovic
+    name: Maja Popovic
+    semantic_scholar_id: https://www.semanticscholar.org/author/Maja-Popovic/2487502
+    username: ~Maja_Popovic1
+  - dblp_id: https://dblp.org/pid/96/1185.html
+    emails: japerez@dlsi.ua.es
+    first_name: Juan Antonio
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=_NEbOj4AAAAJ
+    homepage: https://www.dlsi.ua.es/~japerez/
+    last_name: Pérez-Ortiz
+    name: Juan Antonio Pérez-Ortiz
+    orcid: https://orcid.org/0000-0001-7659-8908
+    semantic_scholar_id: https://www.semanticscholar.org/author/Juan-Antonio-P%C3%A9rez-Ortiz/3186753
+    username: ~Juan_Antonio_Pérez-Ortiz1
+  - dblp_id: https://dblp.org/pid/242/4755
+    emails: t.ranasinghe@aston.ac.uk
+    first_name: Tharindu
+    google_scholar_id: https://scholar.google.co.uk/citations?user=9t7WhIIAAAAJ&hl=en
+    homepage: https://tharindu.co.uk/
+    last_name: Ranasinghe
+    name: Tharindu Ranasinghe
+    orcid: https://orcid.org/0000-0003-3207-3821
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tharindu-Ranasinghe/134805041
+    username: ~Tharindu_Ranasinghe1
+  - emails: resenden@tcd.ie
+    first_name: Natalia
+    homepage: https://www.tcd.ie/literary-translation/people/
+    last_name: Resende
+    middle_name: Carolina Alencar De
+    name: Natalia Carolina Alencar de Resende
+    username: ~Natalia_Carolina_Alencar_de_Resende1
+  - dblp_id: https://dblp.org/pid/64/6743
+    emails: miguel.angel.rios.gaona@univie.ac.at
+    first_name: Miguel
+    google_scholar_id: https://scholar.google.com.mx/citations?user=38wUxwwAAAAJ&hl=en
+    homepage: http://mriosb08.github.io/
+    last_name: Rios
+    name: Miguel Rios
+    username: ~Miguel_Rios2
+  - dblp_id: https://dblp.org/pid/117/2851
+    emails: rosa@ufal.mff.cuni.cz
+    first_name: Rudolf
+    google_scholar_id: https://scholar.google.cz/citations?user=LZlPeSwAAAAJ
+    homepage: https://ufal.mff.cuni.cz/rudolf-rosa
+    last_name: Rosa
+    name: Rudolf Rosa
+    orcid: https://orcid.org/0000-0003-4908-6127
+    semantic_scholar_id: https://www.semanticscholar.org/author/Rudolf-Rosa/2436967
+    username: ~Rudolf_Rosa1
+  - dblp_id: https://dblp.org/pid/15/1562
+    emails: sadat.fatiha@uqam.ca
+    first_name: Fatiha
+    last_name: Sadat
+    name: Fatiha Sadat
+    username: ~Fatiha_Sadat1
+  - dblp_id: https://dblp.org/pid/66/1016
+    emails: benoit.sagot@inria.fr
+    first_name: Benoît
+    google_scholar_id: https://scholar.google.fr/citations?user=HXUT9ZkAAAAJ
+    homepage: http://pauillac.inria.fr/~sagot/
+    last_name: Sagot
+    name: Benoît Sagot
+    orcid: https://orcid.org/0000-0002-0107-8526
+    semantic_scholar_id: https://www.semanticscholar.org/author/Benoît-Sagot/68990982
+    username: ~Benoît_Sagot1
+  - dblp_id: https://dblp.org/pid/267/2355
+    emails: bsavoldi@fbk.eu
+    first_name: Beatrice
+    google_scholar_id: https://scholar.google.com/citations?user=r4XNIh0AAAAJ&hl=it
+    homepage: https://ict.fbk.eu/people/detail/beatrice-savoldi/
+    last_name: Savoldi
+    name: Beatrice Savoldi
+    semantic_scholar_id: https://www.semanticscholar.org/author/Beatrice-Savoldi/1741330216
+    username: ~Beatrice_Savoldi2
+  - dblp_id: https://dblp.org/pid/65/6671
+    emails: yves.scherrer@ifi.uio.no
+    first_name: Yves
+    google_scholar_id: https://scholar.google.com/citations?user=SyQu88MAAAAJ
+    homepage: https://blogs.helsinki.fi/yvesscherrer/
+    last_name: Scherrer
+    name: Yves Scherrer
+    semantic_scholar_id: https://www.semanticscholar.org/author/Yves-Scherrer/3080637
+    username: ~Yves_Scherrer1
+  - dblp_id: https://dblp.org/pid/19/1467
+    emails: djame.seddah@gmail.com
+    first_name: Djamé
+    google_scholar_id: https://scholar.google.com/citations?user=P7EtARsAAAAJ&hl=fr
+    homepage: http://pauillac.inria.fr/~seddah
+    last_name: Seddah
+    name: Djamé Seddah
+    semantic_scholar_id: https://www.semanticscholar.org/author/Djamé-Seddah/1679170
+    username: ~Djamé_Seddah1
+  - dblp_id: https://dblp.uni-trier.de/pers/s/Sennrich:Rico
+    emails: sennrich@cl.uzh.ch
+    first_name: Rico
+    google_scholar_id: https://scholar.google.ch/citations?user=XTpJvCgAAAAJ
+    homepage: http://cl.uzh.ch/sennrich
+    last_name: Sennrich
+    name: Rico Sennrich
+    semantic_scholar_id: https://www.semanticscholar.org/author/Rico-Sennrich/2082372
+    username: ~Rico_Sennrich1
+  - dblp_id: https://dblp.org/pid/218/6129
+    emails: dimitar.shterionov@adaptcentre.ie
+    first_name: Dimitar
+    google_scholar_id: https://scholar.google.com/citations?user=5BagDNgAAAAJ&hl=en
+    homepage: https://ilk.uvt.nl/~shterion/
+    last_name: Shterionov
+    name: Dimitar Shterionov
+    orcid: https://orcid.org/0000-0001-6300-797X
+    username: ~Dimitar_Shterionov1
+  - dblp_id: https://dblp.org/pid/35/4530
+    emails: michel.simard@nrc-cnrc.gc.ca
+    first_name: Michel
+    google_scholar_id: https://scholar.google.ca/citations?user=bWUDYVQAAAAJ&hl=en&oi=ao
+    last_name: Simard
+    name: Michel Simard
+    semantic_scholar_id: https://www.semanticscholar.org/author/Michel-Simard/5801623
+    username: ~Michel_Simard1
+  - dblp_id: https://dblp.org/pid/28/11425
+    emails: p@simianer.de
+    first_name: Patrick
+    homepage: https://simianer.de
+    last_name: Simianer
+    name: Patrick Simianer
+    semantic_scholar_id: https://www.semanticscholar.org/author/P.-Simianer/2946858
+    username: ~Patrick_Simianer1
+  - emails: m.desisto@tilburguniversity.edu
+    first_name: Mirella
+    last_name: Sisto
+    middle_name: De
+    name: Mirella De Sisto
+    orcid: https://orcid.org/0000-0002-0899-5976
+    username: ~Mirella_De_Sisto1
+  - dblp_id: https://dblp.org/pid/125/7456
+    emails: fstahlberg@gmail.com
+    first_name: Felix
+    google_scholar_id: https://scholar.google.com/citations?user=NA8fvj8AAAAJ
+    last_name: Stahlberg
+    name: Felix Stahlberg
+    orcid: https://orcid.org/0000-0002-0430-5704
+    semantic_scholar_id: https://www.semanticscholar.org/author/Felix-Stahlberg/48404632
+    username: ~Felix_Stahlberg1
+  - dblp_id: https://dblp.org/pid/66/2380
+    emails: sudoh@is.naist.jp
+    first_name: Katsuhito
+    google_scholar_id: https://scholar.google.co.jp/citations?user=F_J3ZBcAAAAJ&hl=en
+    homepage: https://www.sudoh.nl/
+    last_name: Sudoh
+    name: Katsuhito Sudoh
+    orcid: https://orcid.org/0000-0002-2122-9846
+    semantic_scholar_id: https://www.semanticscholar.org/author/Katsuhito-Sudoh/1790811
+    username: ~Katsuhito_Sudoh2
+  - dblp_id: https://dblp.org/pid/56/6718
+    emails: fsanchez@dlsi.ua.es
+    first_name: Felipe
+    google_scholar_id: https://scholar.google.com/citations?user=PdFGBlcAAAAJ
+    homepage: https://www.dlsi.ua.es/~fsanchez/
+    last_name: Sánchez-Martínez
+    name: Felipe Sánchez-Martínez
+    orcid: https://orcid.org/0000-0002-2295-2630
+    semantic_scholar_id: https://www.semanticscholar.org/author/F.-S%C3%A1nchez-Mart%C3%ADnez/1398917991
+    username: ~Felipe_Sánchez-Martínez1
+  - dblp_id: https://dblp.org/pid/126/8580
+    emails: a.tamchyna@gmail.com
+    first_name: Aleš
+    google_scholar_id: https://scholar.google.cz/citations?user=mRNm6LsAAAAJ&hl=en
+    last_name: Tamchyna
+    name: Aleš Tamchyna
+    semantic_scholar_id: https://www.semanticscholar.org/author/A.-Tamchyna/2211536
+    username: ~Aleš_Tamchyna1
+  - emails: joeltang00@gmail.com
+    first_name: Joël
+    last_name: Tang
+    name: Joël Tang
+    username: ~Joël_Tang1
+  - emails: ayla.rigoutsterryn@kuleuven.be
+    first_name: Ayla
+    google_scholar_id: https://scholar.google.be/citations?user=wy5NKEgAAAAJ&hl=en
+    last_name: Terryn
+    middle_name: Rigouts
+    name: Ayla Rigouts Terryn
+    username: ~Ayla_Rigouts_Terryn1
+  - emails: arda.tezcan@ugent.be
+    first_name: Arda
+    google_scholar_id: https://scholar.google.com/citations?user=lP_cM2IAAAAJ&hl=en
+    homepage: https://research.flw.ugent.be/en/arda.tezcan
+    last_name: Tezcan
+    name: Arda Tezcan
+    username: ~Arda_Tezcan1
+  - dblp_id: https://dblp.org/pid/15/670
+    emails: jorg.tiedemann@helsinki.fi
+    first_name: Jörg
+    google_scholar_id: https://scholar.google.com/citations?user=j6V-rOUAAAAJ
+    homepage: https://blogs.helsinki.fi/tiedeman/
+    last_name: Tiedemann
+    name: Jörg Tiedemann
+    orcid: https://orcid.org/0000-0003-3065-7989
+    semantic_scholar_id: https://www.semanticscholar.org/author/J.-Tiedemann/143675545
+    username: ~Jörg_Tiedemann1
+  - dblp_id: https://dblp.org/pid/57/5037
+    emails: a.toral.ruiz@rug.nl
+    first_name: Antonio
+    google_scholar_id: https://scholar.google.com/citations?user=YcdNfhcAAAAJ
+    last_name: Toral
+    name: Antonio Toral
+    semantic_scholar_id: https://www.semanticscholar.org/author/Antonio-Toral/144514048
+    username: ~Antonio_Toral1
+  - emails: mutiyama@nict.go.jp
+    first_name: Masao
+    homepage: http://www2.nict.go.jp/astrec-att/member/mutiyama/
+      National Institute of Advanced Industrial Science and Technology
+    last_name: Utiyama
+    name: Masao Utiyama
+    username: ~Masao_Utiyama2
+  - dblp_id: https://dblp.org/pid/31/5451
+    emails: vincent@ccl.kuleuven.be
+    first_name: Vincent
+    google_scholar_id: https://scholar.google.be/citations?user=pKf5WDIAAAAJ&hl=nl
+    homepage: https://www.kuleuven.be/wieiswie/en/person/00035370
+    last_name: Vandeghinste
+    name: Vincent Vandeghinste
+    orcid: https://orcid.org/0000-0002-5450-201X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Vincent-Vandeghinste/1757713
+    username: ~Vincent_Vandeghinste1
+  - dblp_id: https://dblp.org/pid/153/5163.html
+    emails: varis@ufal.mff.cuni.cz
+    first_name: Dušan
+    google_scholar_id: https://scholar.google.com/citations?user=wNs_I-oAAAAJ
+    homepage: https://ufal.mff.cuni.cz/dusan-varis
+    last_name: Variš
+    name: Dušan Variš
+    orcid: https://orcid.org/0000-0003-4408-2186
+    username: ~Dušan_Variš1
+  - dblp_id: https://dblp.org/pid/06/6883
+    emails: david.vilar@gmail.com
+    first_name: David
+    google_scholar_id: https://scholar.google.com/citations?user=2cP6vV4AAAAJ&hl=en&oi=ao
+    homepage: https://research.google/people/david-vilar/
+    last_name: Vilar
+    name: David Vilar
+    semantic_scholar_id: https://www.semanticscholar.org/author/David-Vilar/145088328
+    username: ~David_Vilar1
+  - emails: volk@cl.uzh.ch
+    first_name: Martin
+    homepage: http://www.cl.uzh.ch/volk
+    last_name: Volk
+    name: Martin Volk
+    orcid: https://orcid.org/0000-0002-2063-4516
+    username: ~Martin_Volk1
+  - dblp_id: https://dblp.org/pid/228/5538
+    emails: trang.vu1@monash.edu
+    first_name: Trang
+    google_scholar_id: https://scholar.google.com.au/citations?user=cx2eAe0AAAAJ&hl=en
+    last_name: Vu
+    name: Trang Vu
+    semantic_scholar_id: https://www.semanticscholar.org/author/Thuy-Trang-Vu/122699890
+    username: ~Trang_Vu1
+  - dblp_id: https://dblp.org/pid/153/5568
+    emails: evylomova@gmail.com
+    first_name: Ekaterina
+    google_scholar_id: https://scholar.google.com.au/citations?user=JlVHhVUAAAAJ&hl=en
+    homepage: https://kat.academy
+    last_name: Vylomova
+    name: Ekaterina Vylomova
+    orcid: https://orcid.org/0000-0002-4058-5459
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Vylomova/2311126
+    username: ~Ekaterina_Vylomova1
+  - dblp_id: https://dblp.org/pid/50/4741
+    emails: taro@is.naist.jp
+    first_name: Taro
+    google_scholar_id: https://scholar.google.com/citations?user=zsEEy7kAAAAJ&hl=en
+    homepage: https://sites.google.com/site/tarowtnb/
+    last_name: Watanabe
+    name: Taro Watanabe
+    orcid: https://orcid.org/0000-0001-8349-3522
+    semantic_scholar_id: https://www.semanticscholar.org/author/Taro-Watanabe/2110694221
+    username: ~Taro_Watanabe1
+  - dblp_id: https://dblp.org/pid/122/6257
+    emails: minghao.wu@monash.edu
+    first_name: Minghao
+    google_scholar_id: https://scholar.google.co.uk/citations?user=E2zcuy0AAAAJ&hl=en
+    homepage: https://minghao-wu.github.io/
+    last_name: Wu
+    name: Minghao Wu
+    semantic_scholar_id: https://www.semanticscholar.org/author/Minghao-Wu/2145209409
+    username: ~Minghao_Wu1
+  - dblp_id: http://dblp.uni-trier.de/pers/hd/y/Yvon:Fran=ccedil=ois
+    emails: yvon@isir.upmc.fr
+    first_name: François
+    google_scholar_id: https://scholar.google.fr/citations?hl=fr&user=JjfDvawAAAAJ
+    homepage: http://cv.archives-ouvertes.fr/francois-yvon
+      Faculté des Sciences (Paris VI)
+    last_name: Yvon
+    name: François Yvon
+    orcid: https://orcid.org/0000-0002-7972-7442
+    semantic_scholar_id: https://www.semanticscholar.org/author/Fran%C3%A7ois-Yvon/1846431
+    username: ~François_Yvon2
+  - dblp_id: https://dblp.uni-trier.de/pers/hd/z/Zhang_0002:Biao
+    emails: biaojiaxing@google.com
+    first_name: Biao
+    google_scholar_id: https://scholar.google.com/citations?user=gqPKjaIAAAAJ&hl=zh-CN
+    last_name: Zhang
+    name: Biao Zhang
+    semantic_scholar_id: https://www.semanticscholar.org/author/Biao-Zhang/48335426
+    username: ~Biao_Zhang2
+  - dblp_id: https://dblp.org/pid/64/4478.html
+    emails: dakun.zhang@systrangroup.com
+    first_name: Dakun
+    last_name: Zhang
+    name: Dakun ZHANG
+    username: ~Dakun_ZHANG2
+  - dblp_id: https://dblp.org/pid/146/4432
+    emails: rachel.bawden@inria.fr
+    first_name: Rachel
+    google_scholar_id: https://scholar.google.co.uk/citations?user=G3DS5GAAAAAJ&hl=en
+    homepage: https://rbawden.github.io
+    last_name: Bawden
+    name: Rachel Bawden
+    orcid: https://orcid.org/0000-0001-9553-1768
+    semantic_scholar_id: https://www.semanticscholar.org/author/Rachel-Bawden/48983885
+    username: ~Rachel_Bawden1
+  - dblp_id: https://dblp.org/pid/55/4410
+    emails: daniel.beck@rmit.edu.au
+    first_name: Daniel
+    google_scholar_id: https://scholar.google.co.uk/citations?hl=en&user=NauI6dEAAAAJ
+    homepage: http://beckdaniel.wordpress.com
+    last_name: Beck
+    name: Daniel Beck
+    semantic_scholar_id: https://www.semanticscholar.org/author/Daniel-Beck/143984297
+    username: ~Daniel_Beck1
+  - dblp_id: https://dblp.org/pid/24/6740
+    emails: a.birch@ed.ac.uk
+    first_name: Alexandra
+    google_scholar_id: https://scholar.google.co.uk/citations?user=gZOV9kMAAAAJ&hl=en&oi=sra
+    homepage: http://homepages.inf.ed.ac.uk/abmayne/
+    last_name: Birch
+    name: Alexandra Birch
+    semantic_scholar_id: https://www.semanticscholar.org/author/Alexandra-Birch/2539211
+    username: ~Alexandra_Birch1
+  - dblp_id: https://dblp.org/pid/73/3097
+    emails: bojar@ufal.mff.cuni.cz
+    first_name: Ondřej
+    google_scholar_id: https://scholar.google.cz/citations?user=G_65vFsAAAAJ
+    homepage: https://ufal.mff.cuni.cz/~bojar/
+    last_name: Bojar
+    name: Ondřej Bojar
+    orcid: https://orcid.org/0000-0002-0606-0050
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ondrej-Bojar/143832874
+    username: ~Ondřej_Bojar1
+  - dblp_id: https://dblp.org/pid/b/WilliamJByrne
+    emails: wjb31@cam.ac.uk
+    first_name: Bill
+    google_scholar_id: https://scholar.google.com/citations?user=BVUcMU4AAAAJ&hl=en
+    homepage: https://sites.google.com/view/bill-byrne/
+    last_name: Byrne
+    name: Bill Byrne
+    username: ~Bill_Byrne1
+  - emails: vera.cabarrao@unbabel.com
+    first_name: Vera
+    homepage: https://unbabel.com/research/
+    last_name: Cabarrão
+    name: Vera Cabarrão
+    username: ~Vera_Cabarrão1
+  - dblp_id: https://dblp.org/pid/126/8641
+    emails: sheila.castilho@adaptcentre.ie
+    first_name: Sheila
+    google_scholar_id: https://scholar.google.com/citations?user=mANFFWIAAAAJ
+    last_name: Castilho
+    name: Sheila Castilho
+    orcid: https://orcid.org/0000-0002-8416-6555
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sheila-Castilho/3041243
+    username: ~Sheila_Castilho1
+  - dblp_id: https://dblp.org/pid/185/5552
+    emails: amscurrey@gmail.com
+    first_name: Anna
+    google_scholar_id: https://scholar.google.com/citations?user=ctJX7OIAAAAJ
+    homepage: http://annacurrey.github.io/
+    last_name: Currey
+    name: Anna Currey
+    semantic_scholar_id: https://www.semanticscholar.org/author/Anna-Currey/3456678
+    username: ~Anna_Currey1
+  - dblp_id: https://dblp.org/pid/66/1087
+    emails: jose.camargo.souza@gmail.com
+    first_name: José
+    google_scholar_id: https://scholar.google.com/citations?user=20ApDosAAAAJ&hl=en&authuser=1
+    last_name: De Souza
+    middle_name: G. C.
+    name: José G. C. de Souza
+    orcid: https://orcid.org/0000-0001-6344-7633
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jos%C3%A9-G.-C.-de-Souza/34876539
+    username: ~José_G._C._de_Souza1
+  - dblp_id: https://dblp.org/pid/33/10489
+    emails: mespla@dlsi.ua.es
+    first_name: Miquel
+    google_scholar_id: https://scholar.google.com/citations?user=LglGgcEAAAAJ&hl=ca&oi=ao
+    homepage: https://www.dlsi.ua.es/~mespla
+    last_name: Esplà-Gomis
+    name: Miquel Esplà-Gomis
+    orcid: https://orcid.org/0000-0002-2682-066X
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Espl%C3%A0-Gomis/1399506397
+    username: ~Miquel_Esplà-Gomis2
+  - dblp_id: https://dblp.org/pid/f/MarcelloFederico
+    emails: mrcfdr@gmail.com
+    first_name: Marcello
+    google_scholar_id: https://scholar.google.com/citations?user=WaGw_qYAAAAJ
+    homepage: http://www.marcellofederico.net
+    last_name: Federico
+    name: Marcello Federico
+    orcid: https://orcid.org/0000-0001-8095-0038
+    semantic_scholar_id: https://www.semanticscholar.org/author/Marcello-Federico/102811815
+    username: ~Marcello_Federico1
+  - dblp_id: https://dblp.org/pid/07/536
+    emails: mlf@prompsit.com
+    first_name: Mikel
+    google_scholar_id: https://scholar.google.com/citations?hl=ca&user=iVsu48AAAAAJ
+    homepage: http://www.dlsi.ua.es/gent/mlf
+    last_name: Forcada
+    middle_name: L.
+    name: Mikel L. Forcada
+    orcid: https://orcid.org/0000-0003-0843-6442
+    username: ~Mikel_L._Forcada1
+  - dblp_id: https://dblp.org/pid/79/11425
+    emails: liane.guillou@ed.ac.uk
+    first_name: Liane
+    google_scholar_id: https://scholar.google.com/citations?user=iHFaudQAAAAJ&hl=en
+    homepage: https://sites.google.com/site/lianeguillou
+    last_name: Guillou
+    name: Liane Guillou
+    semantic_scholar_id: https://www.semanticscholar.org/author/Liane-Guillou/3351915
+    username: ~Liane_Guillou2
+  - dblp_id: https://dblp.org/pid/127/0183
+    emails: dipteshkanojia@gmail.com
+    first_name: Diptesh
+    google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
+    homepage: http://dipteshkanojia.github.io
+    last_name: Kanojia
+    name: Diptesh Kanojia
+    orcid: https://orcid.org/0000-0001-8814-0080
+    semantic_scholar_id: https://www.semanticscholar.org/author/Diptesh-Kanojia/2920443
+    username: ~Diptesh_Kanojia1
+  - dblp_id: https://dblp.org/pid/84/4538.html
+    emails: phi@jhu.edu
+    first_name: Philipp
+    google_scholar_id: https://scholar.google.com/citations?user=OsIZgIYAAAAJ&hl=en
+    homepage: http://www.cs.jhu.edu/~phi/
+    last_name: Koehn
+    name: Philipp Koehn
+    orcid: https://orcid.org/0000-0003-1565-064X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Philipp-Koehn/1755162
+    username: ~Philipp_Koehn2
+  - emails: mary.nurminen@tuni.fi
+    first_name: Mary
+    homepage: https://orcid.org/0000-0002-2380-6950
+    last_name: Nurminen
+    name: Mary Nurminen
+    orcid: https://orcid.org/0000-0002-2380-6950
+    username: ~Mary_Nurminen1
+  - dblp_id: https://dblp.org/pid/83/316
+    emails: c.orasan@surrey.ac.uk
+    first_name: Constantin
+    google_scholar_id: https://scholar.google.com/citations?user=BIFDGBkAAAAJ&hl=en
+    homepage: https://dinel.org.uk
+    last_name: Orasan
+    name: Constantin Orasan
+    semantic_scholar_id: https://www.semanticscholar.org/author/Constantin-Orasan/1786218
+    username: ~Constantin_Orasan1
+  - dblp_id: https://dblp.org/pid/286/4665.html
+    emails: johneortega@gmail.com
+    first_name: John
+    google_scholar_id: https://scholar.google.com/citations?user=qzKvohMAAAAJ&hl=en
+    homepage: https://naturallang.com
+    last_name: Ortega
+    middle_name: E.
+    name: John E. Ortega
+    orcid: https://orcid.org/0000-0002-2328-3205
+    semantic_scholar_id: https://www.semanticscholar.org/author/J.-Ortega/118344292
+    username: ~John_E._Ortega1
+  - emails: santanu.pal.ju@gmail.com
+    first_name: Santanu
+    google_scholar_id: https://scholar.google.de/citations?user=bYP2jIgAAAAJ&hl=en
+    last_name: Pal
+    name: SANTANU PAL
+    orcid: https://orcid.org/0000-0003-3079-6903
+    semantic_scholar_id: https://www.semanticscholar.org/author/Santanu-Pal/145244784
+    username: ~SANTANU_PAL2
+  - dblp_id: https://dblp.org/pid/203/8882
+    emails: danielleclairesaunders@gmail.com
+    first_name: Danielle
+    google_scholar_id: https://scholar.google.com/citations?user=mBl92d8AAAAJ&hl=en
+    last_name: Saunders
+    name: Danielle Saunders
+    semantic_scholar_id: https://www.semanticscholar.org/author/Danielle-Saunders/38635490
+    username: ~Danielle_Saunders1
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  - dblp_id: https://dblp.org/pid/185/5566
+    emails: x.song@sheffield.ac.uk
+    first_name: Xingyi
+    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
+    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    last_name: Song
+    name: Xingyi Song
+    orcid: https://orcid.org/0000-0002-4188-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
+    username: ~Xingyi_Song1
+  - dblp_id: https://dblp.org/pid/125/7456
+    emails: fstahlberg@gmail.com
+    first_name: Felix
+    google_scholar_id: https://scholar.google.com/citations?user=NA8fvj8AAAAJ
+    last_name: Stahlberg
+    name: Felix Stahlberg
+    orcid: https://orcid.org/0000-0002-0430-5704
+    semantic_scholar_id: https://www.semanticscholar.org/author/Felix-Stahlberg/48404632
+    username: ~Felix_Stahlberg1
+  - dblp_id: https://dblp.org/pid/57/5037
+    emails: a.toral.ruiz@rug.nl
+    first_name: Antonio
+    google_scholar_id: https://scholar.google.com/citations?user=YcdNfhcAAAAJ
+    last_name: Toral
+    name: Antonio Toral
+    semantic_scholar_id: https://www.semanticscholar.org/author/Antonio-Toral/144514048
+    username: ~Antonio_Toral1
+  - emails: marina.sanchez@unbabel.com
+    first_name: Marina
+    google_scholar_id: https://scholar.google.com/citations?user=vuArv-AAAAAJ&hl=es
+    last_name: Torrón
+    middle_name: Sánchez
+    name: Marina Sánchez Torrón
+    username: ~Marina_Sánchez_Torrón1
+  - emails: bram.vanroy@kuleuven.be
+    first_name: Bram
+    google_scholar_id: https://scholar.google.com/citations?user=mXpe-M8AAAAJ&hl=en
+    homepage: https://bramvanroy.github.io/
+    last_name: Vanroy
+    name: Bram Vanroy
+    orcid: https://orcid.org/0000-0002-4622-8364
+    semantic_scholar_id: https://www.semanticscholar.org/author/Bram-Vanroy/7257225
+    username: ~Bram_Vanroy1
+  - emails: mzboito@gmail.com
+    first_name: Marcely
+    google_scholar_id: https://scholar.google.com/citations?user=mNV3w5gAAAAJ&hl=en
+    homepage: https://sites.google.com/view/mzboito/marcely-zanon-boito
+    last_name: Zanon Boito
+    name: Marcely Zanon Boito
+    orcid: https://orcid.org/0000-0003-0134-6719
+    semantic_scholar_id: https://www.semanticscholar.org/author/2635755
+    username: ~Marcely_Zanon_Boito2
+  role: Reviewers

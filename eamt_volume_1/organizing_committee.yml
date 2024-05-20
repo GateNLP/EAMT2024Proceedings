@@ -1,0 +1,14 @@
+- members:
+  - first_name: Helena
+    institution: University of Lisbon (FLUL), INESC-ID, Portugal
+    last_name: Moniz
+  role: General Chair
+- members:
+  - first_name: Rachel
+    institution: Inria, Paris, France
+    last_name: Bawden
+  - first_name: Víctor
+    institution: University of Alacant, Spain
+    last_name: 'Sánchez-Cartagena'
+    middle_name: M
+  role: Technical Track Program Chairs

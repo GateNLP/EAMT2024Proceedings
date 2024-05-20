@@ -56,20 +56,41 @@
   \addcontentsline{toc}{section}{Title page}
   \begin{center}
     \vspace{1.5cm}
+    \begin{minipage}[c][0.5\linewidth][c]{0.5\linewidth}
+        \includegraphics[width=\linewidth]{\VAR{root}/logos/eamt-logo.jpg}
+    \end{minipage}\hspace{0.05\linewidth}
 
-    {\LARGE \VAR{conference.anthology_venue_id} \VAR{conference.start_date.year}}
+    %{\LARGE \VAR{conference.anthology_venue_id} \VAR{conference.start_date.year}}
 
-    \vspace*{65mm}
+    \vspace*{2cm}
 
     {\bf\LARGE \VAR{conference.event_name}}
 
-    \vspace*{5cm}
+    %\vspace*{5cm}
 
     {\bf\LARGE \VAR{conference.cover_subtitle}}
 
-    \vfill
+    \vspace*{1cm}
 
     {\LARGE \VAR{conference_dates}, \VAR{conference.start_date.year}}
+
+    {\LARGE Sheffield, United Kingdom}
+    \vfill
+    Edited by:
+
+    Editors,and, someone
+
+    \vspace*{1cm}
+
+    Organised by
+
+    \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{\VAR{root}/logos/UOSLogo_Primary_Violet_RGB.png}
+    \end{minipage}\hspace{0.05\linewidth}
+    \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{\VAR{root}/logos/zoo.png}
+    \end{minipage}\hspace{0.05\linewidth}
+
   \end{center}
 \end{titlepage}
 \newpage
@@ -81,13 +102,13 @@
 \setcounter{page}{2}
 \phantomsection
 \addcontentsline{toc}{section}{Sponsors}
-\vspace*{2cm}
+%\vspace*{1cm}
 \noindent
 
 {\Large The \VAR{conference.anthology_venue_id} organizers gratefully acknowledge the support from the following sponsors.}
 \bigskip
 
-\vspace*{1cm}
+\vspace*{0.5cm}
 
 \BLOCK{macro generate_sponsor_tier(tier)}
   \begin{samepage}
