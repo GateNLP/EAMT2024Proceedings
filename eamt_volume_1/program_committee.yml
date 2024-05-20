@@ -12,27 +12,6 @@
     last_name: Chatzitheodorou
     name: Konstantinos Chatzitheodorou
     username: ~Konstantinos_Chatzitheodorou1
-  - dblp_id: https://dblp.org/pid/23/8672
-    emails: c.scarton@sheffield.ac.uk
-    first_name: Carolina
-    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
-    homepage: https://carolscarton.github.io
-    institution: University of Sheffield
-    last_name: Scarton
-    name: Carolina Scarton
-    orcid: https://orcid.org/0000-0002-0103-4072
-    username: ~Carolina_Scarton1
-  - dblp_id: https://dblp.org/pid/185/5566
-    emails: x.song@sheffield.ac.uk
-    first_name: Xingyi
-    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
-    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
-    institution: University of Sheffield
-    last_name: Song
-    name: Xingyi Song
-    orcid: https://orcid.org/0000-0002-4188-6974
-    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762R
-    username: ~Xingyi_Song1
   role: Implementations Case Studies Track Program Chairs
 - entries:
   - emails: patrick.cadwell@dcu.ie
@@ -53,27 +32,6 @@
     orcid: https://orcid.org/0000-0002-5618-8087
     semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Lapshinova-Koltunski/2706548
     username: ~Ekaterina_Lapshinova-Koltunski2
-  - dblp_id: https://dblp.org/pid/23/8672
-    emails: c.scarton@sheffield.ac.uk
-    first_name: Carolina
-    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
-    homepage: https://carolscarton.github.io
-    institution: University of Sheffield
-    last_name: Scarton
-    name: Carolina Scarton
-    orcid: https://orcid.org/0000-0002-0103-4072
-    username: ~Carolina_Scarton1
-  - dblp_id: https://dblp.org/pid/185/5566
-    emails: x.song@sheffield.ac.uk
-    first_name: Xingyi
-    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
-    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
-    institution: University of Sheffield
-    last_name: Song
-    name: Xingyi Song
-    orcid: https://orcid.org/0000-0002-4188-6974
-    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
-    username: ~Xingyi_Song1
   role: Research Translators Users Track Program Chairs
 - entries:
   - dblp_id: https://dblp.org/pid/146/4432
@@ -87,27 +45,6 @@
     orcid: https://orcid.org/0000-0001-9553-1768
     semantic_scholar_id: https://www.semanticscholar.org/author/Rachel-Bawden/48983885
     username: ~Rachel_Bawden1
-  - dblp_id: https://dblp.org/pid/23/8672
-    emails: c.scarton@sheffield.ac.uk
-    first_name: Carolina
-    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
-    homepage: https://carolscarton.github.io
-    institution: University of Sheffield
-    last_name: Scarton
-    name: Carolina Scarton
-    orcid: https://orcid.org/0000-0002-0103-4072
-    username: ~Carolina_Scarton1
-  - dblp_id: https://dblp.org/pid/185/5566
-    emails: x.song@sheffield.ac.uk
-    first_name: Xingyi
-    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
-    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
-    institution: University of Sheffield
-    last_name: Song
-    name: Xingyi Song
-    orcid: https://orcid.org/0000-0002-4188-6974
-    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
-    username: ~Xingyi_Song1
   - dblp_id: https://dblp.org/pid/93/10489
     emails: vmsanchez@dlsi.ua.es
     first_name: Víctor
@@ -143,27 +80,6 @@
     orcid: https://orcid.org/0000-0003-0900-6938
     semantic_scholar_id: https://www.semanticscholar.org/author/Helena-Moniz/2504458
     username: ~Helena_Silva_Moniz1
-  - dblp_id: https://dblp.org/pid/23/8672
-    emails: c.scarton@sheffield.ac.uk
-    first_name: Carolina
-    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
-    homepage: https://carolscarton.github.io
-    institution: University of Sheffield
-    last_name: Scarton
-    name: Carolina Scarton
-    orcid: https://orcid.org/0000-0002-0103-4072
-    username: ~Carolina_Scarton1
-  - dblp_id: https://dblp.org/pid/185/5566
-    emails: x.song@sheffield.ac.uk
-    first_name: Xingyi
-    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
-    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
-    institution: University of Sheffield
-    last_name: Song
-    name: Xingyi Song
-    orcid: https://orcid.org/0000-0002-4188-6974
-    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
-    username: ~Xingyi_Song1
   role: Thesis Award Program Chairs
 - entries:
   - dblp_id: https://dblp.org/pid/127/0183
@@ -185,27 +101,6 @@
     name: Mary Nurminen
     orcid: https://orcid.org/0000-0002-2380-6950
     username: ~Mary_Nurminen1
-  - dblp_id: https://dblp.org/pid/23/8672
-    emails: c.scarton@sheffield.ac.uk
-    first_name: Carolina
-    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
-    homepage: https://carolscarton.github.io
-    institution: University of Sheffield
-    last_name: Scarton
-    name: Carolina Scarton
-    orcid: https://orcid.org/0000-0002-0103-4072
-    username: ~Carolina_Scarton1
-  - dblp_id: https://dblp.org/pid/185/5566
-    emails: x.song@sheffield.ac.uk
-    first_name: Xingyi
-    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
-    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
-    institution: University of Sheffield
-    last_name: Song
-    name: Xingyi Song
-    orcid: https://orcid.org/0000-0002-4188-6974
-    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
-    username: ~Xingyi_Song1
   role: Tutorials Track Program Chairs
 - entries:
   - dblp_id: https://dblp.org/pid/127/0183
@@ -227,27 +122,6 @@
     name: Mary Nurminen
     orcid: https://orcid.org/0000-0002-2380-6950
     username: ~Mary_Nurminen1
-  - dblp_id: https://dblp.org/pid/23/8672
-    emails: c.scarton@sheffield.ac.uk
-    first_name: Carolina
-    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
-    homepage: https://carolscarton.github.io
-    institution: University of Sheffield
-    last_name: Scarton
-    name: Carolina Scarton
-    orcid: https://orcid.org/0000-0002-0103-4072
-    username: ~Carolina_Scarton1
-  - dblp_id: https://dblp.org/pid/185/5566
-    emails: x.song@sheffield.ac.uk
-    first_name: Xingyi
-    google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
-    homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
-    institution: University of Sheffield
-    last_name: Song
-    name: Xingyi Song
-    orcid: https://orcid.org/0000-0002-4188-6974
-    semantic_scholar_id: https://www.semanticscholar.org/author/Xingyi-Song/3456762
-    username: ~Xingyi_Song1
   role: Workshops Track Program Chairs
 - entries:
   - dblp_id: https://dblp.org/pid/48/8160
