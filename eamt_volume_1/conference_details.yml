@@ -1,7 +1,7 @@
 book_title: Proceedings of the 25th Annual Conference of the European Association for Machine Translation
-#event_name: Annual Meeting of the Special Interest Group on Discourse and Dialogue
-volume_name: main
-cover_subtitle: Proceedings of the 25th Annual Conference of the European Association for Machine Translation
+event_name: Proceedings of the\\ 25th Annual Conference of\\ the European Association\\ for Machine Translation
+volume_name: Volume 1
+cover_subtitle: Volume 1
 anthology_venue_id: EAMT
 start_date: 2024-06-24
 end_date: 2024-05-27
@@ -10,5 +10,5 @@ location: Sheffield, UK
 editors:
   - first_name: Xingyi
     last_name: Song
-publisher: Association for Computational Linguistics
+publisher: European Association for Machine Translation (EAMT)
 #watermark_book_title: Proceedings of the 21th Annual Meeting of the\\ Special Interest Group on Discourse and Dialogue

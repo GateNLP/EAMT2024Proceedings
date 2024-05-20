@@ -4,11 +4,38 @@
     last_name: Moniz
   role: General Chair
 - members:
-  - first_name: Rachel
-    institution: Inria, Paris, France
-    last_name: Bawden
-  - first_name: Víctor
-    institution: University of Alacant, Spain
-    last_name: 'Sánchez-Cartagena'
-    middle_name: M
-  role: Technical Track Program Chairs
+  - first_name: Carolina
+    institution: University of Sheffield, UK
+    last_name: Scarton
+  - first_name: Charlotte
+    institution: ZOO Digital, UK
+    last_name: Prescott
+  - first_name: Chris
+    institution: ZOO Digital, UK
+    last_name: Bayliss
+  - first_name: Chris
+    institution: ZOO Digital, UK
+    last_name: Oakley
+  - first_name: Joanna
+    institution: University of Sheffield, UK
+    last_name: Wright
+  - first_name: Xingyi
+    institution: University of Sheffield, UK
+    last_name: Song
+  role: Local Organising Committee
+- members:
+  - first_name: Edward
+    institution: University of Sheffield, UK
+    last_name: Gow\-Smith
+  - first_name: Freddy
+    institution: University of Sheffield, UK
+    last_name: Heppell
+  - first_name: Tom 
+    institution: University of Sheffield, UK
+    last_name: Pickard
+  - first_name: Shenbin 
+    institution: University of Surrey, UK
+    last_name: Qian 
+  role: Local Organising Support Team
+
+
