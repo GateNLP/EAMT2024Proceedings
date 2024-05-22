@@ -192,6 +192,9 @@
   \BLOCK{elif block.type is equalto("name_block")}
     \VAR{to_string_sorting_by_last_name(block.entries)}\\
     \newline
+  \BLOCK{elif block.type is equalto("block")}
+    \VAR{block_to_string_sorting_by_last_name(block.entries)}\\
+    \newline
   \BLOCK{else}
     \BLOCK{for member in block.entries}
       \VAR{committee_member(member)}\\

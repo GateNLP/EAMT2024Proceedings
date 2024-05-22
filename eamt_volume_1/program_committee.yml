@@ -1315,3 +1315,4 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/2635755
     username: ~Marcely_Zanon_Boito2
   role: Reviewers
+  type: name_block_without_newlines

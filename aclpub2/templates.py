@@ -67,6 +67,10 @@ def group_by_last_name(entries) -> List[List[str]]:
     return output
 
 
+def block_to_string_sorting_by_last_name(entries) -> str:
+    res =  join_names(", ", entries)
+    return ", ".join(res)
+
 def to_string_sorting_by_last_name(entries) -> str:
     res = []
     groups = group_by_last_name(entries)
@@ -108,6 +112,7 @@ LATEX_JINJA_ENV.globals.update(
     join_names=join_names,
     group_by_last_name=group_by_last_name,
     to_string_sorting_by_last_name=to_string_sorting_by_last_name,
+    block_to_string_sorting_by_last_name=block_to_string_sorting_by_last_name,
     program_date=program_date,
     session_times=session_times,
     join_page_numbers=join_page_numbers,
