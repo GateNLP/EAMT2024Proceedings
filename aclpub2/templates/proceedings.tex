@@ -95,47 +95,6 @@
 \end{titlepage}
 \newpage
 
-%%%%%%%%%%%%
-% Sponsors %
-%%%%%%%%%%%%
-\BLOCK{if sponsors}
-\setcounter{page}{2}
-\phantomsection
-\addcontentsline{toc}{section}{Sponsors}
-%\vspace*{1cm}
-\noindent
-
-{\Large The \VAR{conference.anthology_venue_id} organizers gratefully acknowledge the support from the following sponsors.}
-\bigskip
-
-\vspace*{0.5cm}
-
-\BLOCK{macro generate_sponsor_tier(tier)}
-  \begin{samepage}
-  \noindent
-  {\Large \textbf{\VAR{tier.tier}}}
-
-  \nopagebreak
-  \BLOCK{for logo_batched in tier.logos|batch(4)}
-    \BLOCK{for logo in logo_batched}
-      \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
-        \includegraphics[width=\linewidth]{\VAR{root}/sponsor_logos/\VAR{logo}}
-      \end{minipage}\hspace{0.05\linewidth}
-    \BLOCK{endfor}
-
-  \BLOCK{endfor}
-  \end{samepage}
-\BLOCK{endmacro}
-
-\BLOCK{for tier in sponsors}
-  \VAR{generate_sponsor_tier(tier)}
-  \bigskip
-  \bigskip
-\BLOCK{endfor}
-\newpage
-\BLOCK{endif}
-
-
 %%%%%%%%%%%%%
 % Copyright %
 %%%%%%%%%%%%%
@@ -513,5 +472,47 @@ Author Index
 \end{multicols}
 
 \BLOCK{endif}
+
+
+%%%%%%%%%%%%
+% Sponsors %
+%%%%%%%%%%%%
+\BLOCK{if sponsors}
+\setcounter{page}{2}
+\phantomsection
+\addcontentsline{toc}{section}{Sponsors}
+%\vspace*{1cm}
+\noindent
+
+{\Large The \VAR{conference.anthology_venue_id} organizers gratefully acknowledge the support from the following sponsors.}
+\bigskip
+
+\vspace*{0.5cm}
+
+\BLOCK{macro generate_sponsor_tier(tier)}
+  \begin{samepage}
+  \noindent
+  {\Large \textbf{\VAR{tier.tier}}}
+
+  \nopagebreak
+  \BLOCK{for logo_batched in tier.logos|batch(4)}
+    \BLOCK{for logo in logo_batched}
+      \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{\VAR{root}/sponsor_logos/\VAR{logo}}
+      \end{minipage}\hspace{0.05\linewidth}
+    \BLOCK{endfor}
+
+  \BLOCK{endfor}
+  \end{samepage}
+\BLOCK{endmacro}
+
+\BLOCK{for tier in sponsors}
+  \VAR{generate_sponsor_tier(tier)}
+  \bigskip
+  \bigskip
+\BLOCK{endfor}
+\newpage
+\BLOCK{endif}
+
 
 \end{document}

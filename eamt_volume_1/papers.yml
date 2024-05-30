@@ -150,63 +150,6 @@
   pdf_file: f2501ffc97b00ccbbd7efe3369f380a4d12ef192.pdf
   title: Implementing Gender-Inclusivity in MT Output using Automatic Post-Editing
     with LLMs
-- abstract: "Neural Machine Translation (NMT) for low-resource languages remains a\
-    \ challenge for many NLP researchers. In this work, we deploy a standard data\
-    \ augmentation methodology by back-translation to a new language translation direction,\
-    \ i.e., Cantonese-to-English. \nWe present the models we fine-tuned using the\
-    \ limited amount of real data and the synthetic data we generated using back-translation\
-    \ by three models: OpusMT, NLLB, and mBART.\nWe carried out automatic evaluation\
-    \ using a range of different metrics including those that are lexical-based and\
-    \ embedding-based.\nFurthermore, we create a user-friendly interface for the models\
-    \ we included in this project, \\textsc{ CantonMT}, and make it available to facilitate\
-    \ Cantonese-to-English MT research. Researchers can add more models to this platform\
-    \ via our open-source\\textsc{ CantonMT} toolkit, available at \\url{https://github.com/kenrickkung/CantoneseTranslation}."
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: kenrick.kung@gmail.com
-    first_name: Kung
-    last_name: Hong
-    middle_name: Yin
-    name: Kung Yin Hong
-    username: ~Kung_Yin_Hong1
-  - dblp_id: https://dblp.org/pid/03/10304
-    emails: hanlifengaaron@gmail.com
-    first_name: Lifeng
-    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
-    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
-    last_name: Han
-    name: Lifeng Han
-    orcid: https://orcid.org/0000-0002-3221-2185
-    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
-    username: ~Lifeng_Han1
-  - dblp_id: https://dblp.org/pid/92/11424
-    emails: riza.batista@manchester.ac.uk
-    first_name: Riza
-    google_scholar_id: https://scholar.google.com/citations?user=fRBJmp9gk_cC&hl=en
-    homepage: http://www.cs.manchester.ac.uk/about-us/staff/profile/?ea=riza.batista
-    institution: University of Manchester
-    last_name: Batista-Navarro
-    name: Riza Batista-Navarro
-    semantic_scholar_id: https://www.semanticscholar.org/author/R.-Batista-Navarro/1400900759
-    username: ~Riza_Batista-Navarro1
-  - emails: gnenadic@manchester.ac.uk
-    first_name: Goran
-    google_scholar_id: https://scholar.google.com.tw/citations?user=CyTXHuUAAAAJ
-    homepage: http://www.manchester.ac.uk/research/gnenadic/personaldetails
-    institution: University of Manchester
-    last_name: Nenadic
-    name: Goran Nenadic
-    username: ~Goran_Nenadic1
-  decision: Submission
-  file: 1007.pdf
-  id: 1007
-  openreview_id: dpulIBXEHZ
-  pdf_file: 285a01a3af30496889144048dd1b9bdbcadfd7ad.pdf
-  title: '{CantonMT}: Cantonese to English NMT Platform with Fine-Tuned Models using
-    Real and Synthetic Back-Translation Data'
 - abstract: The paper presents findings from a comprehensive market study commissioned
     by the European Commission, aimed at analysing multilinguality of European websites
     and automated website translation services across various sectors. The findings
@@ -628,9 +571,9 @@
     username: ~Lifeng_Han1
   - emails: gleberof@gmail.com
     first_name: Gleb
-    last_name: ''
-    middle_name: Erofeev
-    name: 'Gleb Erofeev '
+    last_name: Erofeev
+    middle_name: 
+    name: Gleb Erofeev
     semantic_scholar_id: https://www.semanticscholar.org/author/G.-Erofeev/2124124385
     username: ~Gleb_Erofeev1
   - emails: irina.sorokina@logrusglobal.com
@@ -860,41 +803,6 @@
   pdf_file: 546c72d8168241fce89bd923aeddc84ce6fe187e.pdf
   title: 'Post-editors as Gatekeepers of Lexical and Syntactic Diversity: Comparative
     Analysis of Human Translation and Post-editing in Professional Settings'
-- abstract: Despite the growing research interest in applying machine translation
-    and post-editing to literary texts, the translator’s cognitive process of engaging
-    with translation technologies in such tasks is largely underexplored. This article
-    reported an experimental study using eye-tracking and keystroke logging technologies
-    to compare the temporal, technical, and cognitive aspects of efforts expanded
-    by trainee translators between from-scratch translation and post-editing tasks
-    against the background of translating Chinese novels into English. The results
-    indicate that post-editing largely saved time and lightened technical and cognitive
-    effort as compared to translation from scratch, providing promising possibilities
-    of aiding forward translation process with machine translation systems.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: 20191210033@gdufs.edu.cn
-    first_name: Ke
-    institution: Guangdong University of Foreign Studies
-    last_name: Li
-    name: Ke Li
-    orcid: https://orcid.org/0009-0001-4250-1677
-    username: ~Ke_Li27
-  - emails: zhi.lu@foxmail.com
-    first_name: Zhi
-    institution: NA
-    last_name: Lu
-    name: Zhi Lu
-    username: zhi.lu@foxmail.com
-  decision: Submission
-  file: 20011.pdf
-  id: 20011
-  openreview_id: GXDfdTGnDY
-  pdf_file: 05758d86d262c81c427141cf5e3b7e0d1533aa1f.pdf
-  title: 'Efforts of Post-Editing Literary Texts Using Google NMT: An Eye-Tracking
-    Study on L1–L2 Translation'
 - abstract: This paper describes work in progress on Visualisation tools to foster
     collaborations between translators and computational scientists. We aim to describe
     how visualisation features can be used to explain translation and NMT outputs.
@@ -2562,76 +2470,6 @@
   pdf_file: b370d86d347dfc1e607198cb57da25992ab7b282.pdf
   title: 'Aligning Neural Machine Translation Models: Human Feedback in Training and
     Inference'
-- abstract: 'Recent advancements in nearest-neighbor machine translation (kNN-MT)
-    have showcased its potential to enhance domain adaptation in machine translation
-    without the need for fine-tuning. Our initial exploration revealed a significant
-    boost in kNN-MT''s overall efficacy when applied to a fine-tuned MT model, with
-    the kNN distributions more closely aligning with the ground truth targets. This
-    observation prompts a crucial research question: how can we best fuse the kNN
-    methodology with fine-tuning to amplify domain adaptation results? In response,
-    we introduce trainable-kNN-MT, a novel approach that leverages statistics from
-    kNN predictions to dynamically adjust gradients during fine-tuning. Compared to
-    conventional fine-tuning, we report consistent improvements for established domain-specific
-    translation tasks by as much as 1.39, 1.90, and 1.31 SacreBLEU and 1.03, 1.34,
-    and 1.21 chrF for German-English, English-German, and English-Chinese translations,
-    respectively. Furthermore, the trainable-kNN-MT not only helps mitigate overfitting
-    concerns, but also enhances the effectiveness of the kNN-MT algorithm when the
-    kNN predictions are interpolated during inference.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: jiayiwang0720@gmail.com
-    first_name: Jiayi
-    google_scholar_id: https://scholar.google.com/citations?user=OGTpIWYAAAAJ&hl=en
-    last_name: Wang
-    name: Jiayi Wang
-    username: ~Jiayi_Wang11
-  - emails: wkkebj@gmail.com
-    first_name: Ke
-    google_scholar_id: https://scholar.google.com/citations?user=1xuDUvkAAAAJ
-    homepage: https://scholar.google.com/citations?user=1xuDUvkAAAAJ
-    institution: Alibaba Group
-    last_name: Wang
-    name: Ke Wang
-    username: ~Ke_Wang17
-  - dblp_id: https://dblp.org/pid/13/3918.html
-    emails: zhang\_yuqi2003@hotmail.com
-    first_name: Yuqi
-    google_scholar_id: https://scholar.google.de/citations?user=hsaj9ZsAAAAJ&hl=en
-    institution: Alibaba Damo Academy
-    last_name: Zhang
-    name: Yuqi Zhang
-    semantic_scholar_id: https://www.semanticscholar.org/author/Yuqi-Zhang/46867115
-    username: ~Yuqi_Zhang6
-  - dblp_id: https://dblp.org/pid/10/3565
-    emails: zqhuang@gmail.com
-    first_name: Zhongqiang
-    institution: Alibaba Group
-    last_name: Huang
-    name: Zhongqiang Huang
-    username: ~Zhongqiang_Huang1
-  - emails: kongyu@alibaba-inc.com
-    first_name: Yu
-    institution: Alibaba Group
-    last_name: Zhao
-    name: Yu Zhao
-    username: ~Yu_Zhao15
-  - emails: pontus@stenetorp.se
-    first_name: Pontus
-    homepage: https://pontus.stenetorp.se
-    institution: University College London
-    last_name: Stenetorp
-    name: Pontus Stenetorp
-    semantic_scholar_id: https://www.semanticscholar.org/author/Pontus-Stenetorp/1918552
-    username: ~Pontus_Stenetorp1
-  decision: Submission
-  file: 30042.pdf
-  id: 30042
-  openreview_id: 185VEHXxX1
-  pdf_file: 82d8f2b982c0b06240b66a8c2278d6fe8ec460fb.pdf
-  title: Nearest-neighbor-assisted Fine-tuning for Neural Machine Translation
 - abstract: 'The increasing volume of scientific research necessitates effective communication
     across language barriers. Machine translation (MT) offers a promising solution
     for accessing international publications. However, the scientific domain presents
