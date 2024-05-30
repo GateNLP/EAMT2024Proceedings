@@ -473,6 +473,7 @@ Author Index
 
 \BLOCK{endif}
 
+\pagebreak
 
 %%%%%%%%%%%%
 % Sponsors %
@@ -484,33 +485,93 @@ Author Index
 %\vspace*{1cm}
 \noindent
 
-{\Large The \VAR{conference.anthology_venue_id} organizers gratefully acknowledge the support from the following sponsors.}
+
+{\Large The EAMT organizers gratefully acknowledge the support from the following sponsors.}
 \bigskip
 
 \vspace*{0.5cm}
 
-\BLOCK{macro generate_sponsor_tier(tier)}
-  \begin{samepage}
+
+    \begin{samepage}
   \noindent
-  {\Large \textbf{\VAR{tier.tier}}}
+  {\Large \textbf{Silver}}
 
   \nopagebreak
-  \BLOCK{for logo_batched in tier.logos|batch(4)}
-    \BLOCK{for logo in logo_batched}
-      \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
-        \includegraphics[width=\linewidth]{\VAR{root}/sponsor_logos/\VAR{logo}}
+            \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/language_weaver.pdf}
       \end{minipage}\hspace{0.05\linewidth}
-    \BLOCK{endfor}
+          \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logo_Translated_Primary.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Unbabel logo.png}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
 
-  \BLOCK{endfor}
-  \end{samepage}
-\BLOCK{endmacro}
-
-\BLOCK{for tier in sponsors}
-  \VAR{generate_sponsor_tier(tier)}
   \bigskip
   \bigskip
-\BLOCK{endfor}
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Bronze}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/CrossLang-logo-RGB-HR.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logo_Pangeanic_Alta.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/STAR-Signet-rgb.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/TP_stacked_logo RGB-01.jpg}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Collaborators}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/apertium_open_box_line.svg.pdf}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Supporters}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/SN_logo_RGB-2.jpg}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Media Sponsors}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logotype_With_Mark.png}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
 \newpage
 \BLOCK{endif}
 

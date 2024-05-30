@@ -117,18 +117,6 @@
     last_name: Haddow
     name: Barry Haddow
     username: ~Barry_Haddow1
-  - dblp_id: https://dblp.org/pid/65/6363.html
-    emails: monizhelena3@gmail.com
-    first_name: Helena
-    google_scholar_id: https://scholar.google.com/citations?user=G3CcA6YAAAAJ&hl=en
-    homepage: https://www.hlt.inesc-id.pt/w/Helena_Moniz
-    institution: Universidade de Lisboa
-    last_name: Moniz
-    middle_name: Silva
-    name: Helena Silva Moniz
-    orcid: https://orcid.org/0000-0003-0900-6938
-    semantic_scholar_id: https://www.semanticscholar.org/author/Helena-Moniz/2504458
-    username: ~Helena_Silva_Moniz1
   role: Thesis Award Program Chairs
 - members:
   - dblp_id: https://dblp.org/pid/127/0183
@@ -150,26 +138,5 @@
     name: Mary Nurminen
     orcid: https://orcid.org/0000-0002-2380-6950
     username: ~Mary_Nurminen1
-  role: Tutorials Track Program Chairs
-- members:
-  - dblp_id: https://dblp.org/pid/127/0183
-    emails: dipteshkanojia@gmail.com
-    first_name: Diptesh
-    google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
-    homepage: http://dipteshkanojia.github.io
-    institution: University of Surrey
-    last_name: Kanojia
-    name: Diptesh Kanojia
-    orcid: https://orcid.org/0000-0001-8814-0080
-    semantic_scholar_id: https://www.semanticscholar.org/author/Diptesh-Kanojia/2920443
-    username: ~Diptesh_Kanojia1
-  - emails: mary.nurminen@tuni.fi
-    first_name: Mary
-    homepage: https://orcid.org/0000-0002-2380-6950
-    institution: Tampere University
-    last_name: Nurminen
-    name: Mary Nurminen
-    orcid: https://orcid.org/0000-0002-2380-6950
-    username: ~Mary_Nurminen1
-  role: Workshops Track Program Chairs
+  role: Workshops and Tutorials Program Chairs
 
