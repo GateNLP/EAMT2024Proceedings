@@ -1,134 +1,10 @@
 - entries:
-  - emails: vera.cabarrao@unbabel.com
-    first_name: Vera
-    homepage: https://unbabel.com/research/
-    institution: Unbabel
-    last_name: Cabarrão
-    name: Vera Cabarrão
-    username: ~Vera_Cabarrão1
-  - emails: kchatzitheodorou@gmail.com
-    first_name: Konstantinos
-    homepage: https://www.linkedin.com/in/konstantinos-chatzitheodorou-25044b24/
-    last_name: Chatzitheodorou
-    name: Konstantinos Chatzitheodorou
-    username: ~Konstantinos_Chatzitheodorou1
-  role: Implementations Case Studies Track Program Chairs
-- entries:
-  - emails: patrick.cadwell@dcu.ie
-    first_name: Patrick
-    institution: Dublin City University
-    last_name: Cadwell
-    name: Patrick Cadwell
-    orcid: https://orcid.org/0000-0002-2371-4378
-    username: ~Patrick_Cadwell1
-  - dblp_id: https://dblp.org/pid/76/8162
-    emails: lapshinovakoltun@uni-hildesheim.de
-    first_name: Ekaterina
-    google_scholar_id: https://scholar.google.com/citations?user=kzIiTmAAAAAJ&hl=de
-    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/lapshinova
-    institution: Universität Hildesheim
-    last_name: Lapshinova-Koltunski
-    name: Ekaterina Lapshinova-Koltunski
-    orcid: https://orcid.org/0000-0002-5618-8087
-    semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Lapshinova-Koltunski/2706548
-    username: ~Ekaterina_Lapshinova-Koltunski2
-  role: Research Translators Users Track Program Chairs
-- entries:
-  - dblp_id: https://dblp.org/pid/146/4432
-    emails: rachel.bawden@inria.fr
-    first_name: Rachel
-    google_scholar_id: https://scholar.google.co.uk/citations?user=G3DS5GAAAAAJ&hl=en
-    homepage: https://rbawden.github.io
-    institution: Inria
-    last_name: Bawden
-    name: Rachel Bawden
-    orcid: https://orcid.org/0000-0001-9553-1768
-    semantic_scholar_id: https://www.semanticscholar.org/author/Rachel-Bawden/48983885
-    username: ~Rachel_Bawden1
-  - dblp_id: https://dblp.org/pid/93/10489
-    emails: vmsanchez@dlsi.ua.es
-    first_name: Víctor
-    google_scholar_id: https://scholar.google.es/citations?user=QzMP_B8AAAAJ&hl=es
-    homepage: https://www.dlsi.ua.es/~vmsanchez
-    institution: Universidad de Alicante
-    last_name: Sánchez-Cartagena
-    middle_name: M.
-    name: Víctor M. Sánchez-Cartagena
-    orcid: https://orcid.org/0000-0001-9600-6885
-    semantic_scholar_id: https://www.semanticscholar.org/author/V.-M.-S%C3%A1nchez-Cartagena/1399637675
-    username: ~Víctor_M._Sánchez-Cartagena1
-  role: Technical Track Program Chairs
-- entries:
-  - dblp_id: https://dblp.org/pid/12/5915
-    emails: bhaddow@ed.ac.uk
-    first_name: Barry
-    google_scholar_id: https://scholar.google.com/citations?user=6NqRjRYAAAAJ&hl=en
-    homepage: https://homepages.inf.ed.ac.uk/bhaddow/
-    institution: University of Edinburgh
-    last_name: Haddow
-    name: Barry Haddow
-    username: ~Barry_Haddow1
-  - dblp_id: https://dblp.org/pid/65/6363.html
-    emails: monizhelena3@gmail.com
-    first_name: Helena
-    google_scholar_id: https://scholar.google.com/citations?user=G3CcA6YAAAAJ&hl=en
-    homepage: https://www.hlt.inesc-id.pt/w/Helena_Moniz
-    institution: Universidade de Lisboa
-    last_name: Moniz
-    middle_name: Silva
-    name: Helena Silva Moniz
-    orcid: https://orcid.org/0000-0003-0900-6938
-    semantic_scholar_id: https://www.semanticscholar.org/author/Helena-Moniz/2504458
-    username: ~Helena_Silva_Moniz1
-  role: Thesis Award Program Chairs
-- entries:
-  - dblp_id: https://dblp.org/pid/127/0183
-    emails: dipteshkanojia@gmail.com
-    first_name: Diptesh
-    google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
-    homepage: http://dipteshkanojia.github.io
-    institution: University of Surrey
-    last_name: Kanojia
-    name: Diptesh Kanojia
-    orcid: https://orcid.org/0000-0001-8814-0080
-    semantic_scholar_id: https://www.semanticscholar.org/author/Diptesh-Kanojia/2920443
-    username: ~Diptesh_Kanojia1
-  - emails: mary.nurminen@tuni.fi
-    first_name: Mary
-    homepage: https://orcid.org/0000-0002-2380-6950
-    institution: Tampere University
-    last_name: Nurminen
-    name: Mary Nurminen
-    orcid: https://orcid.org/0000-0002-2380-6950
-    username: ~Mary_Nurminen1
-  role: Tutorials Track Program Chairs
-- entries:
-  - dblp_id: https://dblp.org/pid/127/0183
-    emails: dipteshkanojia@gmail.com
-    first_name: Diptesh
-    google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
-    homepage: http://dipteshkanojia.github.io
-    institution: University of Surrey
-    last_name: Kanojia
-    name: Diptesh Kanojia
-    orcid: https://orcid.org/0000-0001-8814-0080
-    semantic_scholar_id: https://www.semanticscholar.org/author/Diptesh-Kanojia/2920443
-    username: ~Diptesh_Kanojia1
-  - emails: mary.nurminen@tuni.fi
-    first_name: Mary
-    homepage: https://orcid.org/0000-0002-2380-6950
-    institution: Tampere University
-    last_name: Nurminen
-    name: Mary Nurminen
-    orcid: https://orcid.org/0000-0002-2380-6950
-    username: ~Mary_Nurminen1
-  role: Workshops Track Program Chairs
-- entries:
   - dblp_id: https://dblp.org/pid/48/8160
     emails: eleftherios.avramidis@dfki.de
     first_name: Eleftherios
     google_scholar_id: https://scholar.google.gr/citations?user=HhcsbYgAAAAJ&hl=en
     homepage: https://www.dfki.de/~elav01/
+    institution: Technische Universität Berlin and German Research Center for AI
     last_name: Avramidis
     name: Eleftherios Avramidis
     orcid: https://orcid.org/0000-0002-5671-573X
@@ -138,12 +14,14 @@
     emails: fbane@translations.com
     first_name: Fred
     homepage: https://www.linkedin.com/in/fwbane
+    institution: TransPerfect
     last_name: Bane
     name: Fred Bane
     username: ~Fred_Bane1
   - emails: adam@bittlingmayer.org
     first_name: Adam
     homepage: https://modelfront.com
+    institution: ModelFront
     last_name: Bittlingmayer
     name: Adam Bittlingmayer
     username: ~Adam_Bittlingmayer1
@@ -153,6 +31,12 @@
     last_name: Buchicchio
     name: Marianna Buchicchio
     username: ~Marianna_Buchicchio1
+  - emails: laura.casanellas@gmail.com
+    first_name: Laura
+    homepage: https://www.magicbeansagency.com/laura-casanellas
+    last_name: Casanellas
+    name: Laura Casanellas
+    username: ~Laura_Casanellas1
   - emails: laura.casanellas@gmail.com
     first_name: Laura
     homepage: https://www.magicbeansagency.com/laura-casanellas
@@ -183,6 +67,7 @@
     first_name: Raj
     google_scholar_id: https://scholar.google.com/citations?hl=en&user=tmjg3d0AAAAJ
     homepage: https://patelrajnath.github.io/
+    institution: Huawei Technologies Ltd.
     last_name: Patel
     middle_name: Nath
     name: Raj Nath Patel
@@ -196,12 +81,14 @@
     username: ~Spyridon_Pilos1
   - emails: hrossi@sdl.com
     first_name: Heather
+    institution: SDL
     last_name: Rossi
     name: Heather Rossi
     username: ~Heather_Rossi1
   - emails: ks@inten.to
     first_name: Konstantin
     homepage: https://inten.to
+    institution: Intento, Inc.
     last_name: Savenkov
     name: Konstantin Savenkov
     username: ~Konstantin_Savenkov1
@@ -218,9 +105,13 @@
     last_name: Zaretskaya
     name: Anna Zaretskaya
     username: ~Anna_Zaretskaya1
+  role: Implementations Case Studies Track
+  type: name_block_without_newlines
+- entries:
   - emails: salvarezvid@uoc.edu
     first_name: Sergi
     google_scholar_id: https://scholar.google.com/citations?user=DRPw_qwAAAAJ&hl=ca&oi=sra
+    institution: Universitat Pompeu Fabra and Universitat Oberta de Catalunya
     last_name: Alvarez-Vidal
     name: Sergi Alvarez-Vidal
     orcid: https://orcid.org/0000-0002-6355-4559
@@ -228,11 +119,13 @@
   - emails: nora.aranberri@ehu.eus
     first_name: Nora
     homepage: http://ixa.si.ehu.es/node/25
+    institution: Universidad del País Vasco
     last_name: Aranberri
     name: Nora Aranberri
     username: ~Nora_Aranberri1
   - emails: lynne.bowker@uottawa.ca
     first_name: Lynne
+    institution: University of Ottawa
     last_name: Bowker
     name: Lynne Bowker
     orcid: https://orcid.org/0000-0002-0848-1035
@@ -254,12 +147,14 @@
   - dblp_id: https://dblp.org/pid/74/6798
     emails: mcarl6@kent.edu
     first_name: Michael
+    institution: Stevenson University
     last_name: Carl
     name: Michael Carl
     username: ~Michael_Carl1
   - emails: dragos.ioan.ciobanu@univie.ac.at
     first_name: Dragoș
     homepage: https://haitrans.univie.ac.at/
+    institution: Universität Vienna
     last_name: Ciobanu
     name: Dragoș Ciobanu
     orcid: https://orcid.org/0000-0002-6475-080X
@@ -267,6 +162,7 @@
   - emails: oliver.czulo@uni-leipzig.de
     first_name: Oliver
     homepage: https://orcid.org/0000-0003-4408-5811
+    institution: Universität Leipzig
     last_name: Czulo
     name: Oliver Czulo
     orcid: https://orcid.org/0000-0003-4408-5811
@@ -276,6 +172,7 @@
     first_name: Joke
     google_scholar_id: https://scholar.google.com/citations?hl=en&user=SgHTknIAAAAJ
     homepage: https://research.flw.ugent.be/nl/joke.daems
+    institution: Universiteit Gent
     last_name: Daems
     name: Joke Daems
     orcid: https://orcid.org/0000-0003-3734-5160
@@ -283,12 +180,14 @@
   - emails: c.j.m.declercq@uu.nl
     first_name: Christophe
     homepage: https://www.uu.nl/medewerkers/CJMDeclercq
+    institution: Utrecht University
     last_name: Declercq
     name: Christophe Declercq
     username: ~Christophe_Declercq1
   - emails: deilen@uni-hildesheim.de
     first_name: Dr.
     homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/mitglieder/deilen/
+    institution: Universität Hildesheim
     last_name: Deilen
     middle_name: Silvana
     name: Dr. Silvana Deilen
@@ -296,6 +195,7 @@
   - emails: f.docarmo@surrey.ac.uk
     first_name: Félix
     homepage: https://www.surrey.ac.uk/people/felix-do-carmo
+    institution: University of Surrey
     last_name: Do Carmo
     name: Félix do Carmo
     orcid: https://orcid.org/0000-0003-4193-3854
@@ -303,6 +203,7 @@
   - emails: a.g.dorst@hum.leidenuniv.nl
     first_name: Aletta
     homepage: https://www.universiteitleiden.nl/en/staffmembers/lettie-dorst#tab-1
+    institution: Leiden University
     last_name: Dorst
     middle_name: G.
     name: Aletta G. Dorst
@@ -311,6 +212,7 @@
   - emails: m.a.fernandezparra@swansea.ac.uk
     first_name: Maria
     homepage: https://www.swansea.ac.uk/staff/m.a.fernandezparra/
+    institution: Swansea University
     last_name: Fernandez-Parra
     name: Maria Fernandez-Parra
     username: ~Maria_Fernandez-Parra1
@@ -319,6 +221,7 @@
     first_name: Federico
     google_scholar_id: https://scholar.google.com/citations?user=qx8IOGYAAAAJ
     homepage: https://www.adaptcentre.ie/experts/federico-gaspari/
+    institution: University of Naples Federico II, ADAPT Centre and Dublin City University
     last_name: Gaspari
     name: Federico Gaspari
     orcid: https://orcid.org/0000-0003-3808-8418
@@ -331,6 +234,7 @@
     username: ~Junyan_Jiang2
   - emails: ramune.kaspere@ktu.lt
     first_name: Ramunė
+    institution: Kaunas University of Technology
     last_name: Kasperė
     name: Ramunė Kasperė
     orcid: https://orcid.org/0000-0003-0782-3758
@@ -338,18 +242,21 @@
   - emails: dorothy.kenny@dcu.ie
     first_name: Dorothy
     homepage: https://www.dcu.ie/salis/people/dorothy-kenny
+    institution: Dublin City University
     last_name: Kenny
     name: Dorothy Kenny
     username: ~Dorothy_Kenny1
   - emails: maarit.koponen@uef.fi
     first_name: Maarit
     homepage: https://uefconnect.uef.fi/en/person/maarit.koponen/
+    institution: University of Eastern Finland
     last_name: Koponen
     name: Maarit Koponen
     username: ~Maarit_Koponen1
   - emails: rudy.loock@univ-lille.fr
     first_name: Rudy
     homepage: https://pro.univ-lille.fr/rudy-loock
+    institution: Université de Lille
     last_name: Loock
     name: Rudy Loock
     username: ~Rudy_Loock1
@@ -357,6 +264,7 @@
     first_name: Lieve
     google_scholar_id: https://scholar.google.be/citations?user=9xhtthkAAAAJ&hl=nl&oi=ao
     homepage: https://lt3.ugent.be/people/lieve-macken/
+    institution: Universiteit Gent
     last_name: Macken
     name: Lieve Macken
     orcid: https://orcid.org/0000-0001-7516-7487
@@ -366,6 +274,7 @@
     first_name: Antoni
     google_scholar_id: https://scholar.google.com/citations?user=tj0V-BYAAAAJ&h
     homepage: https://www.researchgate.net/profile/Antoni-Oliver-3
+    institution: Universitat Oberta de Catalunya
     last_name: Oliver
     name: Antoni Oliver
     orcid: https://orcid.org/0000-0001-8399-3770
@@ -375,11 +284,13 @@
     first_name: David
     google_scholar_id: https://scholar.google.com/citations?user=UMdUs2cAAAAJ&hl=en
     homepage: https://warwick.ac.uk/fac/arts/modernlanguages/academic/davidorregocarmona/
+    institution: University of Warwick
     last_name: Orrego-Carmona
     name: David Orrego-Carmona
     username: ~David_Orrego-Carmona1
   - emails: mar.sanchezr@uah.es
     first_name: Maria
+    institution: Universidad de Alcalá de Henares
     last_name: Ramos
     middle_name: Del Mar Sánchez
     name: Maria del Mar Sánchez Ramos
@@ -395,6 +306,7 @@
   - emails: carlos.teixeira@urv.cat
     first_name: Carlos
     google_scholar_id: https://scholar.google.com/citations?user=GNrY0SIAAAAJ
+    institution: Universitat Rovira i Virgili
     last_name: Teixeira
     middle_name: S C
     name: Carlos S C Teixeira
@@ -403,6 +315,7 @@
   - emails: s.valdez@hum.leidenuniv.nl
     first_name: Susana
     homepage: https://www.universiteitleiden.nl/en/staffmembers/s.-valdez/publications#tab-4
+    institution: Universiteit Leiden
     last_name: Valdez
     name: Susana Valdez
     orcid: https://orcid.org/0000-0001-5461-2078
@@ -410,21 +323,27 @@
   - emails: m.vela@mx.uni-saarland.de
     first_name: Mihaela
     homepage: https://www.uni-saarland.de/fachrichtung/lst/personen/personen-a-z/mihaela-vela.html
+    institution: Universität des Saarlandes
     last_name: Vela
     name: Mihaela Vela
     username: ~Mihaela_Vela2
   - emails: l.nunesvieira@bristol.ac.uk
     first_name: Lucas
     homepage: https://research-information.bris.ac.uk/en/persons/lucas-nunes-vieira/
+    institution: University of Bristol
     last_name: Vieira
     middle_name: Nunes
     name: Lucas Nunes Vieira
     username: ~Lucas_Nunes_Vieira1
+  role: Research Translators Users Track
+  type: name_block_without_newlines
+- entries:
   - dblp_id: https://dblp.org/pid/210/7863.html
     emails: swetaagrawal20@gmail.com
     first_name: Sweta
     google_scholar_id: https://scholar.google.com/citations?user=Avsw9IkAAAAJ&hl=en
     homepage: https://sweta20.github.io/
+    institution: Instituto de Telecomunicações
     last_name: Agrawal
     name: Sweta Agrawal
     semantic_scholar_id: https://www.semanticscholar.org/author/Sweta-Agrawal/5112699
@@ -434,6 +353,7 @@
     first_name: Eleftherios
     google_scholar_id: https://scholar.google.gr/citations?user=HhcsbYgAAAAJ&hl=en
     homepage: https://www.dfki.de/~elav01/
+    institution: Technische Universität Berlin and German Research Center for AI
     last_name: Avramidis
     name: Eleftherios Avramidis
     orcid: https://orcid.org/0000-0002-5671-573X
@@ -468,6 +388,7 @@
     emails: sheila.castilho@adaptcentre.ie
     first_name: Sheila
     google_scholar_id: https://scholar.google.com/citations?user=mANFFWIAAAAJ
+    institution: Dublin City University
     last_name: Castilho
     name: Sheila Castilho
     orcid: https://orcid.org/0000-0002-8416-6555
@@ -478,6 +399,7 @@
     first_name: Chloé
     google_scholar_id: https://scholar.google.fr/citations?user=TAZbfksAAAAJ&hl=en
     homepage: https://clavel.wp.imt.fr/
+    institution: INRIA and Télécom Paris
     last_name: Clavel
     name: Chloé Clavel
     username: ~Chloé_Clavel2
@@ -496,6 +418,7 @@
     emails: prajdabre@gmail.com
     first_name: Raj
     google_scholar_id: https://scholar.google.co.jp/citations?user=x91u618AAAAJ&hl=en
+    institution: National Institute of Information and Communications Technology (NICT),
       National Institute of Advanced Industrial Science and Technology
     last_name: Dabre
     name: Raj Dabre
@@ -514,6 +437,7 @@
     first_name: Miguel
     google_scholar_id: https://scholar.google.com/citations?user=xPE5lMEAAAAJ&hl=en
     homepage: https://mdomingo.me/
+    institution: Universidad Politécnica de Valencia
     last_name: Domingo
     name: Miguel Domingo
     orcid: https://orcid.org/0000-0002-7910-4536
@@ -533,6 +457,7 @@
     emails: cristinae.uni@gmail.com
     first_name: Cristina
     homepage: https://www.cs.upc.edu/~cristinae/CV/cv.php
+    institution: German Research Center for AI
     last_name: España-Bonet
     name: Cristina España-Bonet
     orcid: https://orcid.org/0000-0001-5414-4710
@@ -542,6 +467,7 @@
     first_name: Miquel
     google_scholar_id: https://scholar.google.com/citations?user=LglGgcEAAAAJ&hl=ca&oi=ao
     homepage: https://www.dlsi.ua.es/~mespla
+    institution: Universidad de Alicante
     last_name: Esplà-Gomis
     name: Miquel Esplà-Gomis
     orcid: https://orcid.org/0000-0002-2682-066X
@@ -552,6 +478,7 @@
     first_name: Marcello
     google_scholar_id: https://scholar.google.com/citations?user=WaGw_qYAAAAJ
     homepage: http://www.marcellofederico.net
+    institution: Amazon
     last_name: Federico
     name: Marcello Federico
     orcid: https://orcid.org/0000-0001-8095-0038
@@ -562,6 +489,7 @@
     first_name: Mark
     google_scholar_id: https://scholar.google.com/citations?user=K6jhzXcAAAAJ&hl=en
     homepage: https://tartunlp.ai
+    institution: University of Tartu
     last_name: Fishel
     name: Mark Fishel
     username: ~Mark_Fishel1
@@ -569,6 +497,7 @@
     emails: mgaido@fbk.eu
     first_name: Marco
     google_scholar_id: https://scholar.google.com/citations?user=Ojc1LRYAAAAJ
+    institution: Fondazione Bruno Kessler
     last_name: Gaido
     name: Marco Gaido
     orcid: https://orcid.org/0000-0003-4217-1396
@@ -576,6 +505,7 @@
     username: ~Marco_Gaido1
   - emails: aaron.galiano@ua.es
     first_name: Aarón
+    institution: Universidad de Alicante
     last_name: Galiano-Jiménez
     name: Aarón Galiano-Jiménez
     orcid: https://orcid.org/0000-0002-8107-1411
@@ -584,6 +514,7 @@
     emails: mattiadigangi@gmail.com
     first_name: Mattia
     google_scholar_id: https://scholar.google.it/citations?user=JAdTPzgAAAAJ&hl=it&oi=ao
+    institution: DeepL
     last_name: Gangi
     middle_name: Antonino Di
     name: Mattia Antonino Di Gangi
@@ -594,6 +525,7 @@
     emails: thanhle.ha@zoom.us
     first_name: Thanh-Le
     google_scholar_id: https://scholar.google.com/citations?user=dRCJXysAAAAJ
+    institution: Zoom Video Communications
     last_name: Ha
     name: Thanh-Le Ha
     orcid: https://orcid.org/0000-0003-4463-6978
@@ -603,12 +535,14 @@
     first_name: Barry
     google_scholar_id: https://scholar.google.com/citations?user=6NqRjRYAAAAJ&hl=en
     homepage: https://homepages.inf.ed.ac.uk/bhaddow/
+    institution: University of Edinburgh
     last_name: Haddow
     name: Barry Haddow
     username: ~Barry_Haddow1
   - emails: rejwanul.haque@setu.ie
     first_name: Rejwanul
     google_scholar_id: https://scholar.google.co.uk/citations?user=oztv-gIAAAAJ&hl=en
+    institution: SETU
     last_name: Haque
     name: Rejwanul Haque
     username: ~Rejwanul_Haque1
@@ -616,6 +550,7 @@
     emails: rebecca.knowles@nrc-cnrc.gc.ca
     first_name: Rebecca
     google_scholar_id: https://scholar.google.com/citations?user=7CG_rNoAAAAJ&hl
+    institution: National Research Council Canada
     last_name: Knowles
     name: Rebecca Knowles
     semantic_scholar_id: https://www.semanticscholar.org/author/R.-Knowles/47511705
@@ -625,6 +560,7 @@
     first_name: Philipp
     google_scholar_id: https://scholar.google.com/citations?user=OsIZgIYAAAAJ&hl=en
     homepage: http://www.cs.jhu.edu/~phi/
+    institution: Johns Hopkins University
     last_name: Koehn
     name: Philipp Koehn
     orcid: https://orcid.org/0000-0003-1565-064X
@@ -635,6 +571,7 @@
     first_name: Maria
     google_scholar_id: https://scholar.google.com/citations?user=kM1BnZYAAAAJ&hl=en&oi=ao
     homepage: https://kunilovskaya.github.io/
+    institution: Universität des Saarlandes and Tyumen State University
     last_name: Kunilovskaya
     name: Maria Kunilovskaya
     orcid: https://orcid.org/0000-0002-1473-4684
@@ -652,6 +589,7 @@
     emails: andreas.maletti@gmail.com
     first_name: Andreas
     homepage: http://www.informatik.uni-leipzig.de/~maletti/
+    institution: Universität Leipzig
     last_name: Maletti
     name: Andreas Maletti
     orcid: https://orcid.org/0000-0003-3202-0498
@@ -660,6 +598,7 @@
     first_name: Antonio Valerio
     google_scholar_id: https://scholar.google.it/citations?user=VXdL2a0AAAAJ
     homepage: http://homepages.inf.ed.ac.uk/amiceli/
+    institution: Università di Palermo, Università di Palermo, Università di Pisa
       and University of Edinburgh
     last_name: Miceli Barone
     name: Antonio Valerio Miceli Barone
@@ -669,6 +608,7 @@
     first_name: Kenton
     google_scholar_id: https://scholar.google.com/citations?user=JuP-xF8AAAAJ&hl=en&oi=ao
     homepage: http://www.kentonmurray.com
+    institution: Johns Hopkins University
     last_name: Murray
     name: Kenton Murray
     orcid: https://orcid.org/0000-0002-5628-1003
@@ -678,6 +618,7 @@
     emails: maria.nadejde@gmail.com
     first_name: Maria
     google_scholar_id: https://scholar.google.co.uk/citations?user=zAiGJPUAAAAJ&hl=en
+    institution: Amazon
     last_name: Nadejde
     name: Maria Nadejde
     semantic_scholar_id: https://www.semanticscholar.org/author/Maria-Nadejde/3456844
@@ -687,6 +628,7 @@
     first_name: Masaaki
     google_scholar_id: https://scholar.google.com/citations?user=rrrbjMMAAAAJ
     homepage: http://www.kecl.ntt.co.jp/icl/lirg/members/nagata/index.html
+    institution: NTT Corporation
     last_name: Nagata
     name: Masaaki Nagata
     semantic_scholar_id: https://www.semanticscholar.org/author/M.-Nagata/2364073
@@ -694,6 +636,7 @@
   - dblp_id: https://dblp.org/pid/40/1645
     emails: zawa13@gmail.com
     first_name: Toshiaki
+    institution: The University of Tokyo, Tokyo Institute of Technology
     last_name: Nakazawa
     name: Toshiaki Nakazawa
     username: ~Toshiaki_Nakazawa1
@@ -710,6 +653,7 @@
     first_name: Constantin
     google_scholar_id: https://scholar.google.com/citations?user=BIFDGBkAAAAJ&hl=en
     homepage: https://dinel.org.uk
+    institution: University of Surrey
     last_name: Orasan
     name: Constantin Orasan
     semantic_scholar_id: https://www.semanticscholar.org/author/Constantin-Orasan/1786218
@@ -718,6 +662,7 @@
     emails: daniel.ortiz.phd@gmail.com
     first_name: Daniel
     google_scholar_id: https://scholar.google.com/citations?user=ov1cMJ0AAAAJ&hl=en
+    institution: Universitat de Barcelona
     last_name: Ortiz-Martínez
     name: Daniel Ortiz-Martínez
     username: ~Daniel_Ortiz-Martínez1
@@ -726,6 +671,7 @@
     first_name: Pavel
     google_scholar_id: https://scholar.google.com/citations?user=NMFKnr8AAAAJ
     homepage: https://ufal.mff.cuni.cz/pavel-pecina
+    institution: Charles University, Prague
     last_name: Pecina
     name: Pavel Pecina
     orcid: https://orcid.org/0000-0002-1855-5931
@@ -735,6 +681,7 @@
     emails: speitz@apple.com
     first_name: Stephan
     google_scholar_id: https://scholar.google.com/citations?user=NMSCU3MAAAAJ&hl=en
+    institution: Apple
     last_name: Peitz
     name: Stephan Peitz
     semantic_scholar_id: https://www.semanticscholar.org/author/Stephan-Peitz/1700238
@@ -742,6 +689,7 @@
   - dblp_id: https://dblp.org/pid/85/8177
     emails: sergiopnk@gmail.com
     first_name: Sergio
+    institution: Phrase
     last_name: Penkale
     name: Sergio Penkale
     username: ~Sergio_Penkale1
@@ -750,6 +698,7 @@
     first_name: Andrei
     google_scholar_id: https://scholar.google.com/citations?user=E4kF67wAAAAJ
     homepage: http://iict-space.heig-vd.ch/apu/
+    institution: EPFL - EPF Lausanne and HEIG-VD, Switzerland
     last_name: Popescu-Belis
     name: Andrei Popescu-Belis
     orcid: https://orcid.org/0000-0003-4934-2071
@@ -760,6 +709,7 @@
     first_name: Maja
     google_scholar_id: https://scholar.google.com/citations?user=KdAV2Y0AAAAJ&hl=en
     homepage: https://www.adaptcentre.ie/about/team
+    institution: Dublin City University
     last_name: Popovic
     name: Maja Popovic
     semantic_scholar_id: https://www.semanticscholar.org/author/Maja-Popovic/2487502
@@ -769,6 +719,7 @@
     first_name: Juan Antonio
     google_scholar_id: https://scholar.google.com/citations?hl=en&user=_NEbOj4AAAAJ
     homepage: https://www.dlsi.ua.es/~japerez/
+    institution: Universidad de Alicante
     last_name: Pérez-Ortiz
     name: Juan Antonio Pérez-Ortiz
     orcid: https://orcid.org/0000-0001-7659-8908
@@ -779,6 +730,7 @@
     first_name: Tharindu
     google_scholar_id: https://scholar.google.co.uk/citations?user=9t7WhIIAAAAJ&hl=en
     homepage: https://tharindu.co.uk/
+    institution: Aston University and University of Wolverhampton
     last_name: Ranasinghe
     name: Tharindu Ranasinghe
     orcid: https://orcid.org/0000-0003-3207-3821
@@ -787,6 +739,7 @@
   - emails: resenden@tcd.ie
     first_name: Natalia
     homepage: https://www.tcd.ie/literary-translation/people/
+    institution: University of Dublin, Trinity College
     last_name: Resende
     middle_name: Carolina Alencar De
     name: Natalia Carolina Alencar de Resende
@@ -796,6 +749,7 @@
     first_name: Miguel
     google_scholar_id: https://scholar.google.com.mx/citations?user=38wUxwwAAAAJ&hl=en
     homepage: http://mriosb08.github.io/
+    institution: Universität Vienna
     last_name: Rios
     name: Miguel Rios
     username: ~Miguel_Rios2
@@ -804,6 +758,7 @@
     first_name: Rudolf
     google_scholar_id: https://scholar.google.cz/citations?user=LZlPeSwAAAAJ
     homepage: https://ufal.mff.cuni.cz/rudolf-rosa
+    institution: Charles University, Prague
     last_name: Rosa
     name: Rudolf Rosa
     orcid: https://orcid.org/0000-0003-4908-6127
@@ -812,6 +767,7 @@
   - dblp_id: https://dblp.org/pid/15/1562
     emails: sadat.fatiha@uqam.ca
     first_name: Fatiha
+    institution: Université du Québec à Montréal
     last_name: Sadat
     name: Fatiha Sadat
     username: ~Fatiha_Sadat1
@@ -820,6 +776,7 @@
     first_name: Benoît
     google_scholar_id: https://scholar.google.fr/citations?user=HXUT9ZkAAAAJ
     homepage: http://pauillac.inria.fr/~sagot/
+    institution: INRIA
     last_name: Sagot
     name: Benoît Sagot
     orcid: https://orcid.org/0000-0002-0107-8526
@@ -839,10 +796,20 @@
     first_name: Yves
     google_scholar_id: https://scholar.google.com/citations?user=SyQu88MAAAAJ
     homepage: https://blogs.helsinki.fi/yvesscherrer/
+    institution: University of Oslo
     last_name: Scherrer
     name: Yves Scherrer
     semantic_scholar_id: https://www.semanticscholar.org/author/Yves-Scherrer/3080637
     username: ~Yves_Scherrer1
+  - dblp_id: https://dblp.org/pid/19/1467
+    emails: djame.seddah@gmail.com
+    first_name: Djamé
+    google_scholar_id: https://scholar.google.com/citations?user=P7EtARsAAAAJ&hl=fr
+    homepage: http://pauillac.inria.fr/~seddah
+    last_name: Seddah
+    name: Djamé Seddah
+    semantic_scholar_id: https://www.semanticscholar.org/author/Djamé-Seddah/1679170
+    username: ~Djamé_Seddah1
   - dblp_id: https://dblp.org/pid/19/1467
     emails: djame.seddah@gmail.com
     first_name: Djamé
@@ -857,6 +824,7 @@
     first_name: Rico
     google_scholar_id: https://scholar.google.ch/citations?user=XTpJvCgAAAAJ
     homepage: http://cl.uzh.ch/sennrich
+    institution: University of Zurich and University of Edinburgh
     last_name: Sennrich
     name: Rico Sennrich
     semantic_scholar_id: https://www.semanticscholar.org/author/Rico-Sennrich/2082372
@@ -866,6 +834,7 @@
     first_name: Dimitar
     google_scholar_id: https://scholar.google.com/citations?user=5BagDNgAAAAJ&hl=en
     homepage: https://ilk.uvt.nl/~shterion/
+    institution: Tilburg University
     last_name: Shterionov
     name: Dimitar Shterionov
     orcid: https://orcid.org/0000-0001-6300-797X
@@ -874,6 +843,7 @@
     emails: michel.simard@nrc-cnrc.gc.ca
     first_name: Michel
     google_scholar_id: https://scholar.google.ca/citations?user=bWUDYVQAAAAJ&hl=en&oi=ao
+    institution: National Research Council Canada
     last_name: Simard
     name: Michel Simard
     semantic_scholar_id: https://www.semanticscholar.org/author/Michel-Simard/5801623
@@ -882,12 +852,14 @@
     emails: p@simianer.de
     first_name: Patrick
     homepage: https://simianer.de
+    institution: LILT
     last_name: Simianer
     name: Patrick Simianer
     semantic_scholar_id: https://www.semanticscholar.org/author/P.-Simianer/2946858
     username: ~Patrick_Simianer1
   - emails: m.desisto@tilburguniversity.edu
     first_name: Mirella
+    institution: 'Tilburg University '
     last_name: Sisto
     middle_name: De
     name: Mirella De Sisto
@@ -897,6 +869,7 @@
     emails: fstahlberg@gmail.com
     first_name: Felix
     google_scholar_id: https://scholar.google.com/citations?user=NA8fvj8AAAAJ
+    institution: Google
     last_name: Stahlberg
     name: Felix Stahlberg
     orcid: https://orcid.org/0000-0002-0430-5704
@@ -907,6 +880,7 @@
     first_name: Katsuhito
     google_scholar_id: https://scholar.google.co.jp/citations?user=F_J3ZBcAAAAJ&hl=en
     homepage: https://www.sudoh.nl/
+    institution: Nara Institute of Science and Technology, Japan
     last_name: Sudoh
     name: Katsuhito Sudoh
     orcid: https://orcid.org/0000-0002-2122-9846
@@ -917,6 +891,7 @@
     first_name: Felipe
     google_scholar_id: https://scholar.google.com/citations?user=PdFGBlcAAAAJ
     homepage: https://www.dlsi.ua.es/~fsanchez/
+    institution: University of Alicante
     last_name: Sánchez-Martínez
     name: Felipe Sánchez-Martínez
     orcid: https://orcid.org/0000-0002-2295-2630
@@ -926,18 +901,21 @@
     emails: a.tamchyna@gmail.com
     first_name: Aleš
     google_scholar_id: https://scholar.google.cz/citations?user=mRNm6LsAAAAJ&hl=en
+    institution: Phrase (formerly Memsource)
     last_name: Tamchyna
     name: Aleš Tamchyna
     semantic_scholar_id: https://www.semanticscholar.org/author/A.-Tamchyna/2211536
     username: ~Aleš_Tamchyna1
   - emails: joeltang00@gmail.com
     first_name: Joël
+    institution: BNP Paribas
     last_name: Tang
     name: Joël Tang
     username: ~Joël_Tang1
   - emails: ayla.rigoutsterryn@kuleuven.be
     first_name: Ayla
     google_scholar_id: https://scholar.google.be/citations?user=wy5NKEgAAAAJ&hl=en
+    institution: Katholieke Universiteit Leuven, Campus Kortrijk
     last_name: Terryn
     middle_name: Rigouts
     name: Ayla Rigouts Terryn
@@ -946,6 +924,7 @@
     first_name: Arda
     google_scholar_id: https://scholar.google.com/citations?user=lP_cM2IAAAAJ&hl=en
     homepage: https://research.flw.ugent.be/en/arda.tezcan
+    institution: Universiteit Gent
     last_name: Tezcan
     name: Arda Tezcan
     username: ~Arda_Tezcan1
@@ -954,6 +933,7 @@
     first_name: Jörg
     google_scholar_id: https://scholar.google.com/citations?user=j6V-rOUAAAAJ
     homepage: https://blogs.helsinki.fi/tiedeman/
+    institution: University of Helsinki
     last_name: Tiedemann
     name: Jörg Tiedemann
     orcid: https://orcid.org/0000-0003-3065-7989
@@ -963,6 +943,7 @@
     emails: a.toral.ruiz@rug.nl
     first_name: Antonio
     google_scholar_id: https://scholar.google.com/citations?user=YcdNfhcAAAAJ
+    institution: University of Groningen
     last_name: Toral
     name: Antonio Toral
     semantic_scholar_id: https://www.semanticscholar.org/author/Antonio-Toral/144514048
@@ -970,6 +951,7 @@
   - emails: mutiyama@nict.go.jp
     first_name: Masao
     homepage: http://www2.nict.go.jp/astrec-att/member/mutiyama/
+    institution: National Institute of Information and Communications Technology (NICT),
       National Institute of Advanced Industrial Science and Technology
     last_name: Utiyama
     name: Masao Utiyama
@@ -979,6 +961,7 @@
     first_name: Vincent
     google_scholar_id: https://scholar.google.be/citations?user=pKf5WDIAAAAJ&hl=nl
     homepage: https://www.kuleuven.be/wieiswie/en/person/00035370
+    institution: Instituut voor de Nederlandse Taal, KU Leuven and KU Leuven
     last_name: Vandeghinste
     name: Vincent Vandeghinste
     orcid: https://orcid.org/0000-0002-5450-201X
@@ -989,6 +972,7 @@
     first_name: Dušan
     google_scholar_id: https://scholar.google.com/citations?user=wNs_I-oAAAAJ
     homepage: https://ufal.mff.cuni.cz/dusan-varis
+    institution: Charles University Prague
     last_name: Variš
     name: Dušan Variš
     orcid: https://orcid.org/0000-0003-4408-2186
@@ -998,6 +982,7 @@
     first_name: David
     google_scholar_id: https://scholar.google.com/citations?user=2cP6vV4AAAAJ&hl=en&oi=ao
     homepage: https://research.google/people/david-vilar/
+    institution: Google
     last_name: Vilar
     name: David Vilar
     semantic_scholar_id: https://www.semanticscholar.org/author/David-Vilar/145088328
@@ -1005,6 +990,7 @@
   - emails: volk@cl.uzh.ch
     first_name: Martin
     homepage: http://www.cl.uzh.ch/volk
+    institution: University of Zurich
     last_name: Volk
     name: Martin Volk
     orcid: https://orcid.org/0000-0002-2063-4516
@@ -1013,6 +999,7 @@
     emails: trang.vu1@monash.edu
     first_name: Trang
     google_scholar_id: https://scholar.google.com.au/citations?user=cx2eAe0AAAAJ&hl=en
+    institution: Monash University
     last_name: Vu
     name: Trang Vu
     semantic_scholar_id: https://www.semanticscholar.org/author/Thuy-Trang-Vu/122699890
@@ -1022,6 +1009,7 @@
     first_name: Ekaterina
     google_scholar_id: https://scholar.google.com.au/citations?user=JlVHhVUAAAAJ&hl=en
     homepage: https://kat.academy
+    institution: The University of Melbourne
     last_name: Vylomova
     name: Ekaterina Vylomova
     orcid: https://orcid.org/0000-0002-4058-5459
@@ -1032,6 +1020,7 @@
     first_name: Taro
     google_scholar_id: https://scholar.google.com/citations?user=zsEEy7kAAAAJ&hl=en
     homepage: https://sites.google.com/site/tarowtnb/
+    institution: Nara Institute of Science and Technology, Japan
     last_name: Watanabe
     name: Taro Watanabe
     orcid: https://orcid.org/0000-0001-8349-3522
@@ -1051,6 +1040,7 @@
     first_name: François
     google_scholar_id: https://scholar.google.fr/citations?hl=fr&user=JjfDvawAAAAJ
     homepage: http://cv.archives-ouvertes.fr/francois-yvon
+    institution: Université Pierre et Marie Curie - Paris 6, Sorbonne Université -
       Faculté des Sciences (Paris VI)
     last_name: Yvon
     name: François Yvon
@@ -1061,6 +1051,7 @@
     emails: biaojiaxing@google.com
     first_name: Biao
     google_scholar_id: https://scholar.google.com/citations?user=gqPKjaIAAAAJ&hl=zh-CN
+    institution: Google DeepMind
     last_name: Zhang
     name: Biao Zhang
     semantic_scholar_id: https://www.semanticscholar.org/author/Biao-Zhang/48335426
@@ -1071,11 +1062,15 @@
     last_name: Zhang
     name: Dakun ZHANG
     username: ~Dakun_ZHANG2
+  role: Technical Track
+  type: name_block_without_newlines
+- entries:
   - dblp_id: https://dblp.org/pid/146/4432
     emails: rachel.bawden@inria.fr
     first_name: Rachel
     google_scholar_id: https://scholar.google.co.uk/citations?user=G3DS5GAAAAAJ&hl=en
     homepage: https://rbawden.github.io
+    institution: Inria
     last_name: Bawden
     name: Rachel Bawden
     orcid: https://orcid.org/0000-0001-9553-1768
@@ -1086,6 +1081,7 @@
     first_name: Daniel
     google_scholar_id: https://scholar.google.co.uk/citations?hl=en&user=NauI6dEAAAAJ
     homepage: http://beckdaniel.wordpress.com
+    institution: Royal Melbourne Institute of Technology
     last_name: Beck
     name: Daniel Beck
     semantic_scholar_id: https://www.semanticscholar.org/author/Daniel-Beck/143984297
@@ -1095,6 +1091,7 @@
     first_name: Alexandra
     google_scholar_id: https://scholar.google.co.uk/citations?user=gZOV9kMAAAAJ&hl=en&oi=sra
     homepage: http://homepages.inf.ed.ac.uk/abmayne/
+    institution: University of Edinburgh
     last_name: Birch
     name: Alexandra Birch
     semantic_scholar_id: https://www.semanticscholar.org/author/Alexandra-Birch/2539211
@@ -1104,6 +1101,7 @@
     first_name: Ondřej
     google_scholar_id: https://scholar.google.cz/citations?user=G_65vFsAAAAJ
     homepage: https://ufal.mff.cuni.cz/~bojar/
+    institution: Charles University Prague
     last_name: Bojar
     name: Ondřej Bojar
     orcid: https://orcid.org/0000-0002-0606-0050
@@ -1114,12 +1112,14 @@
     first_name: Bill
     google_scholar_id: https://scholar.google.com/citations?user=BVUcMU4AAAAJ&hl=en
     homepage: https://sites.google.com/view/bill-byrne/
+    institution: Amazon and University of Cambridge
     last_name: Byrne
     name: Bill Byrne
     username: ~Bill_Byrne1
   - emails: vera.cabarrao@unbabel.com
     first_name: Vera
     homepage: https://unbabel.com/research/
+    institution: Unbabel
     last_name: Cabarrão
     name: Vera Cabarrão
     username: ~Vera_Cabarrão1
@@ -1127,6 +1127,7 @@
     emails: sheila.castilho@adaptcentre.ie
     first_name: Sheila
     google_scholar_id: https://scholar.google.com/citations?user=mANFFWIAAAAJ
+    institution: Dublin City University
     last_name: Castilho
     name: Sheila Castilho
     orcid: https://orcid.org/0000-0002-8416-6555
@@ -1137,6 +1138,7 @@
     first_name: Anna
     google_scholar_id: https://scholar.google.com/citations?user=ctJX7OIAAAAJ
     homepage: http://annacurrey.github.io/
+    institution: Amazon
     last_name: Currey
     name: Anna Currey
     semantic_scholar_id: https://www.semanticscholar.org/author/Anna-Currey/3456678
@@ -1145,6 +1147,7 @@
     emails: jose.camargo.souza@gmail.com
     first_name: José
     google_scholar_id: https://scholar.google.com/citations?user=20ApDosAAAAJ&hl=en&authuser=1
+    institution: Unbabel
     last_name: De Souza
     middle_name: G. C.
     name: José G. C. de Souza
@@ -1156,6 +1159,7 @@
     first_name: Miquel
     google_scholar_id: https://scholar.google.com/citations?user=LglGgcEAAAAJ&hl=ca&oi=ao
     homepage: https://www.dlsi.ua.es/~mespla
+    institution: Universidad de Alicante
     last_name: Esplà-Gomis
     name: Miquel Esplà-Gomis
     orcid: https://orcid.org/0000-0002-2682-066X
@@ -1166,6 +1170,7 @@
     first_name: Marcello
     google_scholar_id: https://scholar.google.com/citations?user=WaGw_qYAAAAJ
     homepage: http://www.marcellofederico.net
+    institution: Amazon
     last_name: Federico
     name: Marcello Federico
     orcid: https://orcid.org/0000-0001-8095-0038
@@ -1186,6 +1191,7 @@
     first_name: Liane
     google_scholar_id: https://scholar.google.com/citations?user=iHFaudQAAAAJ&hl=en
     homepage: https://sites.google.com/site/lianeguillou
+    institution: University of Edinburgh, University of Edinburgh
     last_name: Guillou
     name: Liane Guillou
     semantic_scholar_id: https://www.semanticscholar.org/author/Liane-Guillou/3351915
@@ -1195,6 +1201,7 @@
     first_name: Diptesh
     google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
     homepage: http://dipteshkanojia.github.io
+    institution: University of Surrey
     last_name: Kanojia
     name: Diptesh Kanojia
     orcid: https://orcid.org/0000-0001-8814-0080
@@ -1205,6 +1212,7 @@
     first_name: Philipp
     google_scholar_id: https://scholar.google.com/citations?user=OsIZgIYAAAAJ&hl=en
     homepage: http://www.cs.jhu.edu/~phi/
+    institution: Johns Hopkins University
     last_name: Koehn
     name: Philipp Koehn
     orcid: https://orcid.org/0000-0003-1565-064X
@@ -1213,6 +1221,7 @@
   - emails: mary.nurminen@tuni.fi
     first_name: Mary
     homepage: https://orcid.org/0000-0002-2380-6950
+    institution: Tampere University
     last_name: Nurminen
     name: Mary Nurminen
     orcid: https://orcid.org/0000-0002-2380-6950
@@ -1222,6 +1231,7 @@
     first_name: Constantin
     google_scholar_id: https://scholar.google.com/citations?user=BIFDGBkAAAAJ&hl=en
     homepage: https://dinel.org.uk
+    institution: University of Surrey
     last_name: Orasan
     name: Constantin Orasan
     semantic_scholar_id: https://www.semanticscholar.org/author/Constantin-Orasan/1786218
@@ -1231,6 +1241,7 @@
     first_name: John
     google_scholar_id: https://scholar.google.com/citations?user=qzKvohMAAAAJ&hl=en
     homepage: https://naturallang.com
+    institution: Northeastern University, Columbia University and New York University
     last_name: Ortega
     middle_name: E.
     name: John E. Ortega
@@ -1240,6 +1251,7 @@
   - emails: santanu.pal.ju@gmail.com
     first_name: Santanu
     google_scholar_id: https://scholar.google.de/citations?user=bYP2jIgAAAAJ&hl=en
+    institution: Wipro
     last_name: Pal
     name: SANTANU PAL
     orcid: https://orcid.org/0000-0003-3079-6903
@@ -1249,6 +1261,7 @@
     emails: danielleclairesaunders@gmail.com
     first_name: Danielle
     google_scholar_id: https://scholar.google.com/citations?user=mBl92d8AAAAJ&hl=en
+    institution: DeepL
     last_name: Saunders
     name: Danielle Saunders
     semantic_scholar_id: https://www.semanticscholar.org/author/Danielle-Saunders/38635490
@@ -1258,6 +1271,7 @@
     first_name: Carolina
     google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
     homepage: https://carolscarton.github.io
+    institution: University of Sheffield
     last_name: Scarton
     name: Carolina Scarton
     orcid: https://orcid.org/0000-0002-0103-4072
@@ -1267,6 +1281,7 @@
     first_name: Xingyi
     google_scholar_id: https://scholar.google.com/citations?user=7seaj48AAAAJ&hl=en
     homepage: https://www.sheffield.ac.uk/dcs/people/academic/xingyi-song
+    institution: University of Sheffield
     last_name: Song
     name: Xingyi Song
     orcid: https://orcid.org/0000-0002-4188-6974
@@ -1276,6 +1291,7 @@
     emails: fstahlberg@gmail.com
     first_name: Felix
     google_scholar_id: https://scholar.google.com/citations?user=NA8fvj8AAAAJ
+    institution: Google
     last_name: Stahlberg
     name: Felix Stahlberg
     orcid: https://orcid.org/0000-0002-0430-5704
@@ -1285,6 +1301,7 @@
     emails: a.toral.ruiz@rug.nl
     first_name: Antonio
     google_scholar_id: https://scholar.google.com/citations?user=YcdNfhcAAAAJ
+    institution: University of Groningen
     last_name: Toral
     name: Antonio Toral
     semantic_scholar_id: https://www.semanticscholar.org/author/Antonio-Toral/144514048
@@ -1300,6 +1317,7 @@
     first_name: Bram
     google_scholar_id: https://scholar.google.com/citations?user=mXpe-M8AAAAJ&hl=en
     homepage: https://bramvanroy.github.io/
+    institution: Instituut voor de Nederlandse Taal and KU Leuven
     last_name: Vanroy
     name: Bram Vanroy
     orcid: https://orcid.org/0000-0002-4622-8364
@@ -1309,9 +1327,11 @@
     first_name: Marcely
     google_scholar_id: https://scholar.google.com/citations?user=mNV3w5gAAAAJ&hl=en
     homepage: https://sites.google.com/view/mzboito/marcely-zanon-boito
+    institution: Naver Labs Europe
     last_name: Zanon Boito
     name: Marcely Zanon Boito
     orcid: https://orcid.org/0000-0003-0134-6719
     semantic_scholar_id: https://www.semanticscholar.org/author/2635755
     username: ~Marcely_Zanon_Boito2
-  role: Reviewers
+  role: Thesis Award
+  type: name_block_without_newlines
