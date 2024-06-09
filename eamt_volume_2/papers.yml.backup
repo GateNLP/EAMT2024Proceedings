@@ -164,64 +164,6 @@
   pdf_file: f2501ffc97b00ccbbd7efe3369f380a4d12ef192.pdf
   title: Implementing Gender-Inclusivity in MT Output using Automatic Post-Editing
     with LLMs
-- abstract: "Neural Machine Translation (NMT) for low-resource languages remains a\
-    \ challenge for many NLP researchers. In this work, we deploy a standard data\
-    \ augmentation methodology by back-translation to a new language translation direction,\
-    \ i.e., Cantonese-to-English. \nWe present the models we fine-tuned using the\
-    \ limited amount of real data and the synthetic data we generated using back-translation\
-    \ by three models: OpusMT, NLLB, and mBART.\nWe carried out automatic evaluation\
-    \ using a range of different metrics including those that are lexical-based and\
-    \ embedding-based.\nFurthermore, we create a user-friendly interface for the models\
-    \ we included in this project, \\textsc{ CantonMT}, and make it available to facilitate\
-    \ Cantonese-to-English MT research. Researchers can add more models to this platform\
-    \ via our open-source\\textsc{ CantonMT} toolkit, available at \\url{https://github.com/kenrickkung/CantoneseTranslation}."
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: kenrick.kung@gmail.com
-    first_name: Kung
-    last_name: Hong
-    middle_name: Yin
-    name: Kung Yin Hong
-    username: ~Kung_Yin_Hong1
-  - dblp_id: https://dblp.org/pid/03/10304
-    emails: hanlifengaaron@gmail.com
-    first_name: Lifeng
-    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
-    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
-    last_name: Han
-    name: Lifeng Han
-    orcid: https://orcid.org/0000-0002-3221-2185
-    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
-    username: ~Lifeng_Han1
-  - dblp_id: https://dblp.org/pid/92/11424
-    emails: riza.batista@manchester.ac.uk
-    first_name: Riza
-    google_scholar_id: https://scholar.google.com/citations?user=fRBJmp9gk_cC&hl=en
-    homepage: http://www.cs.manchester.ac.uk/about-us/staff/profile/?ea=riza.batista
-    institution: University of Manchester
-    last_name: Batista-Navarro
-    name: Riza Batista-Navarro
-    semantic_scholar_id: https://www.semanticscholar.org/author/R.-Batista-Navarro/1400900759
-    username: ~Riza_Batista-Navarro1
-  - emails: gnenadic@manchester.ac.uk
-    first_name: Goran
-    google_scholar_id: https://scholar.google.com.tw/citations?user=CyTXHuUAAAAJ
-    homepage: http://www.manchester.ac.uk/research/gnenadic/personaldetails
-    institution: University of Manchester
-    last_name: Nenadic
-    name: Goran Nenadic
-    username: ~Goran_Nenadic1
-  decision: Submission
-  file: 1007.pdf
-  id: 1007
-  openreview_id: dpulIBXEHZ
-  pdf_file: 285a01a3af30496889144048dd1b9bdbcadfd7ad.pdf
-  title: '{CantonMT}: Cantonese to English NMT Platform with Fine-Tuned Models using
-    Real and Synthetic Back-Translation Data'
-
 - abstract: The paper presents findings from a comprehensive market study commissioned
     by the European Commission, aimed at analysing multilinguality of European websites
     and automated website translation services across various sectors. The findings
@@ -1578,7 +1520,9 @@
   title: 'Analysis of the Annotations from a Crowd MT Evaluation Initiative: Case
     Study for the Spanish-Basque Pair'
 
-- abstract: 'Research: Technical'
+
+
+- abstract: Research: Technical
   attributes:
     paper_type: N/A
     presentation_type: N/A
@@ -1588,7 +1532,7 @@
     first_name: dummy
     last_name: dummy
     name: dummy
-  title: 'Research: Technical'
+  title: Research: Technical
   file: technical.pdf
   id: 3
 
@@ -2753,7 +2697,7 @@
     name: dummy
   title: Thesis Award
   file: thesis.pdf
-  id: 4
+  id: 3
 
 - abstract: 'When this PhD started, the translation of speech into text in a different
     language was mainly tackled with a cascade of automatic speech recognition (ASR)
@@ -2857,3 +2801,60 @@
   openreview_id: k5BxsPbn7t
   pdf_file: 433b59b81020f38d8dfebae23d855e9a420610de.pdf
   title: 'Thesis: Model-based Evaluation of Multilinguality'
+    
+- abstract: "In this tutorial, we focus on a niche area of neural machine translation\
+    \ (NMT) that aims to incorporate linguistics into different stages in the NMT\
+    \ pipeline, from pre-processing to model training to evaluation.\nWe first introduce\
+    \ the background of NMT and fundamental analysis tools, such as word segmenters,\
+    \ part-of-speech taggers, and dependency parsers. We then cover topics including\
+    \ 1) word/subword segmentation, and character decomposition during MT data pre-processing,\
+    \ 2) incorporating direct and indirect linguistic features into NMT models, and\
+    \ 3) fine-grained linguistic evaluation for MT systems.\nWe reveal the impact\
+    \ of orthography, syntax, and semantics information on translation performance.\
+    \ \nThis tutorial is mainly aimed at researchers interested in the intersection\
+    \ of linguistics and low-resource machine translation. We hope this tutorial inspires\
+    \ and encourages them to develop linguistically motivated high-quality MT systems\
+    \ and evaluation benchmarks."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pers/s/Song:Haiyue.html
+    emails: songskg6666@gmail.com
+    first_name: Haiyue
+    google_scholar_id: https://scholar.google.co.jp/citations?user=IP5UyqcAAAAJ&hl=en
+    homepage: https://shyyhs.github.io/
+    institution: National Institute of Information and Communications Technology (NICT),
+      National Institute of Advanced Industrial Science and Technology
+    last_name: Song
+    name: Haiyue Song
+    orcid: https://orcid.org/0000-0003-1159-0918
+    semantic_scholar_id: https://www.semanticscholar.org/author/Haiyue-Song/2980506
+    username: ~Haiyue_Song1
+  - dblp_id: https://dblp.uni-trier.de/pid/254/9654
+    emails: hour\_kaing@nict.go.jp
+    first_name: Hour
+    google_scholar_id: https://scholar.google.com/citations?user=zJ0wGWoAAAAJ&hl=en
+    institution: National Institute of Information and Communications Technology (NICT),
+      National Institute of Advanced Industrial Science and Technology
+    last_name: Kaing
+    name: Hour Kaing
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hour-Kaing/1453725225
+    username: ~Hour_Kaing1
+  - dblp_id: https://dblp.org/pid/127/0168
+    emails: prajdabre@gmail.com
+    first_name: Raj
+    google_scholar_id: https://scholar.google.co.jp/citations?user=x91u618AAAAJ&hl=en
+    institution: National Institute of Information and Communications Technology (NICT),
+      National Institute of Advanced Industrial Science and Technology
+    last_name: Dabre
+    name: Raj Dabre
+    semantic_scholar_id: https://www.semanticscholar.org/author/Raj-Dabre/3209719
+    username: ~Raj_Dabre1
+  decision: Submission
+  file: 5003.pdf
+  id: 5003
+  openreview_id: ddNilpZEMz
+  pdf_file: 12512e8092cdd11c2be9f56dea775837d52ce970.pdf
+  title: Linguistically Motivated Neural Machine Translation

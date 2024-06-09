@@ -95,6 +95,109 @@
 \end{titlepage}
 \newpage
 
+%%%%%%%%%%%%
+% Sponsors %
+%%%%%%%%%%%%
+\BLOCK{if sponsors}
+\setcounter{page}{2}
+\phantomsection
+\addcontentsline{toc}{section}{Sponsors}
+%\vspace*{1cm}
+\noindent
+
+
+{\Large The EAMT organizers gratefully acknowledge the support from the following sponsors.}
+\bigskip
+
+\vspace*{0.5cm}
+
+
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Silver}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/language_weaver.pdf}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logo_Translated_Primary.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Unbabel logo.png}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Bronze}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/CrossLang-logo-RGB-HR.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logo_Pangeanic_Alta.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/STAR-Signet-rgb.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/TP_stacked_logo RGB-01.jpg}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Collaborators}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/apertium_open_box_line.svg.pdf}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Supporters}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/SN_logo_RGB-2.jpg}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{Media Sponsors}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logotype_With_Mark.png}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+\newpage
+\BLOCK{endif}
+
+
+
+
 %%%%%%%%%%%%%
 % Copyright %
 %%%%%%%%%%%%%
@@ -385,7 +488,11 @@ European Association for Machine Translation (EAMT)
 \newcommand\page[1]{\rightskip=25pt \dotfill\rlap{\hbox to 25pt{\hfill#1}}\par}
 \begin{itemize}[leftmargin=*,label={}]
   \BLOCK{for paper in archival_papers}
-     \item \hyperlink{page.\VAR{paper.start_page}}{\emph{\VAR{paper.title}}}\\ \hspace*{2em} \VAR{join_names(", ", paper.authors, " and ")}\dotfill \hyperlink{page.\VAR{paper.start_page}}{\VAR{paper.start_page}}
+     \BLOCK{if paper.id < 100}
+       \item \hyperlink{page.\VAR{paper.start_page}}{\textbf{\VAR{paper.title}}} \hspace*{2em} \dotfill \hyperlink{page.\VAR{paper.start_page}}{\VAR{paper.start_page}}   
+     \BLOCK{else}
+       \item \hspace*{2em} \hyperlink{page.\VAR{paper.start_page}}{\emph{\VAR{paper.title}}}\\ \hspace*{2em} \VAR{join_names(", ", paper.authors, " and ")}\dotfill \hyperlink{page.\VAR{paper.start_page}}{\VAR{paper.start_page}}
+     \BLOCK{endif}
   \BLOCK{endfor}
 \end{itemize}
 \newpage
@@ -474,106 +581,5 @@ Author Index
 \BLOCK{endif}
 
 \pagebreak
-
-%%%%%%%%%%%%
-% Sponsors %
-%%%%%%%%%%%%
-\BLOCK{if sponsors}
-\setcounter{page}{2}
-\phantomsection
-\addcontentsline{toc}{section}{Sponsors}
-%\vspace*{1cm}
-\noindent
-
-
-{\Large The EAMT organizers gratefully acknowledge the support from the following sponsors.}
-\bigskip
-
-\vspace*{0.5cm}
-
-
-    \begin{samepage}
-  \noindent
-  {\Large \textbf{Silver}}
-
-  \nopagebreak
-            \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/language_weaver.pdf}
-      \end{minipage}\hspace{0.05\linewidth}
-          \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logo_Translated_Primary.png}
-      \end{minipage}\hspace{0.05\linewidth}
-          \begin{minipage}[c][0.21\linewidth][c]{0.30\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Unbabel logo.png}
-      \end{minipage}\hspace{0.05\linewidth}
-    
-    \end{samepage}
-
-  \bigskip
-  \bigskip
-    \begin{samepage}
-  \noindent
-  {\Large \textbf{Bronze}}
-
-  \nopagebreak
-            \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/CrossLang-logo-RGB-HR.png}
-      \end{minipage}\hspace{0.05\linewidth}
-          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logo_Pangeanic_Alta.png}
-      \end{minipage}\hspace{0.05\linewidth}
-          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/STAR-Signet-rgb.png}
-      \end{minipage}\hspace{0.05\linewidth}
-          \begin{minipage}[c][0.21\linewidth][c]{0.17\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/TP_stacked_logo RGB-01.jpg}
-      \end{minipage}\hspace{0.05\linewidth}
-    
-    \end{samepage}
-
-  \bigskip
-  \bigskip
-    \begin{samepage}
-  \noindent
-  {\Large \textbf{Collaborators}}
-
-  \nopagebreak
-            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/apertium_open_box_line.svg.pdf}
-      \end{minipage}\hspace{0.05\linewidth}
-    
-    \end{samepage}
-
-  \bigskip
-  \bigskip
-    \begin{samepage}
-  \noindent
-  {\Large \textbf{Supporters}}
-
-  \nopagebreak
-            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/SN_logo_RGB-2.jpg}
-      \end{minipage}\hspace{0.05\linewidth}
-    
-    \end{samepage}
-
-  \bigskip
-  \bigskip
-    \begin{samepage}
-  \noindent
-  {\Large \textbf{Media Sponsors}}
-
-  \nopagebreak
-            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
-        \includegraphics[width=\linewidth]{eamt_volume_1/sponsor_logos/Logotype_With_Mark.png}
-      \end{minipage}\hspace{0.05\linewidth}
-    
-    \end{samepage}
-
-  \bigskip
-  \bigskip
-\newpage
-\BLOCK{endif}
-
 
 \end{document}

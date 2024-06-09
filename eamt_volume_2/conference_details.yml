@@ -1,0 +1,14 @@
+book_title: Proceedings of the 25th Annual Conference of the European Association for Machine Translation
+event_name: 'Proceedings of the\\ 25th Annual Conference of\\ the European Association\\ for Machine Translation'
+volume_name: 'Volume 2: Products & Projects'
+cover_subtitle: 'Volume 2: Products & Projects'
+anthology_venue_id: EAMT
+start_date: 2024-06-24
+end_date: 2024-05-27
+isbn: tbd
+location: Sheffield, UK 
+editors:
+  - first_name: Xingyi
+    last_name: Song
+publisher: European Association for Machine Translation (EAMT)
+#watermark_book_title: Proceedings of the 21th Annual Meeting of the\\ Special Interest Group on Discourse and Dialogue

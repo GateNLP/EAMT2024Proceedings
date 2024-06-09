@@ -1,0 +1,142 @@
+- members:
+  - first_name: Helena
+    institution: Universidade de Lisboa
+    last_name: Moniz
+  role: General Chair
+- members:
+  - first_name: Carolina
+    institution: University of Sheffield
+    last_name: Scarton
+  - first_name: Charlotte
+    institution: ZOO Digital
+    last_name: Prescott
+  - first_name: Chris
+    institution: ZOO Digital
+    last_name: Bayliss
+  - first_name: Chris
+    institution: ZOO Digital
+    last_name: Oakley
+  - first_name: Joanna
+    institution: University of Sheffield
+    last_name: Wright
+  - first_name: Xingyi
+    institution: University of Sheffield
+    last_name: Song
+  role: Local Organising Committee
+- members:
+  - first_name: Edward
+    institution: University of Sheffield
+    last_name: Gow\-Smith
+  - first_name: Freddy
+    institution: University of Sheffield
+    last_name: Heppell
+  - first_name: Tom 
+    institution: University of Sheffield
+    last_name: Pickard
+  - first_name: Shenbin 
+    institution: University of Surrey
+    last_name: Qian 
+  role: Local Organising Support Team
+- members:
+  - emails: vera.cabarrao@unbabel.com
+    first_name: Vera
+    homepage: https://unbabel.com/research/
+    institution: Unbabel
+    last_name: Cabarrão
+    name: Vera Cabarrão
+    username: ~Vera_Cabarrão1
+  - emails: kchatzitheodorou@gmail.com
+    first_name: Konstantinos
+    homepage: https://www.linkedin.com/in/konstantinos-chatzitheodorou-25044b24/
+    last_name: Chatzitheodorou
+    institution: Strategic Agenda
+    name: Konstantinos Chatzitheodorou
+    username: ~Konstantinos_Chatzitheodorou1
+  role: Implementations Case Studies Track Program Chairs
+- members:
+  - first_name: Helena
+    institution: Universidade de Lisboa
+    last_name: Moniz
+  - first_name: Mikel
+    last_name: Forcada
+    name: Mikel Forcada
+    institution: Prompsit Language Engineering
+  role: Products and Projects Track Program Chairs
+- members:
+  - emails: patrick.cadwell@dcu.ie
+    first_name: Patrick
+    institution: Dublin City University
+    last_name: Cadwell
+    name: Patrick Cadwell
+    orcid: https://orcid.org/0000-0002-2371-4378
+    username: ~Patrick_Cadwell1
+  - dblp_id: https://dblp.org/pid/76/8162
+    emails: lapshinovakoltun@uni-hildesheim.de
+    first_name: Ekaterina
+    google_scholar_id: https://scholar.google.com/citations?user=kzIiTmAAAAAJ&hl=de
+    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/lapshinova
+    institution: Universität Hildesheim
+    last_name: Lapshinova-Koltunski
+    name: Ekaterina Lapshinova-Koltunski
+    orcid: https://orcid.org/0000-0002-5618-8087
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Lapshinova-Koltunski/2706548
+    username: ~Ekaterina_Lapshinova-Koltunski2
+  role: Research Translators Users Track Program Chairs
+- members:
+  - dblp_id: https://dblp.org/pid/146/4432
+    emails: rachel.bawden@inria.fr
+    first_name: Rachel
+    google_scholar_id: https://scholar.google.co.uk/citations?user=G3DS5GAAAAAJ&hl=en
+    homepage: https://rbawden.github.io
+    institution: Inria
+    last_name: Bawden
+    name: Rachel Bawden
+    orcid: https://orcid.org/0000-0001-9553-1768
+    semantic_scholar_id: https://www.semanticscholar.org/author/Rachel-Bawden/48983885
+    username: ~Rachel_Bawden1
+  - dblp_id: https://dblp.org/pid/93/10489
+    emails: vmsanchez@dlsi.ua.es
+    first_name: Víctor
+    google_scholar_id: https://scholar.google.es/citations?user=QzMP_B8AAAAJ&hl=es
+    homepage: https://www.dlsi.ua.es/~vmsanchez
+    institution: Universidad de Alicante
+    last_name: Sánchez-Cartagena
+    middle_name: M.
+    name: Víctor M. Sánchez-Cartagena
+    orcid: https://orcid.org/0000-0001-9600-6885
+    semantic_scholar_id: https://www.semanticscholar.org/author/V.-M.-S%C3%A1nchez-Cartagena/1399637675
+    username: ~Víctor_M._Sánchez-Cartagena1
+  role: Technical Track Program Chairs
+- members:
+  - dblp_id: https://dblp.org/pid/12/5915
+    emails: bhaddow@ed.ac.uk
+    first_name: Barry
+    google_scholar_id: https://scholar.google.com/citations?user=6NqRjRYAAAAJ&hl=en
+    homepage: https://homepages.inf.ed.ac.uk/bhaddow/
+    institution: University of Edinburgh
+    last_name: Haddow
+    name: Barry Haddow
+    username: ~Barry_Haddow1
+  role: Thesis Award Program Chairs
+- members:
+  - dblp_id: https://dblp.org/pid/127/0183
+    emails: dipteshkanojia@gmail.com
+    first_name: Diptesh
+    google_scholar_id: https://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
+    homepage: http://dipteshkanojia.github.io
+    institution: University of Surrey
+    last_name: Kanojia
+    name: Diptesh Kanojia
+    orcid: https://orcid.org/0000-0001-8814-0080
+    semantic_scholar_id: https://www.semanticscholar.org/author/Diptesh-Kanojia/2920443
+    username: ~Diptesh_Kanojia1
+  - emails: mary.nurminen@tuni.fi
+    first_name: Mary
+    homepage: https://orcid.org/0000-0002-2380-6950
+    institution: Tampere University
+    last_name: Nurminen
+    name: Mary Nurminen
+    orcid: https://orcid.org/0000-0002-2380-6950
+    username: ~Mary_Nurminen1
+  role: Workshops and Tutorials Program Chairs
+
