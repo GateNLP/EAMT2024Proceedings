@@ -1,4 +1,4 @@
-- abstract: Implementations Case Studies
+- abstract: Thesis Award
   attributes:
     paper_type: N/A
     presentation_type: N/A
@@ -8,1575 +8,112 @@
     first_name: dummy
     last_name: dummy
     name: dummy
-  title: Implementations Case Studies
-  file: implmentation.pdf
-  id: 1
+  title: Thesis Award
+  file: thesis.pdf
+  id: 4
 
-- abstract: Incorporating extra-textual context such as film metadata into the machine
-    translation (MT) pipeline can enhance translation quality, as indicated by automatic
-    evaluation in recent work. However, the positive impact of such systems in industry
-    remains unproven. We report on an industrial case study carried out to investigate
-    the benefit of MT in a professional scenario of translating TV subtitles with
-    a focus on how leveraging extra-textual context impacts post-editing. We found
-    that post-editors marked significantly fewer context-related errors when correcting
-    the outputs of MTCue, the context-aware model, as opposed to non-contextual models.
-    We also present the results of a survey of the employed post-editors, which highlights
-    contextual inadequacy as a significant gap consistently observed in MT. Our findings
-    strengthen the motivation for further work within fully contextual MT.
+- abstract: 'When this PhD started, the translation of speech into text in a different
+    language was mainly tackled with a cascade of automatic speech recognition (ASR)
+    and machine translation (MT) models, as the emerging direct speech translation
+    (ST) models were not yet competitive. To close this gap, part of the PhD has been
+    devoted to improving the quality of direct models, both in the simplified condition
+    of test sets where the audio is split into well-formed sentences, and in the realistic
+    condition in which the audio is automatically segmented. First, we investigated
+    how to transfer knowledge from MT models trained on large corpora. Then, we defined
+    encoder architectures that give different weights to the vectors in the input
+    sequence, reflecting the variability of the amount of information over time in
+    speech. Finally, we reduced the adverse effects caused by the suboptimal automatic
+    audio segmentation in two ways: on one side, we created models robust to this
+    condition; on the other, we enhanced the audio segmentation itself. The good results
+    achieved in terms of overall translation quality allowed us to investigate specific
+    behaviors of direct ST systems, which are crucial to satisfy real users’ needs.
+    On one side, driven by the ethical goal of inclusive systems, we disclosed that
+    established technical choices geared toward high general performance (statistical
+    word segmentation of the target text, knowledge distillation from MT) cause an
+    exacerbation of the gender representational disparities in the training data.
+    Along this line of work, we proposed mitigation techniques that reduce the gender
+    bias of ST models, and showed how gender-specific systems can be used to control
+    the translation of gendered words related to the speakers, regardless of their
+    vocal traits. On the other side, motivated by the practical needs of interpreters
+    and translators, we evaluated the potential of direct ST systems in the “augmented
+    translation” scenario, focusing on the translation and recognition of named entities
+    (NEs). Along this line of work, we proposed solutions to cope with the major weakness
+    of ST models (handling person names), and introduced direct models that jointly
+    perform ST and NE recognition showing their superiority over a pipeline of dedicated
+    tools for the two tasks. Overall, we believe that this thesis moves a step forward
+    toward adopting direct ST systems in real applications, increasing the awareness
+    of their strengths and weaknesses compared to the traditional cascade paradigm.'
   attributes:
     paper_type: N/A
     presentation_type: N/A
     submitted_area: ''
   authors:
-  - emails: sebastian.tate.vincent@gmail.com
-    first_name: Sebastian
-    google_scholar_id: https://scholar.google.com/citations?user=QrXL5zsAAAAJ&hl=en
-    homepage: https://www.linkedin.com/in/st-vincent1/
-    institution: ZOO Digital PLC
-    last_name: Vincent
-    name: Sebastian Vincent
-    username: ~Sebastian_Vincent1
-  - emails: charlotte.prescott@zoodigital.com
-    first_name: Charlotte
-    institution: NA
-    last_name: Prescott
-    name: Charlotte Prescott
-    username: charlotte.prescott@zoodigital.com
-  - emails: chris.bayliss@zoodigital.com
-    first_name: Chris
-    institution: NA
-    last_name: Bayliss
-    name: Chris Bayliss
-    username: chris.bayliss@zoodigital.com
-  - emails: chris.oakley@zoodigital.com
-    first_name: Chris
-    institution: NA
-    last_name: Oakley
-    name: Chris Oakley
-    username: chris.oakley@zoodigital.com
-  - dblp_id: https://dblp.org/pid/23/8672
-    emails: c.scarton@sheffield.ac.uk
-    first_name: Carolina
-    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
-    homepage: https://carolscarton.github.io
-    institution: University of Sheffield
-    last_name: Scarton
-    name: Carolina Scarton
-    orcid: https://orcid.org/0000-0002-0103-4072
-    username: ~Carolina_Scarton1
-  decision: Studies
-  file: 1002.pdf
-  id: 1002
-  openreview_id: 6HFmh4UiAu
-  pdf_file: 7cbabc2e5dc18719a78ac76ec6649dbd4a4dc64c.pdf
-  title: A Case Study on Contextual Machine Translation in a Professional Scenario
-    of Subtitling
-- abstract: 'This paper illustrates the process of training and evaluating NMT systems
-    for a language pair that includes a low-resource language variety.
-
-    A parallel corpus of legal texts for Italian and South Tyrolean German has been
-    compiled, with South Tyrolean German being the low-resourced language variety.
-    As the size of the compiled corpus is insufficient for the training, we have combined
-    the corpus with several parallel corpora using data weighting at sentence level.
-    We then performed an evaluation of each combination and of two popular commercial
-    systems.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - dblp_id: https://dblp.org/pid/56/4401
-    emails: aoliverg@uoc.edu
-    first_name: Antoni
-    google_scholar_id: https://scholar.google.com/citations?user=tj0V-BYAAAAJ&h
-    homepage: https://www.researchgate.net/profile/Antoni-Oliver-3
-    institution: Universitat Oberta de Catalunya
-    last_name: Oliver
-    name: Antoni Oliver
-    orcid: https://orcid.org/0000-0001-8399-3770
-    semantic_scholar_id: https://www.semanticscholar.org/author/Antoni-Oliver/38997105
-    username: ~Antoni_Oliver1
-  - emails: salvarezvid@uoc.edu
-    first_name: Sergi
-    google_scholar_id: https://scholar.google.com/citations?user=DRPw_qwAAAAJ&hl=ca&oi=sra
-    institution: Universitat Pompeu Fabra and Universitat Oberta de Catalunya
-    last_name: Alvarez-Vidal
-    name: Sergi Alvarez-Vidal
-    orcid: https://orcid.org/0000-0002-6355-4559
-    username: ~Sergi_Alvarez-Vidal1
-  - dblp_id: https://dblp.org/pid/84/261
-    emails: egon.stemle@eurac.edu
-    first_name: Egon
-    google_scholar_id: https://scholar.google.it/citations?user=uHqa8ooAAAAJ
-    homepage: https://iiegn.eu
-    institution: Masaryk University and Eurac Research
-    last_name: Stemle
-    name: Egon Stemle
-    orcid: https://orcid.org/0000-0002-7655-5526
-    semantic_scholar_id: https://www.semanticscholar.org/author/2991702
-    username: ~Egon_Stemle1
-  - emails: elena.chiocchetti@eurac.edu
-    first_name: Elena
-    institution: NA
-    last_name: Chiocchetti
-    name: Elena Chiocchetti
-    username: elena.chiocchetti@eurac.edu
-  decision: Studies
-  file: 1004.pdf
-  id: 1004
-  openreview_id: NfwiYbibRJ
-  pdf_file: 23dff73c949430bf0225c32d621d89ed51c21bac.pdf
-  title: Training an NMT system for legal texts of a low-resource language variety
-    South Tyrolean German - Italian
-- abstract: This paper investigates the effectiveness of combining machine translation
-    (MT) systems and large language models (LLMs) to produce gender-inclusive translations
-    from English to Spanish. The study uses a multi-step approach where a translation
-    is first generated by an MT engine and then reviewed by an LLM. The results suggest
-    that while LLMs, particularly GPT-4, are successful in generating gender-inclusive
-    post-edited translations and show potential in enhancing fluency, they often introduce
-    unnecessary changes and inconsistencies. The findings underscore the continued
-    necessity for human review in the translation process, highlighting the current
-    limitations of AI systems in handling nuanced tasks like gender-inclusive translation.
-    Also, the study highlights that while the combined approach can improve translation
-    fluency, the effectiveness and reliability of the post-edited translations can
-    vary based on the language of the prompts used.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: mara.nunziatini@welocalize.com
-    first_name: Mara
-    homepage: https://www.welocalize.com/
-    last_name: Nunziatini
-    name: Mara Nunziatini
-    username: ~Mara_Nunziatini1
-  - emails: sara.diego@welocalize.com
-    first_name: Sara
-    institution: NA
-    last_name: Diego
-    name: Sara Diego
-    username: sara.diego@welocalize.com
-  decision: Studies
-  file: 1006.pdf
-  id: 1006
-  openreview_id: Ec7bqhH0DT
-  pdf_file: f2501ffc97b00ccbbd7efe3369f380a4d12ef192.pdf
-  title: Implementing Gender-Inclusivity in MT Output using Automatic Post-Editing
-    with LLMs
-- abstract: "Neural Machine Translation (NMT) for low-resource languages remains a\
-    \ challenge for many NLP researchers. In this work, we deploy a standard data\
-    \ augmentation methodology by back-translation to a new language translation direction,\
-    \ i.e., Cantonese-to-English. \nWe present the models we fine-tuned using the\
-    \ limited amount of real data and the synthetic data we generated using back-translation\
-    \ by three models: OpusMT, NLLB, and mBART.\nWe carried out automatic evaluation\
-    \ using a range of different metrics including those that are lexical-based and\
-    \ embedding-based.\nFurthermore, we create a user-friendly interface for the models\
-    \ we included in this project, \\textsc{ CantonMT}, and make it available to facilitate\
-    \ Cantonese-to-English MT research. Researchers can add more models to this platform\
-    \ via our open-source\\textsc{ CantonMT} toolkit, available at \\url{https://github.com/kenrickkung/CantoneseTranslation}."
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: kenrick.kung@gmail.com
-    first_name: Kung
-    last_name: Hong
-    middle_name: Yin
-    name: Kung Yin Hong
-    username: ~Kung_Yin_Hong1
-  - dblp_id: https://dblp.org/pid/03/10304
-    emails: hanlifengaaron@gmail.com
-    first_name: Lifeng
-    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
-    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
-    last_name: Han
-    name: Lifeng Han
-    orcid: https://orcid.org/0000-0002-3221-2185
-    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
-    username: ~Lifeng_Han1
-  - dblp_id: https://dblp.org/pid/92/11424
-    emails: riza.batista@manchester.ac.uk
-    first_name: Riza
-    google_scholar_id: https://scholar.google.com/citations?user=fRBJmp9gk_cC&hl=en
-    homepage: http://www.cs.manchester.ac.uk/about-us/staff/profile/?ea=riza.batista
-    institution: University of Manchester
-    last_name: Batista-Navarro
-    name: Riza Batista-Navarro
-    semantic_scholar_id: https://www.semanticscholar.org/author/R.-Batista-Navarro/1400900759
-    username: ~Riza_Batista-Navarro1
-  - emails: gnenadic@manchester.ac.uk
-    first_name: Goran
-    google_scholar_id: https://scholar.google.com.tw/citations?user=CyTXHuUAAAAJ
-    homepage: http://www.manchester.ac.uk/research/gnenadic/personaldetails
-    institution: University of Manchester
-    last_name: Nenadic
-    name: Goran Nenadic
-    username: ~Goran_Nenadic1
-  decision: Submission
-  file: 1007.pdf
-  id: 1007
-  openreview_id: dpulIBXEHZ
-  pdf_file: 285a01a3af30496889144048dd1b9bdbcadfd7ad.pdf
-  title: '{CantonMT}: Cantonese to English NMT Platform with Fine-Tuned Models using
-    Real and Synthetic Back-Translation Data'
-
-- abstract: The paper presents findings from a comprehensive market study commissioned
-    by the European Commission, aimed at analysing multilinguality of European websites
-    and automated website translation services across various sectors. The findings
-    show that the majority of websites offer content in one or two languages, while
-    only less than 25% of European websites provide content in 3 or more languages.
-    Additionally, we introduce Web-T, a collection of open-source solutions facilitating
-    automated website translation with a help of free MT service eTranslation provided
-    by the European Commission and possibility to integrate other MT providers. Web-T
-    solutions include local plug-ins for Content Management Systems, universal plug-ins,
-    and an MT API Integrator, thus contributing to the broader goal of digital language
-    equality in Europe.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - dblp_id: https://dblp.org/pid/34/8157
-    emails: andrejs@tilde.lv
-    first_name: Andrejs
-    institution: Tilde
-    last_name: Vasiljevs
-    name: Andrejs Vasiljevs
-    username: ~Andrejs_Vasiljevs1
-  - emails: rinalds.viksna@tilde.lv
-    first_name: Rinalds
-    google_scholar_id: https://scholar.google.com/citations?user=SSaYnvcAAAAJ
-    institution: University of Latvia
-    last_name: Vīksna
-    name: Rinalds Vīksna
-    orcid: https://orcid.org/0000-0003-2705-508X
-    username: ~Rinalds_Vīksna1
-  - emails: nvacheva@idc.com
-    first_name: Neil
-    institution: NA
-    last_name: Vacheva
-    name: Neil Vacheva
-    username: nvacheva@idc.com
-  - emails: andis.lagzdins@tilde.lv
-    first_name: Andis
-    institution: NA
-    last_name: Lagzdiņš
-    name: Andis Lagzdiņš
-    username: andis.lagzdins@tilde.lv
-  decision: Studies
-  file: 1008.pdf
-  id: 1008
-  openreview_id: kQbx5isVug
-  pdf_file: 2857d9f38b1dbd53b23ef6e29b747f96b8a7b8e1.pdf
-  title: 'Advancing Digital Language Equality in Europe: A Market Study and Open-Source
-    Solutions for Multilingual Websites'
-- abstract: 'In this paper, we study the translation abilities of Large Language Models
-    (LLMs) for business IT texts.
-
-    We are strongly interested in domain adaptation of translation systems, which
-    is essential for accurate and lexically appropriate translation of such texts.
-
-    Among the open-source models evaluated in a zero- and few-shot setting, we find
-    Llama-2 13B the most promising for domain-specific translation fine-tuning.
-
-    We investigate the full range of adaptation techniques for LLMs: from prompting,
-    over parameter-efficient fine-tuning to full fine-tuning, and compare to classic
-    neural machine translation (MT) models trained internally at SAP.
-
-    We provide guidance how to use training budget most effectively for different
-    fine-tuning approaches.
-
-    We observe that while LLMs can translate on-par with SAP''s MT models on general
-    domain data, it is difficult to close the gap on SAP''s domain-specific data,
-    even with extensive training and carefully curated data.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: johannes.eschbach-dymanus@sap.com
-    first_name: Johannes
-    institution: SAP SE and Institute for Computational Linguistics, Heidelberg University,
-      Ruprecht-Karls-Universität Heidelberg
-    last_name: Eschbach-Dymanus
-    name: Johannes Eschbach-Dymanus
-    username: ~Johannes_Eschbach-Dymanus1
-  - emails: frank.essenberger@sap.com
-    first_name: Frank
-    institution: SAP SE
-    last_name: Essenberger
-    name: Frank Essenberger
-    username: ~Frank_Essenberger1
-  - emails: bianka.buschbeck@sap.com
-    first_name: Bianka
-    last_name: Buschbeck
-    name: Bianka Buschbeck
-    username: ~Bianka_Buschbeck1
-  - dblp_id: https://dblp.org/pid/272/4281.html
-    emails: miriam.exel@sap.com
-    first_name: Miriam
-    google_scholar_id: https://scholar.google.de/citations?user=J5QHGyEAAAAJ&hl=de&authuser=1
-    institution: SAP SE
-    last_name: Exel
-    name: Miriam Exel
-    username: ~Miriam_Exel1
-  decision: Studies
-  file: 10010.pdf
-  id: 10010
-  openreview_id: EYxKNcxUpR
-  pdf_file: f493f0dc7db57986b37637d8cacfc2615bad3544.pdf
-  title: Exploring the Effectiveness of LLM Domain Adaptation for Business IT Machine
-    Translation
-- abstract: 'This paper presents a multilingual aligned corpus of political debates
-    from the United Nations (UN) General Assembly sessions between 1978 and 2021,
-    which covers five of the six official UN languages: Arabic, Chinese, English,
-    French, Russian, and Spanish. We explain the preprocessing steps we applied to
-    the corpus. We align the sentences by using word vectors to numerically represent
-    the meaning of each sentence and then calculating the Euclidean distance between
-    them. To validate our alignment methods, we conducted an evaluation study with
-    crowd-sourced human annotators using Scale AI, an online platform for data labelling.
-    The final dataset consists of around 300,000 aligned sentences for En-Es, En-Fr,
-    En-Zh and En-Ru. It is publicly available for download.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: bechara@hertie-school.org
-    first_name: Hannah
-    homepage: https://www.hertie-school.org/en/datasciencelab/people/profile/person/bechara
-    last_name: Bechara
-    middle_name: Dorothy
-    name: Hannah Dorothy Bechara
-    username: ~Hannah_Dorothy_Bechara1
-  - emails: manohara@hertie-school.org
-    first_name: Krishnamoorthy
-    institution: NA
-    last_name: Manohara
-    name: Krishnamoorthy Manohara
-    username: manohara@hertie-school.org
-  - emails: slavini@gmail.com
-    first_name: Slava
-    google_scholar_id: https://scholar.google.co.uk/citations?user=DUorn6wAAAAJ&hl=en&authuser=1
-    homepage: https://www.hertie-school.org/en/datasciencelab/people/profile/person/jankin
-    institution: Hertie School of Governance
-    last_name: Jankin
-    name: Slava Jankin
-    orcid: https://orcid.org/my-orcid?orcid=0000-0001-6915-177X
-    username: ~Slava_Jankin1
-  decision: Studies
-  file: 10011.pdf
-  id: 10011
-  openreview_id: kj36kIsUm1
-  pdf_file: 5054acbe119ecdae67c4574e89de9e00fa60c228.pdf
-  title: Creating and Evaluating a Multilingual Corpus of UN General Assembly Debates
-- abstract: This paper examines the suitability of a large language model (LLM), GPT-4,
-    for generating multiple choice questions (MCQs) aimed at assessing subject matter
-    expertise (SME) in the domain of medical translation. The main objective of these
-    questions is to model the skills of potential subject matter experts in a human-in-the-loop
-    machine translation (MT) flow, to ensure that tasks are matched to the individuals
-    with the right skill profile. The investigation was conducted at Unbabel, an artificial
-    intelligence-powered human translation platform. Two medical translation experts
-    evaluated the GPT-4-generated questions and answers, one focusing on English–European
-    Portuguese, and the other on English–German. We present a methodology for creating
-    prompts to elicit high-quality GPT-4 outputs for this use case, as well as for
-    designing evaluation scorecards for human review of such output. Our findings
-    suggest that GPT-4 has the potential to generate suitable items for subject matter
-    expertise tests, providing a more efficient approach compared to relying solely
-    on humans. Furthermore, we propose recommendations for future research to build
-    on our approach and refine the quality of the outputs generated by LLMs.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: diana.silveira.int@unbabel.com
-    first_name: Diana
-    last_name: Silveira
-    name: Diana Silveira
-    username: ~Diana_Silveira1
-  - emails: marina.sanchez@unbabel.com
-    first_name: Marina
-    google_scholar_id: https://scholar.google.com/citations?user=vuArv-AAAAAJ&hl=es
-    last_name: Torrón
-    middle_name: Sánchez
-    name: Marina Sánchez Torrón
-    username: ~Marina_Sánchez_Torrón1
-  - dblp_id: https://dblp.org/pid/65/6363.html
-    emails: monizhelena3@gmail.com
-    first_name: Helena
-    google_scholar_id: https://scholar.google.com/citations?user=G3CcA6YAAAAJ&hl=en
-    homepage: https://www.hlt.inesc-id.pt/w/Helena_Moniz
-    institution: Universidade de Lisboa
-    last_name: Moniz
-    middle_name: Silva
-    name: Helena Silva Moniz
-    orcid: https://orcid.org/0000-0003-0900-6938
-    semantic_scholar_id: https://www.semanticscholar.org/author/Helena-Moniz/2504458
-    username: ~Helena_Silva_Moniz1
-  decision: Studies
-  file: 10012.pdf
-  id: 10012
-  openreview_id: E6166HIyma
-  pdf_file: 474850d47af3988a22378e751a7c6b50a0f1e323.pdf
-  title: 'Generating subject-matter expertise assessment questions with GPT-4: a medical
-    translation use-case'
-- abstract: "While large language models (LLMs) pre-trained on massive amounts of\
-    \ unpaired language data have reached the state-of-the-art in machine translation\
-    \ (MT) of general domain texts, post-editing (PE) is still required to correct\
-    \ errors and to enhance term translation quality in specialized domains.  In this\
-    \ paper we present a pilot study of enhancing translation memories (TM) produced\
-    \ by PE (source segments, machine translations, and reference translations, henceforth\
-    \ called PE-TM) for the needs of correct and consistent term translation in technical\
-    \ domains. \n\nWe investigate a light-weight two-step scenario where at inference\
-    \ time, a human translator marks errors in the first translation step,  and in\
-    \ a second step a few similar examples are extracted from the PE-TM to prompt\
-    \ an LLM. Our experiment shows that the additional effort of augmenting translations\
-    \ with human error markings guides the LLM to focus on a correction of the marked\
-    \ errors, yielding consistent improvements over automatic PE (APE) and MT from\
-    \ scratch."
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - dblp_id: https://dblp.org/pid/263/7193
-    emails: berger@cl.uni-heidelberg.de
-    first_name: Nathaniel
-    google_scholar_id: https://scholar.google.com/citations?user=0cosdmMAAAAJ&hl=en&oi=ao
-    last_name: Berger
-    name: Nathaniel Berger
-    semantic_scholar_id: https://www.semanticscholar.org/author/Nathaniel-Berger/2106225057
-    username: ~Nathaniel_Berger1
-  - dblp_id: https://dblp.org/pid/33/2631
-    emails: riezler@cl.uni-heidelberg.de
-    first_name: Stefan
-    google_scholar_id: https://scholar.google.com/citations?user=nY9tQLYAAAAJ&hl=en
-    homepage: https://www.cl.uni-heidelberg.de/statnlpgroup/members/riezler/
-    institution: Heidelberg University, Germany
-    last_name: Riezler
-    name: Stefan Riezler
-    semantic_scholar_id: https://www.semanticscholar.org/author/S.-Riezler/3289329
-    username: ~Stefan_Riezler1
-  - dblp_id: https://dblp.org/pid/272/4281.html
-    emails: miriam.exel@sap.com
-    first_name: Miriam
-    google_scholar_id: https://scholar.google.de/citations?user=J5QHGyEAAAAJ&hl=de&authuser=1
-    institution: SAP SE
-    last_name: Exel
-    name: Miriam Exel
-    username: ~Miriam_Exel1
-  - dblp_id: https://dblp.org/pid/91/11424
-    emails: matthias.huck@sap.com
-    first_name: Matthias
-    google_scholar_id: https://scholar.google.com/citations?user=IDO3e3EAAAAJ
-    institution: SAP SE
-    last_name: Huck
-    name: Matthias Huck
-    semantic_scholar_id: https://www.semanticscholar.org/author/Matthias-Huck/1839533
-    username: ~Matthias_Huck1
-  decision: Studies
-  file: 10013.pdf
-  id: 10013
-  openreview_id: j2BIfjXh40
-  pdf_file: 866dfe17aa6fbf0d97a4f40ef93c0c1ba0a17684.pdf
-  title: Prompting Large Language Models with Human Error Markings for Self-Correcting
-    Machine Translation
-- abstract: Machine translation (MT) research is most typically English-centric. In
-    recent years, massively multilingual translation systems have also been increasingly
-    popular. However, efforts purposefully focused on less-resourced languages are
-    less widespread. In this paper, we focus on MT from and into the Estonian language.
-    First, emphasizing the importance of data availability, we generate and publicly
-    release a back-translation corpus of over 2 billion sentence pairs. Second, using
-    these novel data, we create MT models covering 18 translation directions, all
-    either from or into Estonian. We re-use the encoder of the NLLB multilingual model
-    and train modular decoders separately for each language, surpassing the original
-    NLLB quality. Our resulting MT models largely outperform other open-source MT
-    systems, including previous Estonian-focused efforts, and are released as part
-    of this submission.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: elizaveta.korotkova@gmail.com
-    first_name: Elizaveta
-    google_scholar_id: https://scholar.google.com/citations?user=4f7JxEgAAAAJ
-    institution: University of Tartu
-    last_name: Korotkova
-    name: Elizaveta Korotkova
-    username: ~Elizaveta_Korotkova1
-  - dblp_id: https://dblp.org/pid/18/8157
-    emails: fishel@ut.ee
-    first_name: Mark
-    google_scholar_id: https://scholar.google.com/citations?user=K6jhzXcAAAAJ&hl=en
-    homepage: https://tartunlp.ai
-    institution: University of Tartu
-    last_name: Fishel
-    name: Mark Fishel
-    username: ~Mark_Fishel1
-  decision: Studies
-  file: 10014.pdf
-  id: 10014
-  openreview_id: 0YZJ7FgSUP
-  pdf_file: f58cedeed47b3e551d07633f62b31e75b7b5068b.pdf
-  title: 'Estonian-Centric Machine Translation: Data, Models, and Challenges'
-
-- abstract: Research:Translators Users
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: dummy
-    first_name: dummy
-    last_name: dummy
-    name: dummy
-  title: Research:Translators Users
-  file: translation_users.pdf
-  id: 2
-
-- abstract: Prompt engineering has shown potential for improving translation quality
-    in LLMs. However, the possibility of using translation concepts in prompt design
-    remains largely underexplored. Against this backdrop, the current paper discusses
-    the effectiveness of incorporating the conceptual tool of “translation brief”
-    and the personas of “translator” and “author” into prompt design for translation
-    tasks in ChatGPT. Findings suggest that, although certain elements are constructive
-    in facilitating human-to-human communication for translation tasks, their effectiveness
-    is limited for improving translation quality in ChatGPT. This accentuates the
-    need for explorative research on how translation theorists and practitioners can
-    develop the current set of conceptual tools rooted in the human-to-human communication
-    paradigm for translation purposes in this emerging workflow involving human-machine
-    interaction, and how translation concepts developed in translation studies can
-    inform the training of GPT models for translation tasks.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: sui.he@swansea.ac.uk
-    first_name: Sui
-    institution: Swansea University
-    last_name: He
-    name: Sui He
-    orcid: https://orcid.org/0000-0003-4982-170X
-    username: ~Sui_He1
-  decision: track
-  file: 2002.pdf
-  id: 2002
-  openreview_id: Evjt4hR3iD
-  pdf_file: a3e0e8939ab844b42c2f8260d9744cd8d02f7879.pdf
-  title: 'Prompting ChatGPT for Translation: A Comparative Analysis of Translation
-    Brief and Persona Prompts'
-- abstract: 'Assessing the performance of interpreting services is a complex task,
-    given the nuanced nature of spoken language translation, the strategies that interpreters
-    apply, and the diverse expectations of users. The complexity of this task become
-    even more pronounced when automated evaluation methods are applied. This is particularly
-    true because interpreted texts exhibit less linearity between the source and target
-    languages due to the strategies employed by the interpreter.
-
-
-    This study aims to assess the reliability of automatic metrics in evaluating simultaneous
-    interpretations by analyzing their correlation with human evaluations. We focus
-    on a particular feature of interpretation quality, namely translation accuracy
-    or faithfulness. As a benchmark we use human assessments performed by language
-    experts, and evaluate how well sentence embeddings and Large Language Models correlate
-    with them. We quantify semantic similarity between the source and translated texts
-    without relying on a reference translation. The results suggest GPT models, particularly
-    GPT-3.5 with direct prompting, demonstrate the strongest correlation with human
-    judgment in terms of semantic similarity between source and target texts, even
-    when evaluating short textual segments. Additionally, the study reveals that the
-    size of the context window has a notable impact on this correlation.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: fantinuoli@uni-mainz.de
-    first_name: Claudio
-    homepage: https://www.claudiofantinuoli.org
-    institution: Johannes-Gutenberg Universität Mainz
-    last_name: Fantinuoli
-    name: Claudio Fantinuoli
-    username: ~Claudio_Fantinuoli1
-  - emails: mlxwang@leeds.ac.uk
-    first_name: Xiaoman
-    institution: NA
-    last_name: Wang
-    name: Xiaoman Wang
-    username: mlxwang@leeds.ac.uk
-  decision: track
-  file: 2003.pdf
-  id: 2003
-  openreview_id: 1lj43HjBaa
-  pdf_file: f12d5d8f0d4724c942ec81acf22ffbdd8e683a6e.pdf
-  title: Exploring the Correlation between Human and Machine Evaluation of Simultaneous
-    Speech Translation
-- abstract: 'Translation Quality Evaluation (TQE) is an essential step of the modern
-    translation production process. TQE is critical in assessing both machine translation
-    (MT) and human translation (HT) quality without reference translations. The ability
-    to evaluate or even simply estimate the quality of translation automatically may
-    open significant efficiency gains through process optimisation.
-
-    This work examines whether the state-of-the-art large language models (LLMs) can
-    be used for this uncertainty estimation of MT output quality. We take OpenAI models
-    as an example technology and approach TQE as a binary classification task.
-
-    On \textbf{eight language pairs} including English to Italian, German, French,
-    Japanese, Dutch, Portuguese, Turkish, and Chinese, our experimental results show
-    that fine-tuned \textbf{\textit{gpt3.5}} can demonstrate good performance on translation
-    quality prediction tasks, i.e. \textit{whether the translation needs to be edited}.
-
-    Another finding is that simply increasing the sizes of LLMs does not lead to apparent
-    better performances on this task by comparing the performance of three different
-    versions of OpenAI models: \textbf{\textit{curie}}, \textbf{\textit{davinci}},
-    and \textbf{\textit{gpt3.5}} with 13B, 175B, and 175B parameters, respectively.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: serge.gladkoff@logrusglobal.com
-    first_name: Serge
-    google_scholar_id: https://scholar.google.com/citations?user=8QhjX18AAAAJ&hl=en
-    homepage: http://ai-lab.logrusglobal.com/
-    institution: Logrus Global AI Lab
-    last_name: Gladkoff
-    name: Serge Gladkoff
-    username: ~Serge_Gladkoff1
-  - dblp_id: https://dblp.org/pid/03/10304
-    emails: hanlifengaaron@gmail.com
-    first_name: Lifeng
-    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
-    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
-    last_name: Han
-    name: Lifeng Han
-    orcid: https://orcid.org/0000-0002-3221-2185
-    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
-    username: ~Lifeng_Han1
-  - emails: gleberof@gmail.com
-    first_name: Gleb
-    last_name: Erofeev
-    name: Gleb Erofeev
-    semantic_scholar_id: https://www.semanticscholar.org/author/G.-Erofeev/2124124385
-    username: ~Gleb_Erofeev1
-  - emails: irina.sorokina@logrusglobal.com
-    first_name: Irina
-    google_scholar_id: https://scholar.google.com/citations?hl=en&user=8dpGA4AAAAAJ&view_op=list_works&gmla=AHoSzlXIaFHQgsMPtiem8PSLSVMLANnwr4UiQDbYW0vq0cubxE5OHKLI-7NIwRmWjryDWfect2OhffYkmIffglHrfiif6Vze2b7m77oX-skXHLUFed_h-I-sZirqTSGWbkkLAUrHparjywbT0g
-    homepage: https://scholar.google.com/citations?hl=en&user=8dpGA4AAAAAJ&view_op=list_works&gmla=AHoSzlXIaFHQgsMPtiem8PSLSVMLANnwr4UiQDbYW0vq0cubxE5OHKLI-7NIwRmWjryDWfect2OhffYkmIffglHrfiif6Vze2b7m77oX-skXHLUFed_h-I-sZirqTSGWbkkLAUrHparjywbT0g
-    last_name: Sorokina
-    name: Irina Sorokina
-    username: ~Irina_Sorokina1
-  - emails: gnenadic@manchester.ac.uk
-    first_name: Goran
-    google_scholar_id: https://scholar.google.com.tw/citations?user=CyTXHuUAAAAJ
-    homepage: http://www.manchester.ac.uk/research/gnenadic/personaldetails
-    institution: University of Manchester
-    last_name: Nenadic
-    name: Goran Nenadic
-    username: ~Goran_Nenadic1
-  decision: track
-  file: 2005.pdf
-  id: 2005
-  openreview_id: KkTiRESfb8
-  pdf_file: 835724a510e0d3ae346c44476db352942140f1a3.pdf
-  title: 'MTUncertainty: Assessing the Need for Post-editing of Machine Translation
-    Outputs by Fine-tuning OpenAI LLMs'
-- abstract: 'New language technologies are driving major changes in the language services
-    of institutions worldwide, including the Swiss Confederation. Based on a definition
-    of change management as a combination of adaptation measures at both the organisation
-    and individual levels, this study used a survey to gather unprecedented quantitative
-    data on the use and qualitative data on the perceptions of machine translation
-    (MT) by federal in-house translators. The results show that more than half of
-    the respondents use MT regularly and that translators are largely free to use
-    it as they see fit. In terms of perceptions, they mostly anticipate negative evolutions
-    along five dimensions: work processes, translators, translated texts, the future
-    of their language services and job, and the place of translators within their
-    institution and society. Their apprehensions concern MT per se, but even more
-    the way it is seen and used within their organisation. However, positive perspectives
-    regarding efficiency gains or usefulness of MT as a translation aid were also
-    discussed. Building on these human factors is key to successful change management.
-    Academic research has a contribution to make, and the coming together of translation
-    and organisation studies offers promising avenues for further research.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: paolo.canavese@dcu.ie
-    first_name: Paolo
-    last_name: Canavese
-    name: Paolo Canavese
-    orcid: https://orcid.org/0000-0003-3928-8905
-    username: ~Paolo_Canavese1
-  - emails: patrick.cadwell@dcu.ie
-    first_name: Patrick
-    institution: Dublin City University
-    last_name: Cadwell
-    name: Patrick Cadwell
-    orcid: https://orcid.org/0000-0002-2371-4378
-    username: ~Patrick_Cadwell1
-  decision: track
-  file: 2006.pdf
-  id: 2006
-  openreview_id: UT2gvgOHf9
-  pdf_file: 81ba1bf9bc914e157b95598e9553951c9a7ef57f.pdf
-  title: 'Translators’ perspectives on machine translation uses and impacts in the
-    Swiss Confederation: Navigating technological change in an institutional setting'
-- abstract: 'Machine translation models sometimes lead to added toxicity: translated
-    outputs may contain more toxic content that the original input. In this paper,
-    we introduce MinTox, a novel pipeline to automatically identify and mitigate added
-    toxicity at inference time, without further model training. MinTox leverages a
-    multimodal (speech and text) toxicity classifier that can scale across languages.
-
-    We demonstrate the capabilities of MinTox when applied to SEAMLESSM4T, a multi-modal
-    and massively multilingual machine translation system. MinTox significantly reduces
-    added toxicity: across all domains, modalities and language directions, 25% to
-
-    95% of added toxicity is successfully filtered out, while preserving translation
-    quality'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - dblp_id: https://dblp.org/pid/17/2183
-    emails: costajussa@fb.com
-    first_name: Marta
-    google_scholar_id: https://scholar.google.com/citations?user=ESqQ7FoAAAAJ&hl=ca
-    homepage: https://www.costa-jussa.com
-    institution: Meta
-    last_name: Costa-jussà
-    middle_name: R.
-    name: Marta R. Costa-jussà
-    semantic_scholar_id: https://www.semanticscholar.org/author/Marta-R.-Costa-juss%C3%A0/1680233
-    username: ~Marta_R._Costa-jussà1
-  - dblp_id: https://dblp.org/pid/293/7322
-    emails: dale.david@mail.ru
-    first_name: David
-    google_scholar_id: https://scholar.google.com/citations?user=4GB_6AcAAAAJ&hl=en
-    homepage: https://daviddale.ru/en
-    institution: FAIR at Meta
-    last_name: Dale
-    name: David Dale
-    orcid: https://orcid.org/0000-0003-2045-6833
-    semantic_scholar_id: https://www.semanticscholar.org/author/D.-Dale/2097711561
-    username: ~David_Dale1
-  - dblp_id: https://dblp.org/pid/220/3347
-    emails: maha.elbayad@gmail.com
-    first_name: Maha
-    google_scholar_id: https://scholar.google.fr/citations?user=4MFYc7AAAAAJ&hl=en
-    homepage: http://elbayadm.github.io/
-    institution: FAIR
-    last_name: Elbayad
-    name: Maha Elbayad
-    orcid: https://orcid.org/0000-0002-8389-231X
-    semantic_scholar_id: https://www.semanticscholar.org/author/Maha-Elbayad/46183659
-    username: ~Maha_Elbayad3
-  - dblp_id: https://dblp.org/pid/355/3385.html
-    emails: yubokai8@gmail.com
-    first_name: Bokai
-    google_scholar_id: https://scholar.google.com/citations?user=7jNmPwUAAAAJ
-    homepage: http://bokaiyu.fr/
-    institution: ' Meta AI'
-    last_name: YU
-    name: Bokai YU
-    username: ~Bokai_YU1
-  decision: track
-  file: 2007.pdf
-  id: 2007
-  openreview_id: viIEmiGyrS
-  pdf_file: 1d8eb21e38d1055746d01db3d633b5f3f3d8b0f5.pdf
-  title: Added Toxicity Mitigation at Inference Time for Multimodal and Massively
-    Multilingual Translation
-- abstract: 'This study conducts a comprehensive comparison of three leading LLMs—GPT-4,
-    Claude 3, and Gemini—in two translation-related tasks: automatic post-editing
-    and MQM error annotation, across four languages. Utilizing the pharmaceutical
-    EMEA corpus to maintain domain specificity and minimize data contamination, the
-    research examines the models’ performance in these two tasks. Our findings reveal
-    the nuanced capabilities of LLMs in handling MTPE and MQM tasks, hinting at the
-    potential of these models in streamlining and optimizing translation workflows.
-    Future directions include fine-tuning LLMs for task-specific improvements and
-    exploring the integration of style guides for enhanced translation quality.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: csuguet@transperfect.com
-    first_name: Celia
-    last_name: Uguet
-    middle_name: Soler
-    name: Celia Soler Uguet
-    username: ~Celia_Soler_Uguet1
-  - dblp_id: https://dblp.org/pid/221/5998
-    emails: fbane@translations.com
-    first_name: Fred
-    homepage: https://www.linkedin.com/in/fwbane
-    institution: TransPerfect
-    last_name: Bane
-    name: Fred Bane
-    username: ~Fred_Bane1
-  - emails: mahmoud.aymo@transperfect.com
-    first_name: Mahmoud
-    institution: NA
-    last_name: Aymo
-    name: Mahmoud Aymo
-    username: mahmoud.aymo@transperfect.com
-  - emails: joao.torres@transperfect.com
-    first_name: João
-    institution: NA
-    last_name: Torres
-    name: João Torres
-    username: joao.torres@transperfect.com
-  - emails: azaretskaya@gmail.com
-    first_name: Anna
-    homepage: https://www.linkedin.com/in/anna-zaretskaya-05283a53/
-    last_name: Zaretskaya
-    name: Anna Zaretskaya
-    username: ~Anna_Zaretskaya1
-  - emails: tblanch@translations.com
-    first_name: Tània Blanch Miró
-    institution: NA
-    last_name: Blanch Miró
-    name: Tània Blanch Miró
-    username: tblanch@translations.com
-  decision: track
-  file: 2009.pdf
-  id: 2009
-  openreview_id: LvmX5qoY6D
-  pdf_file: 6c167a8ff29f732d7e62c2c2b8b4be76f7112ffe.pdf
-  title: 'LLMs in Post-Translation Workflows: Comparing Performance in Post-Editing
-    and Error Analysis'
-- abstract: This paper presents a comparative analysis between human translation (HT)
-    and post-edited machine translation (PEMT) from a lexical and syntactic perspective
-    to verify whether the tendency of neural machine translation (NMT) systems to
-    produce lexically and syntactically poorer translations shines through after post-editing
-    (PE). The analysis focuses on three datasets collected in professional contexts
-    containing translations from English into French and German into French. Through
-    a comparison of word translation entropy (HTRa) scores, we observe a lower degree
-    of lexical diversity in PEMT compared to HT. Additionally, metrics of syntactic
-    equivalence indicate that PEMT is more likely to mirror the syntactic structure
-    of the source text in contrast to HT. By incorporating raw machine translation
-    (MT) output into our analysis, we underline the important role post-editors play
-    in adding lexical and syntactic diversity to MT output. Our findings provide relevant
-    input for MT users and decision-makers in language services as well as for MT
-    and PE trainers and advisers.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: lise.volkart@unige.ch
-    first_name: Lise
-    google_scholar_id: https://scholar.google.com/citations?user=puEnHYUAAAAJ&hl=fr&oi=ao
-    last_name: Volkart
-    name: Lise Volkart
-    username: ~Lise_Volkart1
-  - emails: pierrette.bouillon@unige.ch
-    first_name: Pierrette
-    homepage: https://www.unige.ch/fti/fr/faculte/departements/dtim/membrestim/bouillon/
-    institution: University of Geneva
-    last_name: Bouillon
-    name: Pierrette Bouillon
-    username: ~Pierrette_Bouillon2
-  decision: track
-  file: 20010.pdf
-  id: 20010
-  openreview_id: j6BYgSCSv0
-  pdf_file: 546c72d8168241fce89bd923aeddc84ce6fe187e.pdf
-  title: 'Post-editors as Gatekeepers of Lexical and Syntactic Diversity: Comparative
-    Analysis of Human Translation and Post-editing in Professional Settings'
-- abstract: This paper describes work in progress on Visualisation tools to foster
-    collaborations between translators and computational scientists. We aim to describe
-    how visualisation features can be used to explain translation and NMT outputs.
-    We tested several visualisation functionalities with three NMT models based on
-    Chinese-English, Spanish-English and French-English language pairs. We created
-    three demos containing different visualisation tools and analysed them within
-    the framework of performance-explainability, focusing on the translator's perspective.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: gabriela.gonzalezsaez@gmail.com
-    first_name: Gabriela
-    last_name: Gonzalez-Saez
-    name: Gabriela Gonzalez-Saez
-    orcid: https://orcid.org/0000-0003-0878-5263
-    username: ~Gabriela_Gonzalez-Saez1
-  - emails: nakhle.mariam@gmail.com
-    first_name: Mariam
-    last_name: Nakhle
-    name: Mariam Nakhle
-    orcid: https://orcid.org/0009-0004-2527-6166
-    username: ~Mariam_Nakhle1
-  - emails: j.r.turner@swansea.ac.uk
-    first_name: James
-    institution: Swansea University
-    last_name: Turner
-    middle_name: Robert
-    name: James Robert Turner
-    username: ~James_Robert_Turner1
-  - emails: fabien.lopez@univ-grenoble-alpes.fr
-    first_name: Fabien
-    institution: Université Grenoble Alpes
-    last_name: Lopez
-    name: Fabien Lopez
-    orcid: https://orcid.org/0009-0007-2986-1292
-    username: ~Fabien_Lopez1
-  - dblp_id: https://dblp.org/pid/203/5539
-    emails: nicolas.ballier@u-paris.fr
-    first_name: Nicolas
-    homepage: https://www.clillac-arp.univ-paris-diderot.fr/user/nicolas_ballier
-    last_name: Ballier
-    name: Nicolas Ballier
-    orcid: https://orcid.org/0000-0003-2179-1043
-    username: ~Nicolas_Ballier1
-  - emails: marco.dinarelli@univ-grenoble-alpes.fr
+  - dblp_id: https://dblp.org/pid/266/8121
+    emails: mgaido@fbk.eu
     first_name: Marco
-    homepage: http://www.marcodinarelli.it
-    institution: CNRS
-    last_name: Dinarelli
-    name: Marco Dinarelli
-    username: ~Marco_Dinarelli2
-  - emails: emmanuelle.esperanca-rodier@univ-grenoble-alpes.fr
-    first_name: Emmanuelle
-    homepage: http://lig-membres.imag.fr/esperane
-    institution: University of Grenoble-Alpes
-    last_name: Esperança-Rodier
-    name: Emmanuelle Esperança-Rodier
-    semantic_scholar_id: https://www.semanticscholar.org/search?q=Emmanuelle%20Esperanca-rodier&sort=relevance
-    username: ~Emmanuelle_Esperança-Rodier1
-  - emails: sui.he@swansea.ac.uk
-    first_name: Sui
-    institution: Swansea University
-    last_name: He
-    name: Sui He
-    orcid: https://orcid.org/0000-0003-4982-170X
-    username: ~Sui_He1
-  - emails: raheel.qader@gmail.com
-    first_name: Raheel
-    homepage: https://www.linkedin.com/in/raheel-qader
-    last_name: Qader
-    name: Raheel Qader
-    username: ~Raheel_Qader1
-  - emails: caroline.rossi@univ-grenoble-alpes.fr
-    first_name: Caroline
-    google_scholar_id: https://scholar.google.com/citations?user=lHidQU8AAAAJ&hl=fr&oi=ao
-    homepage: https://cv.hal.science/caroline-rossi
-    institution: Université Grenoble Alpes
-    last_name: Rossi
-    name: Caroline Rossi
-    orcid: https://orcid.org/0000-0003-3231-3610
-    username: ~Caroline_Rossi1
-  - emails: didier.schwab@imag.fr
-    first_name: Didier
-    homepage: https://lig-membres.imag.fr/schwab/
-    institution: Université Grenoble Alpes
-    last_name: Schwab
-    name: Didier Schwab
-    username: ~Didier_Schwab1
-  - emails: jun.yang@swansea.ac.uk
-    first_name: Jun
-    homepage: https://www.swansea.ac.uk/staff/jun.yang/
-    institution: Swansea University
-    last_name: Yang
-    name: Jun Yang
-    orcid: https://orcid.org/0000-0002-0004-0956
-    username: ~Jun_Yang11
-  decision: track
-  file: 20012.pdf
-  id: 20012
-  openreview_id: 95z5trB3i3
-  pdf_file: 773bb1e2c5276ade72359d88305f90ebf8b0454c.pdf
-  title: Exploring NMT Explainability for Translators Using NMT Visualising Tools
-- abstract: "Translations differ in systematic ways from texts originally authored\
-    \ in the same language.\nThese differences, collectively known as translationese,\
-    \ can pose challenges in cross-lingual natural language processing: models trained\
-    \ or tested on translated input might struggle when presented with non-translated\
-    \ language. Translationese mitigation can alleviate this problem. This study investigates\
-    \ the generative capacities of GPT-4 to reduce translationese in human-translated\
-    \ texts. The task is framed as a rewriting process aimed at modified translations\
-    \ indistinguishable from the original text in the target language.  Our focus\
-    \ is on prompt engineering that tests the utility of linguistic knowledge as part\
-    \ of the instruction for GPT-4. \nThrough a series of prompt design experiments,\
-    \ we show that GPT4-generated revisions are more similar to originals in the target\
-    \ language when the prompts incorporate specific linguistic instructions instead\
-    \ of relying solely on the model's internal knowledge. Furthermore, we release\
-    \ the segment-aligned bidirectional German-English data built from the Europarl\
-    \ corpus that underpins this study."
+    google_scholar_id: https://scholar.google.com/citations?user=Ojc1LRYAAAAJ
+    institution: Fondazione Bruno Kessler
+    last_name: Gaido
+    name: Marco Gaido
+    orcid: https://orcid.org/0000-0003-4217-1396
+    semantic_scholar_id: https://www.semanticscholar.org/author/Marco-Gaido/1736801422
+    username: ~Marco_Gaido1
+  decision: Winner
+  file: 4003.pdf
+  id: 4003
+  openreview_id: KpbO33jcxG
+  pdf_file: c261f713c1dfe22cf1f75e2281091f0a7d25619e.pdf
+  title: Direct Speech Translation Toward High-Quality, Inclusive, and Augmented Systems
+- abstract: EAMT 2023 Thesis Award submission for Javier Iranzo-Sánchez.
   attributes:
     paper_type: N/A
     presentation_type: N/A
     submitted_area: ''
   authors:
-  - dblp_id: https://dblp.org/pid/150/3653
-    emails: maria.kunilovskaya@uni-saarland.de
-    first_name: Maria
-    google_scholar_id: https://scholar.google.com/citations?user=kM1BnZYAAAAJ&hl=en&oi=ao
-    homepage: https://kunilovskaya.github.io/
-    institution: Universität des Saarlandes and Tyumen State University
-    last_name: Kunilovskaya
-    name: Maria Kunilovskaya
-    orcid: https://orcid.org/0000-0002-1473-4684
-    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Kunilovskaya/3138117
-    username: ~Maria_Kunilovskaya1
-  - dblp_id: https://dblp.org/pid/205/8970.html
-    emails: koeldc@lst.uni-saarland.de
-    first_name: Koel
-    google_scholar_id: https://scholar.google.com/citations?user=t5TOnGkAAAAJ&hl=en
-    last_name: Dutta Chowdhury
-    name: Koel Dutta Chowdhury
-    username: ~Koel_Dutta_Chowdhury2
-  - emails: heike.przybyl@uni-saarland.de
-    first_name: Heike
-    homepage: https://www.uni-saarland.de/lehrstuhl/teich/personen/heike-przybyl.html
-    institution: Universität des Saarlandes
-    last_name: Przybyl
-    name: Heike Przybyl
-    username: ~Heike_Przybyl1
-  - dblp_id: https://dblp.org/pid/59/7935
-    emails: cristinae.uni@gmail.com
-    first_name: Cristina
-    homepage: https://www.cs.upc.edu/~cristinae/CV/cv.php
-    institution: German Research Center for AI
-    last_name: España-Bonet
-    name: Cristina España-Bonet
-    orcid: https://orcid.org/0000-0001-5414-4710
-    username: ~Cristina_España-Bonet1
-  - dblp_id: https://dblp.org/pid/82/3447
-    emails: josef.van\_genabith@dfki.de
-    first_name: Josef
-    google_scholar_id: https://scholar.google.com/citations?user=rl8S6a8AAAAJ&hl=en
-    institution: German Research Center for AI and Universität des Saarlandes
-    last_name: Genabith
-    middle_name: Van
-    name: Josef van Genabith
-    semantic_scholar_id: https://www.semanticscholar.org/author/Josef-van-Genabith/7519068
-    username: ~Josef_van_Genabith1
-  decision: track
-  file: 20013.pdf
-  id: 20013
-  openreview_id: yf34cfWQ6e
-  pdf_file: 42dbe53ae7476f25ddb0791701f386805db15ece.pdf
-  title: 'Mitigating Translationese with GPT-4: Strategies and Performance'
-- abstract: 'The improvements in neural machine translation make translation and post-editing
-    pipelines ever more effective for a wider range of applications. In this paper,
-    we evaluate the effectiveness of such a pipeline for the translation of scientific
-    documents (limited here to article abstracts). Using a dedicated interface, we
-    collect, then analyse the post-edits of approximately 350 abstracts (English→French)
-    in the Natural Language Processing domain for two groups of post-editors: domain
-    experts (academics encouraged to post-edit their own articles) on the one hand
-    and trained translators on the other. Our results confirm that such pipelines
-    can be effective, at least for high-resource language pairs. They also highlight
-    the difference in the post-editing strategy of the two subgroups. Finally, they
-    suggest that working on term translation is the most pressing issue to improve
-    fully automatic translations, but that in a post-editing setup, other error types
-    can be equally annoying for post-editors.'
+  - dblp_id: https://dblp.org/pid/229/3131
+    emails: jairsan@upv.es
+    first_name: Javier
+    google_scholar_id: https://scholar.google.com/citations?user=5M9fyscAAAAJ
+    institution: AppTek
+    last_name: Iranzo-Sánchez
+    name: Javier Iranzo-Sánchez
+    semantic_scholar_id: https://www.semanticscholar.org/author/Javier-Iranzo-S%C3%A1nchez/1404337029
+    username: ~Javier_Iranzo-Sánchez1
+  decision: HighlyCommended
+  file: 4006.pdf
+  id: 4006
+  openreview_id: VkNoAhblxH
+  pdf_file: e8003d29ab64cb575bd5715b8cef548c361e9811.pdf
+  title: Streaming Neural Speech Translation
+- abstract: 'The aim of this thesis was to extend the methodological toolbox for evaluating
+    the ability of natural language processing systems to handle multiple languages.
+    Neural machine translation (NMT) took the central role in this endeavour: NMT
+    is inherently cross-lingual, and multilingual NMT systems, which translate from
+    many source languages into many target languages, embody the concept of multilinguality
+    in a very tangible way. In addition, NMT and specifically the perplexity of NMT
+    systems can themselves be used as a tool for evaluating multilinguality.'
   attributes:
     paper_type: N/A
     presentation_type: N/A
     submitted_area: ''
   authors:
-  - dblp_id: https://dblp.org/pid/146/4432
-    emails: rachel.bawden@inria.fr
-    first_name: Rachel
-    google_scholar_id: https://scholar.google.co.uk/citations?user=G3DS5GAAAAAJ&hl=en
-    homepage: https://rbawden.github.io
-    institution: Inria
-    last_name: Bawden
-    name: Rachel Bawden
-    orcid: https://orcid.org/0000-0001-9553-1768
-    semantic_scholar_id: https://www.semanticscholar.org/author/Rachel-Bawden/48983885
-    username: ~Rachel_Bawden1
-  - emails: peng@isir.upmc.fr
-    first_name: Ziqian
-    homepage: https://github.com/ziqianPeng
-    institution: Université Pierre et Marie Curie - Paris 6, Sorbonne Université -
-      Faculté des Sciences (Paris VI)
-    last_name: Peng
-    name: Ziqian Peng
-    username: ~Ziqian_Peng1
-  - emails: maud.benard@gmail.com
-    first_name: Maud
-    institution: NA
-    last_name: Bénard
-    name: Maud Bénard
-    username: maud.benard@gmail.com
-  - dblp_id: https://dblp.org/pid/54/5373
-    emails: eric.de\_la\_clergerie@inria.fr
-    first_name: Éric
-    google_scholar_id: https://scholar.google.com/citations?user=olKxDUMAAAAJ&hl=fr
-    homepage: http://alpage.inria.fr/~clerger
-    last_name: Clergerie
-    middle_name: Villemonte De La
-    name: Éric Villemonte de la Clergerie
-    orcid: https://orcid.org/0000-0001-6428-9219
-    semantic_scholar_id: https://www.semanticscholar.org/author/%C3%89ric-Villemonte-de-la-Clergerie/2598776
-    username: ~Éric_Villemonte_de_la_Clergerie1
-  - emails: raphael.esam@gmail.com
-    first_name: Raphaël
-    institution: NA
-    last_name: Esamotunu
-    name: Raphaël Esamotunu
-    username: raphael.esam@gmail.com
-  - emails: mathilde.huguin@inist.fr
-    first_name: Mathilde
-    institution: NA
-    last_name: Huguin
-    name: Mathilde Huguin
-    username: mathilde.huguin@inist.fr
-  - emails: nkubler@eila.univ-paris-diderot.fr
-    first_name: Natalie
-    institution: NA
-    last_name: Kübler
-    name: Natalie Kübler
-    username: nkubler@eila.univ-paris-diderot.fr
-  - emails: alexandra.mestivier@u-paris.fr
-    first_name: Alexandra
-    institution: NA
-    last_name: Mestivier
-    name: Alexandra Mestivier
-    username: alexandra.mestivier@u-paris.fr
-  - emails: mona.michelot4@gmail.com
-    first_name: Mona
-    institution: NA
-    last_name: Michelot
-    name: Mona Michelot
-    username: mona.michelot4@gmail.com
-  - dblp_id: https://dblp.org/pid/21/4228
-    emails: laurent.romary@inria.fr
-    first_name: Laurent
-    institution: INRIA
-    last_name: Romary
-    name: Laurent Romary
-    username: ~Laurent_Romary1
-  - emails: lichao.zhu@u-paris.fr
-    first_name: Lichao
-    homepage: https://zhulichao.fr
-    institution: Université Paris Cité
-    last_name: Zhu
-    name: Lichao Zhu
-    username: ~Lichao_Zhu1
-  - dblp_id: http://dblp.uni-trier.de/pers/hd/y/Yvon:Fran=ccedil=ois
-    emails: yvon@isir.upmc.fr
-    first_name: François
-    google_scholar_id: https://scholar.google.fr/citations?hl=fr&user=JjfDvawAAAAJ
-    homepage: http://cv.archives-ouvertes.fr/francois-yvon
-    institution: Université Pierre et Marie Curie - Paris 6, Sorbonne Université -
-      Faculté des Sciences (Paris VI)
-    last_name: Yvon
-    name: François Yvon
-    orcid: https://orcid.org/0000-0002-7972-7442
-    semantic_scholar_id: https://www.semanticscholar.org/author/Fran%C3%A7ois-Yvon/1846431
-    username: ~François_Yvon2
-  decision: track
-  file: 20014.pdf
-  id: 20014
-  openreview_id: 8hGOjJyeoc
-  pdf_file: 7d3b20a67b5e57427b674c372a06a52078cc29c2.pdf
-  title: 'Translate your Own: a Post-Editing Experiment in the NLP domain'
-- abstract: 'This paper presents a user study with 11 professional English-Spanish
-    translators in the legal domain. We analysed whether negative or positive translators’
-    pre-task perceptions of machine translation (MT) being an aid or a threat had
-    any relationship with final translation quality and productivity in a post-editing
-    workflow. Pre-task perceptions of MT were collected in a questionnaire before
-    translators conducted post-editing tasks and were then correlated with translation
-    productivity and translation quality after an Adequacy-Fluency evaluation. Each
-    participant translated 13 texts over two consecutive weeks, accounting for 120,102
-    words in total. Results show that translators who had higher levels of trust in
-    MT and thought that MT was not a threat to the translation profession reported
-    higher translation quality and productivity. These results have critical implications:
-    improving translator-computer interactions and fostering MT literacy in translation
-    training may be crucial to reducing negative translators’ pre-task perceptions,
-    resulting in better translation productivity and quality, especially adequacy.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: vicent.brivaiglesias2@mail.dcu.ie
-    first_name: Vicent
-    google_scholar_id: https://scholar.google.com/citations?hl=en&user=wHpPp54AAAAJ&view_op=list_works&authuser=1
-    last_name: Briva-Iglesias
-    name: Vicent Briva-Iglesias
-    username: ~Vicent_Briva-Iglesias1
-  - emails: sharon.obrien@dcu.ie
-    first_name: Sharon
-    institution: NA
-    last_name: O’Brien
-    name: Sharon O’Brien
-    username: sharon.obrien@dcu.ie
-  decision: track
-  file: 20015.pdf
-  id: 20015
-  openreview_id: GB6YgSSZnB
-  pdf_file: eef0895ccb068d557e9f033c7fef5490feece403.pdf
-  title: 'Pre-task perceptions of MT influence quality and productivity: the importance
-    of better translator-computer interactions and implications for training'
-- abstract: Automatic speech synthesis has seen rapid development and integration
-    in domains as diverse as accessibility services, translation, or language learning
-    platforms. We analyse its integration in a post-editing machine translation (PEMT)
-    environment and the effect this has on quality, productivity, and cognitive effort.
-    We use Bayesian hierarchical modelling to analyse eye-tracking, time-tracking,
-    and error annotation data resulting from an experiment involving 21 professional
-    translators post-editing from English into German in a customised cloud-based
-    CAT environment and listening to the source and/or target texts via speech synthesis.
-    Using speech synthesis in a PEMT task has a non-substantial positive effect on
-    quality, a substantial negative effect on productivity, and a substantial negative
-    effect on the cognitive effort expended on the target text, signifying that participants
-    need to allocate less cognitive effort to the target text.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - dblp_id: https://dblp.org/pid/64/6743
-    emails: miguel.angel.rios.gaona@univie.ac.at
-    first_name: Miguel
-    google_scholar_id: https://scholar.google.com.mx/citations?user=38wUxwwAAAAJ&hl=en
-    homepage: http://mriosb08.github.io/
-    institution: Universität Vienna
-    last_name: Rios
-    name: Miguel Rios
-    username: ~Miguel_Rios2
-  - emails: justus.brockmann@univie.ac.at
-    first_name: Justus
-    institution: Universität Vienna
-    last_name: Brockmann
-    name: Justus Brockmann
-    orcid: https://orcid.org/0000-0002-5031-2243
-    username: ~Justus_Brockmann1
-  - emails: claudia.wiesinger@univie.ac.at
-    first_name: Claudia
-    institution: NA
-    last_name: Wiesinger
-    name: Claudia Wiesinger
-    username: claudia.wiesinger@univie.ac.at
-  - emails: raluca-maria.chereji@univie.ac.at
-    first_name: Raluca
-    google_scholar_id: https://scholar.google.com/citations?user=XC8jXyMAAAAJ&hl=en
-    homepage: https://haitrans.univie.ac.at/
-    last_name: Chereji
-    name: Raluca Chereji
-    orcid: https://orcid.org/0000-0001-6112-0856
-    username: ~Raluca_Chereji1
-  - emails: alina.secara@univie.ac.at
-    first_name: Alina
-    homepage: https://ucris.univie.ac.at/portal/en/persons/alina-secara(b03903b0-7527-402c-af0a-b27140ec3c73).html
-    institution: Universität Vienna
-    last_name: Secară
-    name: Alina Secară
-    orcid: https://orcid.org/0000-0001-6281-5035
-    username: ~Alina_Secară1
-  - emails: dragos.ioan.ciobanu@univie.ac.at
-    first_name: Dragoș
-    homepage: https://haitrans.univie.ac.at/
-    institution: Universität Vienna
-    last_name: Ciobanu
-    name: Dragoș Ciobanu
-    orcid: https://orcid.org/0000-0002-6475-080X
-    username: ~Dragoș_Ciobanu1
-  decision: track
-  file: 20017.pdf
-  id: 20017
-  openreview_id: ByXXDQntKm
-  pdf_file: 48954ff321cf665c23f2384ca7face211bd2847c.pdf
-  title: Bayesian Hierarchical Modelling for Analysing the Effect of Speech Synthesis
-    on Post-Editing Machine Translation
-- abstract: In this paper, we describe results of a study on evaluation of intralingual
-    machine translation. The study focuses on machine translations of medical texts
-    into Plain German. The automatically simplified texts were compared with manually
-    simplified texts (i.e., simplified by human experts) as well as with the underlying,
-    unsimplified source texts. We analyse the quality of outputs from three models
-    based on different criteria, such as correctness, readability, and syntactic complexity.
-    We compare the outputs of the three models under analysis between each other,
-    as well as with the existing human translations. The study revealed that system
-    performance depends on the evaluation criteria used and that only one of the three
-    models showed strong similarities to the human translations. Furthermore, we identified
-    various types of errors in all three models. These included not only grammatical
-    mistakes and misspellings, but also incorrect explanations of technical terms
-    and false statements, which in turn led to serious content-related mistakes.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: deilen@uni-hildesheim.de
-    first_name: Dr.
-    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/mitglieder/deilen/
-    institution: Universität Hildesheim
-    last_name: Deilen
-    middle_name: Silvana
-    name: Dr. Silvana Deilen
-    username: ~Dr._Silvana_Deilen1
-  - dblp_id: https://dblp.org/pid/76/8162
-    emails: lapshinovakoltun@uni-hildesheim.de
-    first_name: Ekaterina
-    google_scholar_id: https://scholar.google.com/citations?user=kzIiTmAAAAAJ&hl=de
-    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/lapshinova
-    institution: Universität Hildesheim
-    last_name: Lapshinova-Koltunski
-    name: Ekaterina Lapshinova-Koltunski
-    orcid: https://orcid.org/0000-0002-5618-8087
-    semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Lapshinova-Koltunski/2706548
-    username: ~Ekaterina_Lapshinova-Koltunski2
-  - emails: hernandezs@uni-hildesheim.de
-    first_name: Sergio
-    google_scholar_id: https://scholar.google.com/citations?user=bD1NMT0AAAAJ&hl=de
-    institution: Universität Hildesheim, Universität Hildesheim and Universität Hildesheim
-    last_name: Garrido
-    middle_name: Hernandez
-    name: Sergio Hernandez Garrido
-    username: ~Sergio_Hernandez_Garrido1
-  - emails: j.hoerner@wubv.de
-    first_name: Julian
-    institution: NA
-    last_name: Hörner
-    name: Julian Hörner
-    username: j.hoerner@wubv.de
-  - emails: maassc@uni-hildesheim.de
-    first_name: Christiane
-    institution: NA
-    last_name: Maaß
-    name: Christiane Maaß
-    username: maassc@uni-hildesheim.de
-  - emails: vanessa@summ-ai.com
-    first_name: Vanessa
-    institution: NA
-    last_name: Theel
-    name: Vanessa Theel
-    username: vanessa@summ-ai.com
-  - emails: sziemer@students.uni-mainz.de
-    first_name: Sophie
-    institution: Johannes-Gutenberg Universität Mainz and SUMM AI
-    last_name: Ziemer
-    name: Sophie Ziemer
-    username: ~Sophie_Ziemer1
-  decision: track
-  file: 20018.pdf
-  id: 20018
-  openreview_id: hkjESHxeEk
-  pdf_file: 5a9b1d508157b8c1a538bb9ffd84d0fe6d71c60a.pdf
-  title: Evaluation of intralingual machine translation for health communication
-- abstract: We report an experiment in which we use machine learning to validate the
-    empirical objectivity of a novel annotation taxonomy for behavioral translation
-    data. The HOF taxonomy defines three translation states according to which a human
-    translator can be in a state of Orientation (O), Hesitation (H) or in a Flow state
-    (F). We aim at validating the taxonomy based on a manually annotated dataset that
-    consists of six English-Spanish translation sessions (approx 900 words) and 1813
-    HOF-annotated Activity Units (AUs). Two annotators annotated the data and obtain
-    high average inter-annotator accuracy 0.76 (kappa 0.88). We train two classifiers,
-    a Multi-layer Perceptron (MLP) and a Random Forest (RF) on the annotated data
-    and tested on held-out data. The classifiers perform well on the annotated data
-    and thus confirm the epistemological objectivity of the annotation taxonomy. Interestingly,
-    inter-classifier accuracy scores are higher than between the two human annotators.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - dblp_id: https://dblp.org/pid/74/6798
-    emails: mcarl6@kent.edu
-    first_name: Michael
-    institution: Stevenson University
-    last_name: Carl
-    name: Michael Carl
-    username: ~Michael_Carl1
-  decision: track
-  file: 20019.pdf
-  id: 20019
-  openreview_id: lREmXdjyu8
-  pdf_file: 987372ba11ed0c95e5f1021f68e493a50d87096c.pdf
-  title: Using Machine Learning to Validate a Novel Taxonomy of Phenomenal Translation
-    States
-- abstract: 'This paper reports the preliminary results
-
-    of a survey aimed at identifying and ex-
-
-    ploring the attitudes and recommendations
-
-    of machine translation quality assessment
-
-    (MTQA) educators. Drawing upon ele-
-
-    ments from the literature on MTQA teach-
-
-    ing, the survey explores themes that may
-
-    pose a challenge or lead to successful im-
-
-    plementation of human evaluation, as the
-
-    literature shows that there has not been
-
-    enough design and reporting. Results show educators’ awareness of
-
-    the topic, awareness stemming from the
-
-    recommendations of the literature on MT
-
-    evaluation, and reports new challenges and
-
-    issues.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: joo.cavalheirocamargo2@mail.dcu.ie
-    first_name: João
-    google_scholar_id: https://scholar.google.com/citations?user=E6Jr2EQAAAAJ&hl=en&oi=ao
-    last_name: Camargo
-    middle_name: Lucas Cavalheiro
-    name: João Lucas Cavalheiro Camargo
-    orcid: https://orcid.org/0000-0003-3746-1225
-    username: ~João_Lucas_Cavalheiro_Camargo1
-  - dblp_id: https://dblp.org/pid/126/8641
-    emails: sheila.castilho@adaptcentre.ie
-    first_name: Sheila
-    google_scholar_id: https://scholar.google.com/citations?user=mANFFWIAAAAJ
-    institution: Dublin City University
-    last_name: Castilho
-    name: Sheila Castilho
-    orcid: https://orcid.org/0000-0002-8416-6555
-    semantic_scholar_id: https://www.semanticscholar.org/author/Sheila-Castilho/3041243
-    username: ~Sheila_Castilho1
-  - emails: joss.moorkens@dcu.ie
-    first_name: Joss
-    google_scholar_id: https://scholar.google.com/citations?user=OHVJ26MAAAAJ&hl=en
-    homepage: https://www.dcu.ie/salis/people/joss-moorkens
-    last_name: Moorkens
-    name: Joss Moorkens
-    orcid: https://orcid.org/0000-0003-0766-0071
-    username: ~Joss_Moorkens1
-  decision: track
-  file: 20020.pdf
-  id: 20020
-  openreview_id: w4q2ua0ARc
-  pdf_file: 37a72c3d87c7f2a5c35b0a91891af79df7eb1bf4.pdf
-  title: Perceptions of Educators on MTQA Curriculum and Instruction
-- abstract: Translation quality and its assessment are of great importance in the
-    context of human as well as machine translation. Methods range from human annotation
-    and assessment to quality metrics and estimation, where the former are rather
-    time-consuming. Furthermore, assessing translation quality is a subjective process.
-    Best-Worst Scaling (BWS) represents a time-efficient annotation method to obtain
-    subjective preferences, the best and the worst in a given set and their ratings.
-    In this paper, we propose to use BWS for a comparative translation quality assessment
-    of one human and three machine translations to German of the same source text
-    in English. As a result, ten participants with a translation background selected
-    the human translation most frequently and rated it overall as best closely followed
-    by DeepL. Participants showed an overall positive attitude towards this assessment
-    method.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: bettina.hiebl@univie.ac.at
-    first_name: Bettina
-    homepage: https://www.proz.com/profile/2185046
-    institution: Universität Vienna
-    last_name: Hiebl
-    name: Bettina Hiebl
-    username: ~Bettina_Hiebl1
-  - dblp_id: https://dblp.org/pid/119/2939.html
-    emails: dagmar.gromann@univie.ac.at
-    first_name: Dagmar
-    google_scholar_id: https://scholar.google.de/citations?user=0GoPTqsAAAAJ&hl=de&oi=ao
-    homepage: http://dagmargromann.com/
-    last_name: Gromann
-    name: Dagmar Gromann
-    orcid: https://orcid.org/0000-0003-0929-6103
-    semantic_scholar_id: https://www.semanticscholar.org/author/Dagmar-Gromann/2640975
-    username: ~Dagmar_Gromann3
-  decision: track
-  file: 20021.pdf
-  id: 20021
-  openreview_id: dd3SAOBnxa
-  pdf_file: b77d0a1c7646aa0cd165359fc66a5c43772e93a9.pdf
-  title: Comparative Quality Assessment of Human and Machine Translation with Best-Worst
-    Scaling
-- abstract: In spite of recent successes in improving Machine Translation (MT) quality
-    overall, MT engines require a large amount of resources, which leads to markedly
-    lower quality for lesser-resourced languages. This study explores the case of
-    translation from English into Igbo, a very low resource language spoken by about
-    45 million speakers. With the aim of improving MT quality in this scenario, we
-    investigate methods for guided detection of critical/harmful MT errors, more specifically
-    those caused by non-compositional multi-word expressions and polysemy. We have
-    designed diagnostic tests for these cases and applied them to collections of medical
-    texts from CDC, Cochrane, NCDC, NHS and WHO.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: adaezenwosungozi@gmail.com
-    first_name: Adaeze
-    google_scholar_id: https://scholar.google.com/citations?user=cCHszCEAAAAJ&hl=en
-    homepage: https://ahc.leeds.ac.uk/languages/pgr/3521/adaeze-ngozi-ohuoba
-    institution: University of Leeds and Abia State University
-    last_name: Ohuoba
-    middle_name: Ngozi
-    name: Adaeze Ngozi Ohuoba
-    orcid: https://orcid.org/0000-0002-9412-7461
-    username: ~Adaeze_Ngozi_Ohuoba1
-  - dblp_id: https://dblp.org/pid/49/607
-    emails: s.sharoff@leeds.ac.uk
-    first_name: Serge
-    google_scholar_id: https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ
-    last_name: Sharoff
-    name: Serge Sharoff
-    semantic_scholar_id: https://www.semanticscholar.org/author/S.-Sharoff/2506104
-    username: ~Serge_Sharoff1
-  - emails: c.m.walker@leeds.ac.uk
-    first_name: Callum
-    homepage: https://ahc.leeds.ac.uk/languages/staff/3109/dr-callum-walker
-    institution: University of Leeds
-    last_name: Walker
-    name: Callum Walker
-    username: ~Callum_Walker1
-  decision: track
-  file: 20023.pdf
-  id: 20023
-  openreview_id: olP7Yqu0pT
-  pdf_file: 19e487e3443a51ccc8c23ab2f8326a71896a8aab.pdf
-  title: Quantifying the Contribution of MWEs and Polysemy in Translation Errors for
-    English--Igbo MT
-- abstract: With the advent and success of trainable automatic evaluation metrics,
-    creating annotated machine translation evaluation data sets is increasingly relevant.
-    However, for low-resource languages, gathering such data can be challenging and
-    further insights into evaluation design for opportunistic scenarios are necessary.
-    In this work we explore an evaluation initiative that targets the Spanish—-Basque
-    language pair to study the impact of design decisions and the reliability of volunteer
-    contributions. To do that, we compare the work carried out by volunteers and a
-    translation professional in terms of evaluation results and evaluator agreement
-    and examine the control measures used to ensure reliability. Results show similar
-    behaviour regarding general quality assessment but underscore the need for more
-    informative working environments to make evaluation processes more reliable as
-    well as the need for carefully crafted control cases.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: nora.aranberri@ehu.eus
-    first_name: Nora
-    homepage: http://ixa.si.ehu.es/node/25
-    institution: Universidad del País Vasco
-    last_name: Aranberri
-    name: Nora Aranberri
-    username: ~Nora_Aranberri1
-  decision: track
-  file: 20026.pdf
-  id: 20026
-  openreview_id: e6ekTgVxo8
-  pdf_file: aa0ed3e46412007de0ee34723e6a4b053441d1a2.pdf
-  title: 'Analysis of the Annotations from a Crowd MT Evaluation Initiative: Case
-    Study for the Spanish-Basque Pair'
+  - dblp_id: https://dblp.org/pid/261/2879
+    emails: vamvas@cl.uzh.ch
+    first_name: Jannis
+    google_scholar_id: https://scholar.google.com/citations?user=n8CxDOoAAAAJ
+    homepage: https://vamvas.ch/
+    institution: University of Zurich
+    last_name: Vamvas
+    name: Jannis Vamvas
+    orcid: https://orcid.org/0009-0002-1821-1837
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jannis-Vamvas/1568852178
+    username: ~Jannis_Vamvas1
+  decision: HighlyCommended
+  file: 4007.pdf
+  id: 4007
+  openreview_id: k5BxsPbn7t
+  pdf_file: 433b59b81020f38d8dfebae23d855e9a420610de.pdf
+  title: 'Thesis: Model-based Evaluation of Multilinguality'
 
 - abstract: 'Research: Technical'
   attributes:
@@ -2741,7 +1278,7 @@
   title: Enhancing Gender-Inclusive Machine Translation with Neomorphemes and Large
     Language Models
 
-- abstract: Thesis Award
+- abstract: Research:Translators Users
   attributes:
     paper_type: N/A
     presentation_type: N/A
@@ -2751,109 +1288,1577 @@
     first_name: dummy
     last_name: dummy
     name: dummy
-  title: Thesis Award
-  file: thesis.pdf
-  id: 4
+  title: 'Research:Translators & Users'
+  file: translation_users.pdf
+  id: 2
 
-- abstract: 'When this PhD started, the translation of speech into text in a different
-    language was mainly tackled with a cascade of automatic speech recognition (ASR)
-    and machine translation (MT) models, as the emerging direct speech translation
-    (ST) models were not yet competitive. To close this gap, part of the PhD has been
-    devoted to improving the quality of direct models, both in the simplified condition
-    of test sets where the audio is split into well-formed sentences, and in the realistic
-    condition in which the audio is automatically segmented. First, we investigated
-    how to transfer knowledge from MT models trained on large corpora. Then, we defined
-    encoder architectures that give different weights to the vectors in the input
-    sequence, reflecting the variability of the amount of information over time in
-    speech. Finally, we reduced the adverse effects caused by the suboptimal automatic
-    audio segmentation in two ways: on one side, we created models robust to this
-    condition; on the other, we enhanced the audio segmentation itself. The good results
-    achieved in terms of overall translation quality allowed us to investigate specific
-    behaviors of direct ST systems, which are crucial to satisfy real users’ needs.
-    On one side, driven by the ethical goal of inclusive systems, we disclosed that
-    established technical choices geared toward high general performance (statistical
-    word segmentation of the target text, knowledge distillation from MT) cause an
-    exacerbation of the gender representational disparities in the training data.
-    Along this line of work, we proposed mitigation techniques that reduce the gender
-    bias of ST models, and showed how gender-specific systems can be used to control
-    the translation of gendered words related to the speakers, regardless of their
-    vocal traits. On the other side, motivated by the practical needs of interpreters
-    and translators, we evaluated the potential of direct ST systems in the “augmented
-    translation” scenario, focusing on the translation and recognition of named entities
-    (NEs). Along this line of work, we proposed solutions to cope with the major weakness
-    of ST models (handling person names), and introduced direct models that jointly
-    perform ST and NE recognition showing their superiority over a pipeline of dedicated
-    tools for the two tasks. Overall, we believe that this thesis moves a step forward
-    toward adopting direct ST systems in real applications, increasing the awareness
-    of their strengths and weaknesses compared to the traditional cascade paradigm.'
+- abstract: Prompt engineering has shown potential for improving translation quality
+    in LLMs. However, the possibility of using translation concepts in prompt design
+    remains largely underexplored. Against this backdrop, the current paper discusses
+    the effectiveness of incorporating the conceptual tool of “translation brief”
+    and the personas of “translator” and “author” into prompt design for translation
+    tasks in ChatGPT. Findings suggest that, although certain elements are constructive
+    in facilitating human-to-human communication for translation tasks, their effectiveness
+    is limited for improving translation quality in ChatGPT. This accentuates the
+    need for explorative research on how translation theorists and practitioners can
+    develop the current set of conceptual tools rooted in the human-to-human communication
+    paradigm for translation purposes in this emerging workflow involving human-machine
+    interaction, and how translation concepts developed in translation studies can
+    inform the training of GPT models for translation tasks.
   attributes:
     paper_type: N/A
     presentation_type: N/A
     submitted_area: ''
   authors:
-  - dblp_id: https://dblp.org/pid/266/8121
-    emails: mgaido@fbk.eu
+  - emails: sui.he@swansea.ac.uk
+    first_name: Sui
+    institution: Swansea University
+    last_name: He
+    name: Sui He
+    orcid: https://orcid.org/0000-0003-4982-170X
+    username: ~Sui_He1
+  decision: track
+  file: 2002.pdf
+  id: 2002
+  openreview_id: Evjt4hR3iD
+  pdf_file: a3e0e8939ab844b42c2f8260d9744cd8d02f7879.pdf
+  title: 'Prompting ChatGPT for Translation: A Comparative Analysis of Translation
+    Brief and Persona Prompts'
+- abstract: 'Assessing the performance of interpreting services is a complex task,
+    given the nuanced nature of spoken language translation, the strategies that interpreters
+    apply, and the diverse expectations of users. The complexity of this task become
+    even more pronounced when automated evaluation methods are applied. This is particularly
+    true because interpreted texts exhibit less linearity between the source and target
+    languages due to the strategies employed by the interpreter.
+
+
+    This study aims to assess the reliability of automatic metrics in evaluating simultaneous
+    interpretations by analyzing their correlation with human evaluations. We focus
+    on a particular feature of interpretation quality, namely translation accuracy
+    or faithfulness. As a benchmark we use human assessments performed by language
+    experts, and evaluate how well sentence embeddings and Large Language Models correlate
+    with them. We quantify semantic similarity between the source and translated texts
+    without relying on a reference translation. The results suggest GPT models, particularly
+    GPT-3.5 with direct prompting, demonstrate the strongest correlation with human
+    judgment in terms of semantic similarity between source and target texts, even
+    when evaluating short textual segments. Additionally, the study reveals that the
+    size of the context window has a notable impact on this correlation.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: fantinuoli@uni-mainz.de
+    first_name: Claudio
+    homepage: https://www.claudiofantinuoli.org
+    institution: Johannes-Gutenberg Universität Mainz
+    last_name: Fantinuoli
+    name: Claudio Fantinuoli
+    username: ~Claudio_Fantinuoli1
+  - emails: mlxwang@leeds.ac.uk
+    first_name: Xiaoman
+    institution: NA
+    last_name: Wang
+    name: Xiaoman Wang
+    username: mlxwang@leeds.ac.uk
+  decision: track
+  file: 2003.pdf
+  id: 2003
+  openreview_id: 1lj43HjBaa
+  pdf_file: f12d5d8f0d4724c942ec81acf22ffbdd8e683a6e.pdf
+  title: Exploring the Correlation between Human and Machine Evaluation of Simultaneous
+    Speech Translation
+- abstract: 'Translation Quality Evaluation (TQE) is an essential step of the modern
+    translation production process. TQE is critical in assessing both machine translation
+    (MT) and human translation (HT) quality without reference translations. The ability
+    to evaluate or even simply estimate the quality of translation automatically may
+    open significant efficiency gains through process optimisation.
+
+    This work examines whether the state-of-the-art large language models (LLMs) can
+    be used for this uncertainty estimation of MT output quality. We take OpenAI models
+    as an example technology and approach TQE as a binary classification task.
+
+    On \textbf{eight language pairs} including English to Italian, German, French,
+    Japanese, Dutch, Portuguese, Turkish, and Chinese, our experimental results show
+    that fine-tuned \textbf{\textit{gpt3.5}} can demonstrate good performance on translation
+    quality prediction tasks, i.e. \textit{whether the translation needs to be edited}.
+
+    Another finding is that simply increasing the sizes of LLMs does not lead to apparent
+    better performances on this task by comparing the performance of three different
+    versions of OpenAI models: \textbf{\textit{curie}}, \textbf{\textit{davinci}},
+    and \textbf{\textit{gpt3.5}} with 13B, 175B, and 175B parameters, respectively.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: serge.gladkoff@logrusglobal.com
+    first_name: Serge
+    google_scholar_id: https://scholar.google.com/citations?user=8QhjX18AAAAJ&hl=en
+    homepage: http://ai-lab.logrusglobal.com/
+    institution: Logrus Global AI Lab
+    last_name: Gladkoff
+    name: Serge Gladkoff
+    username: ~Serge_Gladkoff1
+  - dblp_id: https://dblp.org/pid/03/10304
+    emails: hanlifengaaron@gmail.com
+    first_name: Lifeng
+    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
+    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
+    last_name: Han
+    name: Lifeng Han
+    orcid: https://orcid.org/0000-0002-3221-2185
+    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
+    username: ~Lifeng_Han1
+  - emails: gleberof@gmail.com
+    first_name: Gleb
+    last_name: Erofeev
+    name: Gleb Erofeev
+    semantic_scholar_id: https://www.semanticscholar.org/author/G.-Erofeev/2124124385
+    username: ~Gleb_Erofeev1
+  - emails: irina.sorokina@logrusglobal.com
+    first_name: Irina
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=8dpGA4AAAAAJ&view_op=list_works&gmla=AHoSzlXIaFHQgsMPtiem8PSLSVMLANnwr4UiQDbYW0vq0cubxE5OHKLI-7NIwRmWjryDWfect2OhffYkmIffglHrfiif6Vze2b7m77oX-skXHLUFed_h-I-sZirqTSGWbkkLAUrHparjywbT0g
+    homepage: https://scholar.google.com/citations?hl=en&user=8dpGA4AAAAAJ&view_op=list_works&gmla=AHoSzlXIaFHQgsMPtiem8PSLSVMLANnwr4UiQDbYW0vq0cubxE5OHKLI-7NIwRmWjryDWfect2OhffYkmIffglHrfiif6Vze2b7m77oX-skXHLUFed_h-I-sZirqTSGWbkkLAUrHparjywbT0g
+    last_name: Sorokina
+    name: Irina Sorokina
+    username: ~Irina_Sorokina1
+  - emails: gnenadic@manchester.ac.uk
+    first_name: Goran
+    google_scholar_id: https://scholar.google.com.tw/citations?user=CyTXHuUAAAAJ
+    homepage: http://www.manchester.ac.uk/research/gnenadic/personaldetails
+    institution: University of Manchester
+    last_name: Nenadic
+    name: Goran Nenadic
+    username: ~Goran_Nenadic1
+  decision: track
+  file: 2005.pdf
+  id: 2005
+  openreview_id: KkTiRESfb8
+  pdf_file: 835724a510e0d3ae346c44476db352942140f1a3.pdf
+  title: 'MTUncertainty: Assessing the Need for Post-editing of Machine Translation
+    Outputs by Fine-tuning OpenAI LLMs'
+- abstract: 'New language technologies are driving major changes in the language services
+    of institutions worldwide, including the Swiss Confederation. Based on a definition
+    of change management as a combination of adaptation measures at both the organisation
+    and individual levels, this study used a survey to gather unprecedented quantitative
+    data on the use and qualitative data on the perceptions of machine translation
+    (MT) by federal in-house translators. The results show that more than half of
+    the respondents use MT regularly and that translators are largely free to use
+    it as they see fit. In terms of perceptions, they mostly anticipate negative evolutions
+    along five dimensions: work processes, translators, translated texts, the future
+    of their language services and job, and the place of translators within their
+    institution and society. Their apprehensions concern MT per se, but even more
+    the way it is seen and used within their organisation. However, positive perspectives
+    regarding efficiency gains or usefulness of MT as a translation aid were also
+    discussed. Building on these human factors is key to successful change management.
+    Academic research has a contribution to make, and the coming together of translation
+    and organisation studies offers promising avenues for further research.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: paolo.canavese@dcu.ie
+    first_name: Paolo
+    last_name: Canavese
+    name: Paolo Canavese
+    orcid: https://orcid.org/0000-0003-3928-8905
+    username: ~Paolo_Canavese1
+  - emails: patrick.cadwell@dcu.ie
+    first_name: Patrick
+    institution: Dublin City University
+    last_name: Cadwell
+    name: Patrick Cadwell
+    orcid: https://orcid.org/0000-0002-2371-4378
+    username: ~Patrick_Cadwell1
+  decision: track
+  file: 2006.pdf
+  id: 2006
+  openreview_id: UT2gvgOHf9
+  pdf_file: 81ba1bf9bc914e157b95598e9553951c9a7ef57f.pdf
+  title: 'Translators’ perspectives on machine translation uses and impacts in the
+    Swiss Confederation: Navigating technological change in an institutional setting'
+- abstract: 'Machine translation models sometimes lead to added toxicity: translated
+    outputs may contain more toxic content that the original input. In this paper,
+    we introduce MinTox, a novel pipeline to automatically identify and mitigate added
+    toxicity at inference time, without further model training. MinTox leverages a
+    multimodal (speech and text) toxicity classifier that can scale across languages.
+
+    We demonstrate the capabilities of MinTox when applied to SEAMLESSM4T, a multi-modal
+    and massively multilingual machine translation system. MinTox significantly reduces
+    added toxicity: across all domains, modalities and language directions, 25% to
+
+    95% of added toxicity is successfully filtered out, while preserving translation
+    quality'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/17/2183
+    emails: costajussa@fb.com
+    first_name: Marta
+    google_scholar_id: https://scholar.google.com/citations?user=ESqQ7FoAAAAJ&hl=ca
+    homepage: https://www.costa-jussa.com
+    institution: Meta
+    last_name: Costa-jussà
+    middle_name: R.
+    name: Marta R. Costa-jussà
+    semantic_scholar_id: https://www.semanticscholar.org/author/Marta-R.-Costa-juss%C3%A0/1680233
+    username: ~Marta_R._Costa-jussà1
+  - dblp_id: https://dblp.org/pid/293/7322
+    emails: dale.david@mail.ru
+    first_name: David
+    google_scholar_id: https://scholar.google.com/citations?user=4GB_6AcAAAAJ&hl=en
+    homepage: https://daviddale.ru/en
+    institution: FAIR at Meta
+    last_name: Dale
+    name: David Dale
+    orcid: https://orcid.org/0000-0003-2045-6833
+    semantic_scholar_id: https://www.semanticscholar.org/author/D.-Dale/2097711561
+    username: ~David_Dale1
+  - dblp_id: https://dblp.org/pid/220/3347
+    emails: maha.elbayad@gmail.com
+    first_name: Maha
+    google_scholar_id: https://scholar.google.fr/citations?user=4MFYc7AAAAAJ&hl=en
+    homepage: http://elbayadm.github.io/
+    institution: FAIR
+    last_name: Elbayad
+    name: Maha Elbayad
+    orcid: https://orcid.org/0000-0002-8389-231X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Maha-Elbayad/46183659
+    username: ~Maha_Elbayad3
+  - dblp_id: https://dblp.org/pid/355/3385.html
+    emails: yubokai8@gmail.com
+    first_name: Bokai
+    google_scholar_id: https://scholar.google.com/citations?user=7jNmPwUAAAAJ
+    homepage: http://bokaiyu.fr/
+    institution: ' Meta AI'
+    last_name: YU
+    name: Bokai YU
+    username: ~Bokai_YU1
+  decision: track
+  file: 2007.pdf
+  id: 2007
+  openreview_id: viIEmiGyrS
+  pdf_file: 1d8eb21e38d1055746d01db3d633b5f3f3d8b0f5.pdf
+  title: Added Toxicity Mitigation at Inference Time for Multimodal and Massively
+    Multilingual Translation
+- abstract: 'This study conducts a comprehensive comparison of three leading LLMs—GPT-4,
+    Claude 3, and Gemini—in two translation-related tasks: automatic post-editing
+    and MQM error annotation, across four languages. Utilizing the pharmaceutical
+    EMEA corpus to maintain domain specificity and minimize data contamination, the
+    research examines the models’ performance in these two tasks. Our findings reveal
+    the nuanced capabilities of LLMs in handling MTPE and MQM tasks, hinting at the
+    potential of these models in streamlining and optimizing translation workflows.
+    Future directions include fine-tuning LLMs for task-specific improvements and
+    exploring the integration of style guides for enhanced translation quality.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: csuguet@transperfect.com
+    first_name: Celia
+    last_name: Uguet
+    middle_name: Soler
+    name: Celia Soler Uguet
+    username: ~Celia_Soler_Uguet1
+  - dblp_id: https://dblp.org/pid/221/5998
+    emails: fbane@translations.com
+    first_name: Fred
+    homepage: https://www.linkedin.com/in/fwbane
+    institution: TransPerfect
+    last_name: Bane
+    name: Fred Bane
+    username: ~Fred_Bane1
+  - emails: mahmoud.aymo@transperfect.com
+    first_name: Mahmoud
+    institution: NA
+    last_name: Aymo
+    name: Mahmoud Aymo
+    username: mahmoud.aymo@transperfect.com
+  - emails: joao.torres@transperfect.com
+    first_name: João
+    institution: NA
+    last_name: Torres
+    name: João Torres
+    username: joao.torres@transperfect.com
+  - emails: azaretskaya@gmail.com
+    first_name: Anna
+    homepage: https://www.linkedin.com/in/anna-zaretskaya-05283a53/
+    last_name: Zaretskaya
+    name: Anna Zaretskaya
+    username: ~Anna_Zaretskaya1
+  - emails: tblanch@translations.com
+    first_name: Tània Blanch Miró
+    institution: NA
+    last_name: Blanch Miró
+    name: Tània Blanch Miró
+    username: tblanch@translations.com
+  decision: track
+  file: 2009.pdf
+  id: 2009
+  openreview_id: LvmX5qoY6D
+  pdf_file: 6c167a8ff29f732d7e62c2c2b8b4be76f7112ffe.pdf
+  title: 'LLMs in Post-Translation Workflows: Comparing Performance in Post-Editing
+    and Error Analysis'
+- abstract: This paper presents a comparative analysis between human translation (HT)
+    and post-edited machine translation (PEMT) from a lexical and syntactic perspective
+    to verify whether the tendency of neural machine translation (NMT) systems to
+    produce lexically and syntactically poorer translations shines through after post-editing
+    (PE). The analysis focuses on three datasets collected in professional contexts
+    containing translations from English into French and German into French. Through
+    a comparison of word translation entropy (HTRa) scores, we observe a lower degree
+    of lexical diversity in PEMT compared to HT. Additionally, metrics of syntactic
+    equivalence indicate that PEMT is more likely to mirror the syntactic structure
+    of the source text in contrast to HT. By incorporating raw machine translation
+    (MT) output into our analysis, we underline the important role post-editors play
+    in adding lexical and syntactic diversity to MT output. Our findings provide relevant
+    input for MT users and decision-makers in language services as well as for MT
+    and PE trainers and advisers.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: lise.volkart@unige.ch
+    first_name: Lise
+    google_scholar_id: https://scholar.google.com/citations?user=puEnHYUAAAAJ&hl=fr&oi=ao
+    last_name: Volkart
+    name: Lise Volkart
+    username: ~Lise_Volkart1
+  - emails: pierrette.bouillon@unige.ch
+    first_name: Pierrette
+    homepage: https://www.unige.ch/fti/fr/faculte/departements/dtim/membrestim/bouillon/
+    institution: University of Geneva
+    last_name: Bouillon
+    name: Pierrette Bouillon
+    username: ~Pierrette_Bouillon2
+  decision: track
+  file: 20010.pdf
+  id: 20010
+  openreview_id: j6BYgSCSv0
+  pdf_file: 546c72d8168241fce89bd923aeddc84ce6fe187e.pdf
+  title: 'Post-editors as Gatekeepers of Lexical and Syntactic Diversity: Comparative
+    Analysis of Human Translation and Post-editing in Professional Settings'
+- abstract: This paper describes work in progress on Visualisation tools to foster
+    collaborations between translators and computational scientists. We aim to describe
+    how visualisation features can be used to explain translation and NMT outputs.
+    We tested several visualisation functionalities with three NMT models based on
+    Chinese-English, Spanish-English and French-English language pairs. We created
+    three demos containing different visualisation tools and analysed them within
+    the framework of performance-explainability, focusing on the translator's perspective.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: gabriela.gonzalezsaez@gmail.com
+    first_name: Gabriela
+    last_name: Gonzalez-Saez
+    name: Gabriela Gonzalez-Saez
+    orcid: https://orcid.org/0000-0003-0878-5263
+    username: ~Gabriela_Gonzalez-Saez1
+  - emails: nakhle.mariam@gmail.com
+    first_name: Mariam
+    last_name: Nakhle
+    name: Mariam Nakhle
+    orcid: https://orcid.org/0009-0004-2527-6166
+    username: ~Mariam_Nakhle1
+  - emails: j.r.turner@swansea.ac.uk
+    first_name: James
+    institution: Swansea University
+    last_name: Turner
+    middle_name: Robert
+    name: James Robert Turner
+    username: ~James_Robert_Turner1
+  - emails: fabien.lopez@univ-grenoble-alpes.fr
+    first_name: Fabien
+    institution: Université Grenoble Alpes
+    last_name: Lopez
+    name: Fabien Lopez
+    orcid: https://orcid.org/0009-0007-2986-1292
+    username: ~Fabien_Lopez1
+  - dblp_id: https://dblp.org/pid/203/5539
+    emails: nicolas.ballier@u-paris.fr
+    first_name: Nicolas
+    homepage: https://www.clillac-arp.univ-paris-diderot.fr/user/nicolas_ballier
+    last_name: Ballier
+    name: Nicolas Ballier
+    orcid: https://orcid.org/0000-0003-2179-1043
+    username: ~Nicolas_Ballier1
+  - emails: marco.dinarelli@univ-grenoble-alpes.fr
     first_name: Marco
-    google_scholar_id: https://scholar.google.com/citations?user=Ojc1LRYAAAAJ
-    institution: Fondazione Bruno Kessler
-    last_name: Gaido
-    name: Marco Gaido
-    orcid: https://orcid.org/0000-0003-4217-1396
-    semantic_scholar_id: https://www.semanticscholar.org/author/Marco-Gaido/1736801422
-    username: ~Marco_Gaido1
-  decision: Winner
-  file: 4003.pdf
-  id: 4003
-  openreview_id: KpbO33jcxG
-  pdf_file: c261f713c1dfe22cf1f75e2281091f0a7d25619e.pdf
-  title: Direct Speech Translation Toward High-Quality, Inclusive, and Augmented Systems
-- abstract: EAMT 2023 Thesis Award submission for Javier Iranzo-Sánchez.
+    homepage: http://www.marcodinarelli.it
+    institution: CNRS
+    last_name: Dinarelli
+    name: Marco Dinarelli
+    username: ~Marco_Dinarelli2
+  - emails: emmanuelle.esperanca-rodier@univ-grenoble-alpes.fr
+    first_name: Emmanuelle
+    homepage: http://lig-membres.imag.fr/esperane
+    institution: University of Grenoble-Alpes
+    last_name: Esperança-Rodier
+    name: Emmanuelle Esperança-Rodier
+    semantic_scholar_id: https://www.semanticscholar.org/search?q=Emmanuelle%20Esperanca-rodier&sort=relevance
+    username: ~Emmanuelle_Esperança-Rodier1
+  - emails: sui.he@swansea.ac.uk
+    first_name: Sui
+    institution: Swansea University
+    last_name: He
+    name: Sui He
+    orcid: https://orcid.org/0000-0003-4982-170X
+    username: ~Sui_He1
+  - emails: raheel.qader@gmail.com
+    first_name: Raheel
+    homepage: https://www.linkedin.com/in/raheel-qader
+    last_name: Qader
+    name: Raheel Qader
+    username: ~Raheel_Qader1
+  - emails: caroline.rossi@univ-grenoble-alpes.fr
+    first_name: Caroline
+    google_scholar_id: https://scholar.google.com/citations?user=lHidQU8AAAAJ&hl=fr&oi=ao
+    homepage: https://cv.hal.science/caroline-rossi
+    institution: Université Grenoble Alpes
+    last_name: Rossi
+    name: Caroline Rossi
+    orcid: https://orcid.org/0000-0003-3231-3610
+    username: ~Caroline_Rossi1
+  - emails: didier.schwab@imag.fr
+    first_name: Didier
+    homepage: https://lig-membres.imag.fr/schwab/
+    institution: Université Grenoble Alpes
+    last_name: Schwab
+    name: Didier Schwab
+    username: ~Didier_Schwab1
+  - emails: jun.yang@swansea.ac.uk
+    first_name: Jun
+    homepage: https://www.swansea.ac.uk/staff/jun.yang/
+    institution: Swansea University
+    last_name: Yang
+    name: Jun Yang
+    orcid: https://orcid.org/0000-0002-0004-0956
+    username: ~Jun_Yang11
+  decision: track
+  file: 20012.pdf
+  id: 20012
+  openreview_id: 95z5trB3i3
+  pdf_file: 773bb1e2c5276ade72359d88305f90ebf8b0454c.pdf
+  title: Exploring NMT Explainability for Translators Using NMT Visualising Tools
+- abstract: "Translations differ in systematic ways from texts originally authored\
+    \ in the same language.\nThese differences, collectively known as translationese,\
+    \ can pose challenges in cross-lingual natural language processing: models trained\
+    \ or tested on translated input might struggle when presented with non-translated\
+    \ language. Translationese mitigation can alleviate this problem. This study investigates\
+    \ the generative capacities of GPT-4 to reduce translationese in human-translated\
+    \ texts. The task is framed as a rewriting process aimed at modified translations\
+    \ indistinguishable from the original text in the target language.  Our focus\
+    \ is on prompt engineering that tests the utility of linguistic knowledge as part\
+    \ of the instruction for GPT-4. \nThrough a series of prompt design experiments,\
+    \ we show that GPT4-generated revisions are more similar to originals in the target\
+    \ language when the prompts incorporate specific linguistic instructions instead\
+    \ of relying solely on the model's internal knowledge. Furthermore, we release\
+    \ the segment-aligned bidirectional German-English data built from the Europarl\
+    \ corpus that underpins this study."
   attributes:
     paper_type: N/A
     presentation_type: N/A
     submitted_area: ''
   authors:
-  - dblp_id: https://dblp.org/pid/229/3131
-    emails: jairsan@upv.es
-    first_name: Javier
-    google_scholar_id: https://scholar.google.com/citations?user=5M9fyscAAAAJ
-    institution: AppTek
-    last_name: Iranzo-Sánchez
-    name: Javier Iranzo-Sánchez
-    semantic_scholar_id: https://www.semanticscholar.org/author/Javier-Iranzo-S%C3%A1nchez/1404337029
-    username: ~Javier_Iranzo-Sánchez1
-  decision: HighlyCommended
-  file: 4006.pdf
-  id: 4006
-  openreview_id: VkNoAhblxH
-  pdf_file: e8003d29ab64cb575bd5715b8cef548c361e9811.pdf
-  title: Streaming Neural Speech Translation
-- abstract: 'The aim of this thesis was to extend the methodological toolbox for evaluating
-    the ability of natural language processing systems to handle multiple languages.
-    Neural machine translation (NMT) took the central role in this endeavour: NMT
-    is inherently cross-lingual, and multilingual NMT systems, which translate from
-    many source languages into many target languages, embody the concept of multilinguality
-    in a very tangible way. In addition, NMT and specifically the perplexity of NMT
-    systems can themselves be used as a tool for evaluating multilinguality.'
+  - dblp_id: https://dblp.org/pid/150/3653
+    emails: maria.kunilovskaya@uni-saarland.de
+    first_name: Maria
+    google_scholar_id: https://scholar.google.com/citations?user=kM1BnZYAAAAJ&hl=en&oi=ao
+    homepage: https://kunilovskaya.github.io/
+    institution: Universität des Saarlandes and Tyumen State University
+    last_name: Kunilovskaya
+    name: Maria Kunilovskaya
+    orcid: https://orcid.org/0000-0002-1473-4684
+    semantic_scholar_id: https://www.semanticscholar.org/author/M.-Kunilovskaya/3138117
+    username: ~Maria_Kunilovskaya1
+  - dblp_id: https://dblp.org/pid/205/8970.html
+    emails: koeldc@lst.uni-saarland.de
+    first_name: Koel
+    google_scholar_id: https://scholar.google.com/citations?user=t5TOnGkAAAAJ&hl=en
+    last_name: Dutta Chowdhury
+    name: Koel Dutta Chowdhury
+    username: ~Koel_Dutta_Chowdhury2
+  - emails: heike.przybyl@uni-saarland.de
+    first_name: Heike
+    homepage: https://www.uni-saarland.de/lehrstuhl/teich/personen/heike-przybyl.html
+    institution: Universität des Saarlandes
+    last_name: Przybyl
+    name: Heike Przybyl
+    username: ~Heike_Przybyl1
+  - dblp_id: https://dblp.org/pid/59/7935
+    emails: cristinae.uni@gmail.com
+    first_name: Cristina
+    homepage: https://www.cs.upc.edu/~cristinae/CV/cv.php
+    institution: German Research Center for AI
+    last_name: España-Bonet
+    name: Cristina España-Bonet
+    orcid: https://orcid.org/0000-0001-5414-4710
+    username: ~Cristina_España-Bonet1
+  - dblp_id: https://dblp.org/pid/82/3447
+    emails: josef.van\_genabith@dfki.de
+    first_name: Josef
+    google_scholar_id: https://scholar.google.com/citations?user=rl8S6a8AAAAJ&hl=en
+    institution: German Research Center for AI and Universität des Saarlandes
+    last_name: Genabith
+    middle_name: Van
+    name: Josef van Genabith
+    semantic_scholar_id: https://www.semanticscholar.org/author/Josef-van-Genabith/7519068
+    username: ~Josef_van_Genabith1
+  decision: track
+  file: 20013.pdf
+  id: 20013
+  openreview_id: yf34cfWQ6e
+  pdf_file: 42dbe53ae7476f25ddb0791701f386805db15ece.pdf
+  title: 'Mitigating Translationese with GPT-4: Strategies and Performance'
+- abstract: 'The improvements in neural machine translation make translation and post-editing
+    pipelines ever more effective for a wider range of applications. In this paper,
+    we evaluate the effectiveness of such a pipeline for the translation of scientific
+    documents (limited here to article abstracts). Using a dedicated interface, we
+    collect, then analyse the post-edits of approximately 350 abstracts (English→French)
+    in the Natural Language Processing domain for two groups of post-editors: domain
+    experts (academics encouraged to post-edit their own articles) on the one hand
+    and trained translators on the other. Our results confirm that such pipelines
+    can be effective, at least for high-resource language pairs. They also highlight
+    the difference in the post-editing strategy of the two subgroups. Finally, they
+    suggest that working on term translation is the most pressing issue to improve
+    fully automatic translations, but that in a post-editing setup, other error types
+    can be equally annoying for post-editors.'
   attributes:
     paper_type: N/A
     presentation_type: N/A
     submitted_area: ''
   authors:
-  - dblp_id: https://dblp.org/pid/261/2879
-    emails: vamvas@cl.uzh.ch
-    first_name: Jannis
-    google_scholar_id: https://scholar.google.com/citations?user=n8CxDOoAAAAJ
-    homepage: https://vamvas.ch/
-    institution: University of Zurich
-    last_name: Vamvas
-    name: Jannis Vamvas
-    orcid: https://orcid.org/0009-0002-1821-1837
-    semantic_scholar_id: https://www.semanticscholar.org/author/Jannis-Vamvas/1568852178
-    username: ~Jannis_Vamvas1
-  decision: HighlyCommended
-  file: 4007.pdf
-  id: 4007
-  openreview_id: k5BxsPbn7t
-  pdf_file: 433b59b81020f38d8dfebae23d855e9a420610de.pdf
-  title: 'Thesis: Model-based Evaluation of Multilinguality'
+  - dblp_id: https://dblp.org/pid/146/4432
+    emails: rachel.bawden@inria.fr
+    first_name: Rachel
+    google_scholar_id: https://scholar.google.co.uk/citations?user=G3DS5GAAAAAJ&hl=en
+    homepage: https://rbawden.github.io
+    institution: Inria
+    last_name: Bawden
+    name: Rachel Bawden
+    orcid: https://orcid.org/0000-0001-9553-1768
+    semantic_scholar_id: https://www.semanticscholar.org/author/Rachel-Bawden/48983885
+    username: ~Rachel_Bawden1
+  - emails: peng@isir.upmc.fr
+    first_name: Ziqian
+    homepage: https://github.com/ziqianPeng
+    institution: Université Pierre et Marie Curie - Paris 6, Sorbonne Université -
+      Faculté des Sciences (Paris VI)
+    last_name: Peng
+    name: Ziqian Peng
+    username: ~Ziqian_Peng1
+  - emails: maud.benard@gmail.com
+    first_name: Maud
+    institution: NA
+    last_name: Bénard
+    name: Maud Bénard
+    username: maud.benard@gmail.com
+  - dblp_id: https://dblp.org/pid/54/5373
+    emails: eric.de\_la\_clergerie@inria.fr
+    first_name: Éric
+    google_scholar_id: https://scholar.google.com/citations?user=olKxDUMAAAAJ&hl=fr
+    homepage: http://alpage.inria.fr/~clerger
+    last_name: Clergerie
+    middle_name: Villemonte De La
+    name: Éric Villemonte de la Clergerie
+    orcid: https://orcid.org/0000-0001-6428-9219
+    semantic_scholar_id: https://www.semanticscholar.org/author/%C3%89ric-Villemonte-de-la-Clergerie/2598776
+    username: ~Éric_Villemonte_de_la_Clergerie1
+  - emails: raphael.esam@gmail.com
+    first_name: Raphaël
+    institution: NA
+    last_name: Esamotunu
+    name: Raphaël Esamotunu
+    username: raphael.esam@gmail.com
+  - emails: mathilde.huguin@inist.fr
+    first_name: Mathilde
+    institution: NA
+    last_name: Huguin
+    name: Mathilde Huguin
+    username: mathilde.huguin@inist.fr
+  - emails: nkubler@eila.univ-paris-diderot.fr
+    first_name: Natalie
+    institution: NA
+    last_name: Kübler
+    name: Natalie Kübler
+    username: nkubler@eila.univ-paris-diderot.fr
+  - emails: alexandra.mestivier@u-paris.fr
+    first_name: Alexandra
+    institution: NA
+    last_name: Mestivier
+    name: Alexandra Mestivier
+    username: alexandra.mestivier@u-paris.fr
+  - emails: mona.michelot4@gmail.com
+    first_name: Mona
+    institution: NA
+    last_name: Michelot
+    name: Mona Michelot
+    username: mona.michelot4@gmail.com
+  - dblp_id: https://dblp.org/pid/21/4228
+    emails: laurent.romary@inria.fr
+    first_name: Laurent
+    institution: INRIA
+    last_name: Romary
+    name: Laurent Romary
+    username: ~Laurent_Romary1
+  - emails: lichao.zhu@u-paris.fr
+    first_name: Lichao
+    homepage: https://zhulichao.fr
+    institution: Université Paris Cité
+    last_name: Zhu
+    name: Lichao Zhu
+    username: ~Lichao_Zhu1
+  - dblp_id: http://dblp.uni-trier.de/pers/hd/y/Yvon:Fran=ccedil=ois
+    emails: yvon@isir.upmc.fr
+    first_name: François
+    google_scholar_id: https://scholar.google.fr/citations?hl=fr&user=JjfDvawAAAAJ
+    homepage: http://cv.archives-ouvertes.fr/francois-yvon
+    institution: Université Pierre et Marie Curie - Paris 6, Sorbonne Université -
+      Faculté des Sciences (Paris VI)
+    last_name: Yvon
+    name: François Yvon
+    orcid: https://orcid.org/0000-0002-7972-7442
+    semantic_scholar_id: https://www.semanticscholar.org/author/Fran%C3%A7ois-Yvon/1846431
+    username: ~François_Yvon2
+  decision: track
+  file: 20014.pdf
+  id: 20014
+  openreview_id: 8hGOjJyeoc
+  pdf_file: 7d3b20a67b5e57427b674c372a06a52078cc29c2.pdf
+  title: 'Translate your Own: a Post-Editing Experiment in the NLP domain'
+- abstract: 'This paper presents a user study with 11 professional English-Spanish
+    translators in the legal domain. We analysed whether negative or positive translators’
+    pre-task perceptions of machine translation (MT) being an aid or a threat had
+    any relationship with final translation quality and productivity in a post-editing
+    workflow. Pre-task perceptions of MT were collected in a questionnaire before
+    translators conducted post-editing tasks and were then correlated with translation
+    productivity and translation quality after an Adequacy-Fluency evaluation. Each
+    participant translated 13 texts over two consecutive weeks, accounting for 120,102
+    words in total. Results show that translators who had higher levels of trust in
+    MT and thought that MT was not a threat to the translation profession reported
+    higher translation quality and productivity. These results have critical implications:
+    improving translator-computer interactions and fostering MT literacy in translation
+    training may be crucial to reducing negative translators’ pre-task perceptions,
+    resulting in better translation productivity and quality, especially adequacy.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: vicent.brivaiglesias2@mail.dcu.ie
+    first_name: Vicent
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=wHpPp54AAAAJ&view_op=list_works&authuser=1
+    last_name: Briva-Iglesias
+    name: Vicent Briva-Iglesias
+    username: ~Vicent_Briva-Iglesias1
+  - emails: sharon.obrien@dcu.ie
+    first_name: Sharon
+    institution: NA
+    last_name: O’Brien
+    name: Sharon O’Brien
+    username: sharon.obrien@dcu.ie
+  decision: track
+  file: 20015.pdf
+  id: 20015
+  openreview_id: GB6YgSSZnB
+  pdf_file: eef0895ccb068d557e9f033c7fef5490feece403.pdf
+  title: 'Pre-task perceptions of MT influence quality and productivity: the importance
+    of better translator-computer interactions and implications for training'
+- abstract: Automatic speech synthesis has seen rapid development and integration
+    in domains as diverse as accessibility services, translation, or language learning
+    platforms. We analyse its integration in a post-editing machine translation (PEMT)
+    environment and the effect this has on quality, productivity, and cognitive effort.
+    We use Bayesian hierarchical modelling to analyse eye-tracking, time-tracking,
+    and error annotation data resulting from an experiment involving 21 professional
+    translators post-editing from English into German in a customised cloud-based
+    CAT environment and listening to the source and/or target texts via speech synthesis.
+    Using speech synthesis in a PEMT task has a non-substantial positive effect on
+    quality, a substantial negative effect on productivity, and a substantial negative
+    effect on the cognitive effort expended on the target text, signifying that participants
+    need to allocate less cognitive effort to the target text.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/64/6743
+    emails: miguel.angel.rios.gaona@univie.ac.at
+    first_name: Miguel
+    google_scholar_id: https://scholar.google.com.mx/citations?user=38wUxwwAAAAJ&hl=en
+    homepage: http://mriosb08.github.io/
+    institution: Universität Vienna
+    last_name: Rios
+    name: Miguel Rios
+    username: ~Miguel_Rios2
+  - emails: justus.brockmann@univie.ac.at
+    first_name: Justus
+    institution: Universität Vienna
+    last_name: Brockmann
+    name: Justus Brockmann
+    orcid: https://orcid.org/0000-0002-5031-2243
+    username: ~Justus_Brockmann1
+  - emails: claudia.wiesinger@univie.ac.at
+    first_name: Claudia
+    institution: NA
+    last_name: Wiesinger
+    name: Claudia Wiesinger
+    username: claudia.wiesinger@univie.ac.at
+  - emails: raluca-maria.chereji@univie.ac.at
+    first_name: Raluca
+    google_scholar_id: https://scholar.google.com/citations?user=XC8jXyMAAAAJ&hl=en
+    homepage: https://haitrans.univie.ac.at/
+    last_name: Chereji
+    name: Raluca Chereji
+    orcid: https://orcid.org/0000-0001-6112-0856
+    username: ~Raluca_Chereji1
+  - emails: alina.secara@univie.ac.at
+    first_name: Alina
+    homepage: https://ucris.univie.ac.at/portal/en/persons/alina-secara(b03903b0-7527-402c-af0a-b27140ec3c73).html
+    institution: Universität Vienna
+    last_name: Secară
+    name: Alina Secară
+    orcid: https://orcid.org/0000-0001-6281-5035
+    username: ~Alina_Secară1
+  - emails: dragos.ioan.ciobanu@univie.ac.at
+    first_name: Dragoș
+    homepage: https://haitrans.univie.ac.at/
+    institution: Universität Vienna
+    last_name: Ciobanu
+    name: Dragoș Ciobanu
+    orcid: https://orcid.org/0000-0002-6475-080X
+    username: ~Dragoș_Ciobanu1
+  decision: track
+  file: 20017.pdf
+  id: 20017
+  openreview_id: ByXXDQntKm
+  pdf_file: 48954ff321cf665c23f2384ca7face211bd2847c.pdf
+  title: Bayesian Hierarchical Modelling for Analysing the Effect of Speech Synthesis
+    on Post-Editing Machine Translation
+- abstract: In this paper, we describe results of a study on evaluation of intralingual
+    machine translation. The study focuses on machine translations of medical texts
+    into Plain German. The automatically simplified texts were compared with manually
+    simplified texts (i.e., simplified by human experts) as well as with the underlying,
+    unsimplified source texts. We analyse the quality of outputs from three models
+    based on different criteria, such as correctness, readability, and syntactic complexity.
+    We compare the outputs of the three models under analysis between each other,
+    as well as with the existing human translations. The study revealed that system
+    performance depends on the evaluation criteria used and that only one of the three
+    models showed strong similarities to the human translations. Furthermore, we identified
+    various types of errors in all three models. These included not only grammatical
+    mistakes and misspellings, but also incorrect explanations of technical terms
+    and false statements, which in turn led to serious content-related mistakes.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: deilen@uni-hildesheim.de
+    first_name: Dr.
+    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/mitglieder/deilen/
+    institution: Universität Hildesheim
+    last_name: Deilen
+    middle_name: Silvana
+    name: Dr. Silvana Deilen
+    username: ~Dr._Silvana_Deilen1
+  - dblp_id: https://dblp.org/pid/76/8162
+    emails: lapshinovakoltun@uni-hildesheim.de
+    first_name: Ekaterina
+    google_scholar_id: https://scholar.google.com/citations?user=kzIiTmAAAAAJ&hl=de
+    homepage: https://www.uni-hildesheim.de/fb3/institute/institut-fuer-uebersetzungswiss-fachkommunikation/mitglieder-des-instituts/lapshinova
+    institution: Universität Hildesheim
+    last_name: Lapshinova-Koltunski
+    name: Ekaterina Lapshinova-Koltunski
+    orcid: https://orcid.org/0000-0002-5618-8087
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Lapshinova-Koltunski/2706548
+    username: ~Ekaterina_Lapshinova-Koltunski2
+  - emails: hernandezs@uni-hildesheim.de
+    first_name: Sergio
+    google_scholar_id: https://scholar.google.com/citations?user=bD1NMT0AAAAJ&hl=de
+    institution: Universität Hildesheim, Universität Hildesheim and Universität Hildesheim
+    last_name: Garrido
+    middle_name: Hernandez
+    name: Sergio Hernandez Garrido
+    username: ~Sergio_Hernandez_Garrido1
+  - emails: j.hoerner@wubv.de
+    first_name: Julian
+    institution: NA
+    last_name: Hörner
+    name: Julian Hörner
+    username: j.hoerner@wubv.de
+  - emails: maassc@uni-hildesheim.de
+    first_name: Christiane
+    institution: NA
+    last_name: Maaß
+    name: Christiane Maaß
+    username: maassc@uni-hildesheim.de
+  - emails: vanessa@summ-ai.com
+    first_name: Vanessa
+    institution: NA
+    last_name: Theel
+    name: Vanessa Theel
+    username: vanessa@summ-ai.com
+  - emails: sziemer@students.uni-mainz.de
+    first_name: Sophie
+    institution: Johannes-Gutenberg Universität Mainz and SUMM AI
+    last_name: Ziemer
+    name: Sophie Ziemer
+    username: ~Sophie_Ziemer1
+  decision: track
+  file: 20018.pdf
+  id: 20018
+  openreview_id: hkjESHxeEk
+  pdf_file: 5a9b1d508157b8c1a538bb9ffd84d0fe6d71c60a.pdf
+  title: Evaluation of intralingual machine translation for health communication
+- abstract: We report an experiment in which we use machine learning to validate the
+    empirical objectivity of a novel annotation taxonomy for behavioral translation
+    data. The HOF taxonomy defines three translation states according to which a human
+    translator can be in a state of Orientation (O), Hesitation (H) or in a Flow state
+    (F). We aim at validating the taxonomy based on a manually annotated dataset that
+    consists of six English-Spanish translation sessions (approx 900 words) and 1813
+    HOF-annotated Activity Units (AUs). Two annotators annotated the data and obtain
+    high average inter-annotator accuracy 0.76 (kappa 0.88). We train two classifiers,
+    a Multi-layer Perceptron (MLP) and a Random Forest (RF) on the annotated data
+    and tested on held-out data. The classifiers perform well on the annotated data
+    and thus confirm the epistemological objectivity of the annotation taxonomy. Interestingly,
+    inter-classifier accuracy scores are higher than between the two human annotators.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/74/6798
+    emails: mcarl6@kent.edu
+    first_name: Michael
+    institution: Stevenson University
+    last_name: Carl
+    name: Michael Carl
+    username: ~Michael_Carl1
+  decision: track
+  file: 20019.pdf
+  id: 20019
+  openreview_id: lREmXdjyu8
+  pdf_file: 987372ba11ed0c95e5f1021f68e493a50d87096c.pdf
+  title: Using Machine Learning to Validate a Novel Taxonomy of Phenomenal Translation
+    States
+- abstract: 'This paper reports the preliminary results
+
+    of a survey aimed at identifying and ex-
+
+    ploring the attitudes and recommendations
+
+    of machine translation quality assessment
+
+    (MTQA) educators. Drawing upon ele-
+
+    ments from the literature on MTQA teach-
+
+    ing, the survey explores themes that may
+
+    pose a challenge or lead to successful im-
+
+    plementation of human evaluation, as the
+
+    literature shows that there has not been
+
+    enough design and reporting. Results show educators’ awareness of
+
+    the topic, awareness stemming from the
+
+    recommendations of the literature on MT
+
+    evaluation, and reports new challenges and
+
+    issues.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: joo.cavalheirocamargo2@mail.dcu.ie
+    first_name: João
+    google_scholar_id: https://scholar.google.com/citations?user=E6Jr2EQAAAAJ&hl=en&oi=ao
+    last_name: Camargo
+    middle_name: Lucas Cavalheiro
+    name: João Lucas Cavalheiro Camargo
+    orcid: https://orcid.org/0000-0003-3746-1225
+    username: ~João_Lucas_Cavalheiro_Camargo1
+  - dblp_id: https://dblp.org/pid/126/8641
+    emails: sheila.castilho@adaptcentre.ie
+    first_name: Sheila
+    google_scholar_id: https://scholar.google.com/citations?user=mANFFWIAAAAJ
+    institution: Dublin City University
+    last_name: Castilho
+    name: Sheila Castilho
+    orcid: https://orcid.org/0000-0002-8416-6555
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sheila-Castilho/3041243
+    username: ~Sheila_Castilho1
+  - emails: joss.moorkens@dcu.ie
+    first_name: Joss
+    google_scholar_id: https://scholar.google.com/citations?user=OHVJ26MAAAAJ&hl=en
+    homepage: https://www.dcu.ie/salis/people/joss-moorkens
+    last_name: Moorkens
+    name: Joss Moorkens
+    orcid: https://orcid.org/0000-0003-0766-0071
+    username: ~Joss_Moorkens1
+  decision: track
+  file: 20020.pdf
+  id: 20020
+  openreview_id: w4q2ua0ARc
+  pdf_file: 37a72c3d87c7f2a5c35b0a91891af79df7eb1bf4.pdf
+  title: Perceptions of Educators on MTQA Curriculum and Instruction
+- abstract: Translation quality and its assessment are of great importance in the
+    context of human as well as machine translation. Methods range from human annotation
+    and assessment to quality metrics and estimation, where the former are rather
+    time-consuming. Furthermore, assessing translation quality is a subjective process.
+    Best-Worst Scaling (BWS) represents a time-efficient annotation method to obtain
+    subjective preferences, the best and the worst in a given set and their ratings.
+    In this paper, we propose to use BWS for a comparative translation quality assessment
+    of one human and three machine translations to German of the same source text
+    in English. As a result, ten participants with a translation background selected
+    the human translation most frequently and rated it overall as best closely followed
+    by DeepL. Participants showed an overall positive attitude towards this assessment
+    method.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: bettina.hiebl@univie.ac.at
+    first_name: Bettina
+    homepage: https://www.proz.com/profile/2185046
+    institution: Universität Vienna
+    last_name: Hiebl
+    name: Bettina Hiebl
+    username: ~Bettina_Hiebl1
+  - dblp_id: https://dblp.org/pid/119/2939.html
+    emails: dagmar.gromann@univie.ac.at
+    first_name: Dagmar
+    google_scholar_id: https://scholar.google.de/citations?user=0GoPTqsAAAAJ&hl=de&oi=ao
+    homepage: http://dagmargromann.com/
+    last_name: Gromann
+    name: Dagmar Gromann
+    orcid: https://orcid.org/0000-0003-0929-6103
+    semantic_scholar_id: https://www.semanticscholar.org/author/Dagmar-Gromann/2640975
+    username: ~Dagmar_Gromann3
+  decision: track
+  file: 20021.pdf
+  id: 20021
+  openreview_id: dd3SAOBnxa
+  pdf_file: b77d0a1c7646aa0cd165359fc66a5c43772e93a9.pdf
+  title: Comparative Quality Assessment of Human and Machine Translation with Best-Worst
+    Scaling
+- abstract: In spite of recent successes in improving Machine Translation (MT) quality
+    overall, MT engines require a large amount of resources, which leads to markedly
+    lower quality for lesser-resourced languages. This study explores the case of
+    translation from English into Igbo, a very low resource language spoken by about
+    45 million speakers. With the aim of improving MT quality in this scenario, we
+    investigate methods for guided detection of critical/harmful MT errors, more specifically
+    those caused by non-compositional multi-word expressions and polysemy. We have
+    designed diagnostic tests for these cases and applied them to collections of medical
+    texts from CDC, Cochrane, NCDC, NHS and WHO.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: adaezenwosungozi@gmail.com
+    first_name: Adaeze
+    google_scholar_id: https://scholar.google.com/citations?user=cCHszCEAAAAJ&hl=en
+    homepage: https://ahc.leeds.ac.uk/languages/pgr/3521/adaeze-ngozi-ohuoba
+    institution: University of Leeds and Abia State University
+    last_name: Ohuoba
+    middle_name: Ngozi
+    name: Adaeze Ngozi Ohuoba
+    orcid: https://orcid.org/0000-0002-9412-7461
+    username: ~Adaeze_Ngozi_Ohuoba1
+  - dblp_id: https://dblp.org/pid/49/607
+    emails: s.sharoff@leeds.ac.uk
+    first_name: Serge
+    google_scholar_id: https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ
+    last_name: Sharoff
+    name: Serge Sharoff
+    semantic_scholar_id: https://www.semanticscholar.org/author/S.-Sharoff/2506104
+    username: ~Serge_Sharoff1
+  - emails: c.m.walker@leeds.ac.uk
+    first_name: Callum
+    homepage: https://ahc.leeds.ac.uk/languages/staff/3109/dr-callum-walker
+    institution: University of Leeds
+    last_name: Walker
+    name: Callum Walker
+    username: ~Callum_Walker1
+  decision: track
+  file: 20023.pdf
+  id: 20023
+  openreview_id: olP7Yqu0pT
+  pdf_file: 19e487e3443a51ccc8c23ab2f8326a71896a8aab.pdf
+  title: Quantifying the Contribution of MWEs and Polysemy in Translation Errors for
+    English--Igbo MT
+- abstract: With the advent and success of trainable automatic evaluation metrics,
+    creating annotated machine translation evaluation data sets is increasingly relevant.
+    However, for low-resource languages, gathering such data can be challenging and
+    further insights into evaluation design for opportunistic scenarios are necessary.
+    In this work we explore an evaluation initiative that targets the Spanish—-Basque
+    language pair to study the impact of design decisions and the reliability of volunteer
+    contributions. To do that, we compare the work carried out by volunteers and a
+    translation professional in terms of evaluation results and evaluator agreement
+    and examine the control measures used to ensure reliability. Results show similar
+    behaviour regarding general quality assessment but underscore the need for more
+    informative working environments to make evaluation processes more reliable as
+    well as the need for carefully crafted control cases.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: nora.aranberri@ehu.eus
+    first_name: Nora
+    homepage: http://ixa.si.ehu.es/node/25
+    institution: Universidad del País Vasco
+    last_name: Aranberri
+    name: Nora Aranberri
+    username: ~Nora_Aranberri1
+  decision: track
+  file: 20026.pdf
+  id: 20026
+  openreview_id: e6ekTgVxo8
+  pdf_file: aa0ed3e46412007de0ee34723e6a4b053441d1a2.pdf
+  title: 'Analysis of the Annotations from a Crowd MT Evaluation Initiative: Case
+    Study for the Spanish-Basque Pair'
+
+
+
+
+- abstract: Implementations Case Studies
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: dummy
+    first_name: dummy
+    last_name: dummy
+    name: dummy
+  title: Implementations Case Studies
+  file: implmentation.pdf
+  id: 1
+
+- abstract: Incorporating extra-textual context such as film metadata into the machine
+    translation (MT) pipeline can enhance translation quality, as indicated by automatic
+    evaluation in recent work. However, the positive impact of such systems in industry
+    remains unproven. We report on an industrial case study carried out to investigate
+    the benefit of MT in a professional scenario of translating TV subtitles with
+    a focus on how leveraging extra-textual context impacts post-editing. We found
+    that post-editors marked significantly fewer context-related errors when correcting
+    the outputs of MTCue, the context-aware model, as opposed to non-contextual models.
+    We also present the results of a survey of the employed post-editors, which highlights
+    contextual inadequacy as a significant gap consistently observed in MT. Our findings
+    strengthen the motivation for further work within fully contextual MT.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: sebastian.tate.vincent@gmail.com
+    first_name: Sebastian
+    google_scholar_id: https://scholar.google.com/citations?user=QrXL5zsAAAAJ&hl=en
+    homepage: https://www.linkedin.com/in/st-vincent1/
+    institution: ZOO Digital PLC
+    last_name: Vincent
+    name: Sebastian Vincent
+    username: ~Sebastian_Vincent1
+  - emails: charlotte.prescott@zoodigital.com
+    first_name: Charlotte
+    institution: NA
+    last_name: Prescott
+    name: Charlotte Prescott
+    username: charlotte.prescott@zoodigital.com
+  - emails: chris.bayliss@zoodigital.com
+    first_name: Chris
+    institution: NA
+    last_name: Bayliss
+    name: Chris Bayliss
+    username: chris.bayliss@zoodigital.com
+  - emails: chris.oakley@zoodigital.com
+    first_name: Chris
+    institution: NA
+    last_name: Oakley
+    name: Chris Oakley
+    username: chris.oakley@zoodigital.com
+  - dblp_id: https://dblp.org/pid/23/8672
+    emails: c.scarton@sheffield.ac.uk
+    first_name: Carolina
+    google_scholar_id: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
+    homepage: https://carolscarton.github.io
+    institution: University of Sheffield
+    last_name: Scarton
+    name: Carolina Scarton
+    orcid: https://orcid.org/0000-0002-0103-4072
+    username: ~Carolina_Scarton1
+  decision: Studies
+  file: 1002.pdf
+  id: 1002
+  openreview_id: 6HFmh4UiAu
+  pdf_file: 7cbabc2e5dc18719a78ac76ec6649dbd4a4dc64c.pdf
+  title: A Case Study on Contextual Machine Translation in a Professional Scenario
+    of Subtitling
+- abstract: 'This paper illustrates the process of training and evaluating NMT systems
+    for a language pair that includes a low-resource language variety.
+
+    A parallel corpus of legal texts for Italian and South Tyrolean German has been
+    compiled, with South Tyrolean German being the low-resourced language variety.
+    As the size of the compiled corpus is insufficient for the training, we have combined
+    the corpus with several parallel corpora using data weighting at sentence level.
+    We then performed an evaluation of each combination and of two popular commercial
+    systems.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/56/4401
+    emails: aoliverg@uoc.edu
+    first_name: Antoni
+    google_scholar_id: https://scholar.google.com/citations?user=tj0V-BYAAAAJ&h
+    homepage: https://www.researchgate.net/profile/Antoni-Oliver-3
+    institution: Universitat Oberta de Catalunya
+    last_name: Oliver
+    name: Antoni Oliver
+    orcid: https://orcid.org/0000-0001-8399-3770
+    semantic_scholar_id: https://www.semanticscholar.org/author/Antoni-Oliver/38997105
+    username: ~Antoni_Oliver1
+  - emails: salvarezvid@uoc.edu
+    first_name: Sergi
+    google_scholar_id: https://scholar.google.com/citations?user=DRPw_qwAAAAJ&hl=ca&oi=sra
+    institution: Universitat Pompeu Fabra and Universitat Oberta de Catalunya
+    last_name: Alvarez-Vidal
+    name: Sergi Alvarez-Vidal
+    orcid: https://orcid.org/0000-0002-6355-4559
+    username: ~Sergi_Alvarez-Vidal1
+  - dblp_id: https://dblp.org/pid/84/261
+    emails: egon.stemle@eurac.edu
+    first_name: Egon
+    google_scholar_id: https://scholar.google.it/citations?user=uHqa8ooAAAAJ
+    homepage: https://iiegn.eu
+    institution: Masaryk University and Eurac Research
+    last_name: Stemle
+    name: Egon Stemle
+    orcid: https://orcid.org/0000-0002-7655-5526
+    semantic_scholar_id: https://www.semanticscholar.org/author/2991702
+    username: ~Egon_Stemle1
+  - emails: elena.chiocchetti@eurac.edu
+    first_name: Elena
+    institution: NA
+    last_name: Chiocchetti
+    name: Elena Chiocchetti
+    username: elena.chiocchetti@eurac.edu
+  decision: Studies
+  file: 1004.pdf
+  id: 1004
+  openreview_id: NfwiYbibRJ
+  pdf_file: 23dff73c949430bf0225c32d621d89ed51c21bac.pdf
+  title: Training an NMT system for legal texts of a low-resource language variety
+    South Tyrolean German - Italian
+- abstract: This paper investigates the effectiveness of combining machine translation
+    (MT) systems and large language models (LLMs) to produce gender-inclusive translations
+    from English to Spanish. The study uses a multi-step approach where a translation
+    is first generated by an MT engine and then reviewed by an LLM. The results suggest
+    that while LLMs, particularly GPT-4, are successful in generating gender-inclusive
+    post-edited translations and show potential in enhancing fluency, they often introduce
+    unnecessary changes and inconsistencies. The findings underscore the continued
+    necessity for human review in the translation process, highlighting the current
+    limitations of AI systems in handling nuanced tasks like gender-inclusive translation.
+    Also, the study highlights that while the combined approach can improve translation
+    fluency, the effectiveness and reliability of the post-edited translations can
+    vary based on the language of the prompts used.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: mara.nunziatini@welocalize.com
+    first_name: Mara
+    homepage: https://www.welocalize.com/
+    last_name: Nunziatini
+    name: Mara Nunziatini
+    username: ~Mara_Nunziatini1
+  - emails: sara.diego@welocalize.com
+    first_name: Sara
+    institution: NA
+    last_name: Diego
+    name: Sara Diego
+    username: sara.diego@welocalize.com
+  decision: Studies
+  file: 1006.pdf
+  id: 1006
+  openreview_id: Ec7bqhH0DT
+  pdf_file: f2501ffc97b00ccbbd7efe3369f380a4d12ef192.pdf
+  title: Implementing Gender-Inclusivity in MT Output using Automatic Post-Editing
+    with LLMs
+- abstract: "Neural Machine Translation (NMT) for low-resource languages remains a\
+    \ challenge for many NLP researchers. In this work, we deploy a standard data\
+    \ augmentation methodology by back-translation to a new language translation direction,\
+    \ i.e., Cantonese-to-English. \nWe present the models we fine-tuned using the\
+    \ limited amount of real data and the synthetic data we generated using back-translation\
+    \ by three models: OpusMT, NLLB, and mBART.\nWe carried out automatic evaluation\
+    \ using a range of different metrics including those that are lexical-based and\
+    \ embedding-based.\nFurthermore, we create a user-friendly interface for the models\
+    \ we included in this project, \\textsc{ CantonMT}, and make it available to facilitate\
+    \ Cantonese-to-English MT research. Researchers can add more models to this platform\
+    \ via our open-source\\textsc{ CantonMT} toolkit, available at \\url{https://github.com/kenrickkung/CantoneseTranslation}."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: kenrick.kung@gmail.com
+    first_name: Kung
+    last_name: Hong
+    middle_name: Yin
+    name: Kung Yin Hong
+    username: ~Kung_Yin_Hong1
+  - dblp_id: https://dblp.org/pid/03/10304
+    emails: hanlifengaaron@gmail.com
+    first_name: Lifeng
+    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
+    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
+    last_name: Han
+    name: Lifeng Han
+    orcid: https://orcid.org/0000-0002-3221-2185
+    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
+    username: ~Lifeng_Han1
+  - dblp_id: https://dblp.org/pid/92/11424
+    emails: riza.batista@manchester.ac.uk
+    first_name: Riza
+    google_scholar_id: https://scholar.google.com/citations?user=fRBJmp9gk_cC&hl=en
+    homepage: http://www.cs.manchester.ac.uk/about-us/staff/profile/?ea=riza.batista
+    institution: University of Manchester
+    last_name: Batista-Navarro
+    name: Riza Batista-Navarro
+    semantic_scholar_id: https://www.semanticscholar.org/author/R.-Batista-Navarro/1400900759
+    username: ~Riza_Batista-Navarro1
+  - emails: gnenadic@manchester.ac.uk
+    first_name: Goran
+    google_scholar_id: https://scholar.google.com.tw/citations?user=CyTXHuUAAAAJ
+    homepage: http://www.manchester.ac.uk/research/gnenadic/personaldetails
+    institution: University of Manchester
+    last_name: Nenadic
+    name: Goran Nenadic
+    username: ~Goran_Nenadic1
+  decision: Submission
+  file: 1007.pdf
+  id: 1007
+  openreview_id: dpulIBXEHZ
+  pdf_file: 285a01a3af30496889144048dd1b9bdbcadfd7ad.pdf
+  title: '{CantonMT}: Cantonese to English NMT Platform with Fine-Tuned Models using
+    Real and Synthetic Back-Translation Data'
+
+- abstract: The paper presents findings from a comprehensive market study commissioned
+    by the European Commission, aimed at analysing multilinguality of European websites
+    and automated website translation services across various sectors. The findings
+    show that the majority of websites offer content in one or two languages, while
+    only less than 25% of European websites provide content in 3 or more languages.
+    Additionally, we introduce Web-T, a collection of open-source solutions facilitating
+    automated website translation with a help of free MT service eTranslation provided
+    by the European Commission and possibility to integrate other MT providers. Web-T
+    solutions include local plug-ins for Content Management Systems, universal plug-ins,
+    and an MT API Integrator, thus contributing to the broader goal of digital language
+    equality in Europe.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/34/8157
+    emails: andrejs@tilde.lv
+    first_name: Andrejs
+    institution: Tilde
+    last_name: Vasiljevs
+    name: Andrejs Vasiljevs
+    username: ~Andrejs_Vasiljevs1
+  - emails: rinalds.viksna@tilde.lv
+    first_name: Rinalds
+    google_scholar_id: https://scholar.google.com/citations?user=SSaYnvcAAAAJ
+    institution: University of Latvia
+    last_name: Vīksna
+    name: Rinalds Vīksna
+    orcid: https://orcid.org/0000-0003-2705-508X
+    username: ~Rinalds_Vīksna1
+  - emails: nvacheva@idc.com
+    first_name: Neil
+    institution: NA
+    last_name: Vacheva
+    name: Neil Vacheva
+    username: nvacheva@idc.com
+  - emails: andis.lagzdins@tilde.lv
+    first_name: Andis
+    institution: NA
+    last_name: Lagzdiņš
+    name: Andis Lagzdiņš
+    username: andis.lagzdins@tilde.lv
+  decision: Studies
+  file: 1008.pdf
+  id: 1008
+  openreview_id: kQbx5isVug
+  pdf_file: 2857d9f38b1dbd53b23ef6e29b747f96b8a7b8e1.pdf
+  title: 'Advancing Digital Language Equality in Europe: A Market Study and Open-Source
+    Solutions for Multilingual Websites'
+- abstract: 'In this paper, we study the translation abilities of Large Language Models
+    (LLMs) for business IT texts.
+
+    We are strongly interested in domain adaptation of translation systems, which
+    is essential for accurate and lexically appropriate translation of such texts.
+
+    Among the open-source models evaluated in a zero- and few-shot setting, we find
+    Llama-2 13B the most promising for domain-specific translation fine-tuning.
+
+    We investigate the full range of adaptation techniques for LLMs: from prompting,
+    over parameter-efficient fine-tuning to full fine-tuning, and compare to classic
+    neural machine translation (MT) models trained internally at SAP.
+
+    We provide guidance how to use training budget most effectively for different
+    fine-tuning approaches.
+
+    We observe that while LLMs can translate on-par with SAP''s MT models on general
+    domain data, it is difficult to close the gap on SAP''s domain-specific data,
+    even with extensive training and carefully curated data.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: johannes.eschbach-dymanus@sap.com
+    first_name: Johannes
+    institution: SAP SE and Institute for Computational Linguistics, Heidelberg University,
+      Ruprecht-Karls-Universität Heidelberg
+    last_name: Eschbach-Dymanus
+    name: Johannes Eschbach-Dymanus
+    username: ~Johannes_Eschbach-Dymanus1
+  - emails: frank.essenberger@sap.com
+    first_name: Frank
+    institution: SAP SE
+    last_name: Essenberger
+    name: Frank Essenberger
+    username: ~Frank_Essenberger1
+  - emails: bianka.buschbeck@sap.com
+    first_name: Bianka
+    last_name: Buschbeck
+    name: Bianka Buschbeck
+    username: ~Bianka_Buschbeck1
+  - dblp_id: https://dblp.org/pid/272/4281.html
+    emails: miriam.exel@sap.com
+    first_name: Miriam
+    google_scholar_id: https://scholar.google.de/citations?user=J5QHGyEAAAAJ&hl=de&authuser=1
+    institution: SAP SE
+    last_name: Exel
+    name: Miriam Exel
+    username: ~Miriam_Exel1
+  decision: Studies
+  file: 10010.pdf
+  id: 10010
+  openreview_id: EYxKNcxUpR
+  pdf_file: f493f0dc7db57986b37637d8cacfc2615bad3544.pdf
+  title: Exploring the Effectiveness of LLM Domain Adaptation for Business IT Machine
+    Translation
+- abstract: 'This paper presents a multilingual aligned corpus of political debates
+    from the United Nations (UN) General Assembly sessions between 1978 and 2021,
+    which covers five of the six official UN languages: Arabic, Chinese, English,
+    French, Russian, and Spanish. We explain the preprocessing steps we applied to
+    the corpus. We align the sentences by using word vectors to numerically represent
+    the meaning of each sentence and then calculating the Euclidean distance between
+    them. To validate our alignment methods, we conducted an evaluation study with
+    crowd-sourced human annotators using Scale AI, an online platform for data labelling.
+    The final dataset consists of around 300,000 aligned sentences for En-Es, En-Fr,
+    En-Zh and En-Ru. It is publicly available for download.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: bechara@hertie-school.org
+    first_name: Hannah
+    homepage: https://www.hertie-school.org/en/datasciencelab/people/profile/person/bechara
+    last_name: Bechara
+    middle_name: Dorothy
+    name: Hannah Dorothy Bechara
+    username: ~Hannah_Dorothy_Bechara1
+  - emails: manohara@hertie-school.org
+    first_name: Krishnamoorthy
+    institution: NA
+    last_name: Manohara
+    name: Krishnamoorthy Manohara
+    username: manohara@hertie-school.org
+  - emails: slavini@gmail.com
+    first_name: Slava
+    google_scholar_id: https://scholar.google.co.uk/citations?user=DUorn6wAAAAJ&hl=en&authuser=1
+    homepage: https://www.hertie-school.org/en/datasciencelab/people/profile/person/jankin
+    institution: Hertie School of Governance
+    last_name: Jankin
+    name: Slava Jankin
+    orcid: https://orcid.org/my-orcid?orcid=0000-0001-6915-177X
+    username: ~Slava_Jankin1
+  decision: Studies
+  file: 10011.pdf
+  id: 10011
+  openreview_id: kj36kIsUm1
+  pdf_file: 5054acbe119ecdae67c4574e89de9e00fa60c228.pdf
+  title: Creating and Evaluating a Multilingual Corpus of UN General Assembly Debates
+- abstract: This paper examines the suitability of a large language model (LLM), GPT-4,
+    for generating multiple choice questions (MCQs) aimed at assessing subject matter
+    expertise (SME) in the domain of medical translation. The main objective of these
+    questions is to model the skills of potential subject matter experts in a human-in-the-loop
+    machine translation (MT) flow, to ensure that tasks are matched to the individuals
+    with the right skill profile. The investigation was conducted at Unbabel, an artificial
+    intelligence-powered human translation platform. Two medical translation experts
+    evaluated the GPT-4-generated questions and answers, one focusing on English–European
+    Portuguese, and the other on English–German. We present a methodology for creating
+    prompts to elicit high-quality GPT-4 outputs for this use case, as well as for
+    designing evaluation scorecards for human review of such output. Our findings
+    suggest that GPT-4 has the potential to generate suitable items for subject matter
+    expertise tests, providing a more efficient approach compared to relying solely
+    on humans. Furthermore, we propose recommendations for future research to build
+    on our approach and refine the quality of the outputs generated by LLMs.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: diana.silveira.int@unbabel.com
+    first_name: Diana
+    last_name: Silveira
+    name: Diana Silveira
+    username: ~Diana_Silveira1
+  - emails: marina.sanchez@unbabel.com
+    first_name: Marina
+    google_scholar_id: https://scholar.google.com/citations?user=vuArv-AAAAAJ&hl=es
+    last_name: Torrón
+    middle_name: Sánchez
+    name: Marina Sánchez Torrón
+    username: ~Marina_Sánchez_Torrón1
+  - dblp_id: https://dblp.org/pid/65/6363.html
+    emails: monizhelena3@gmail.com
+    first_name: Helena
+    google_scholar_id: https://scholar.google.com/citations?user=G3CcA6YAAAAJ&hl=en
+    homepage: https://www.hlt.inesc-id.pt/w/Helena_Moniz
+    institution: Universidade de Lisboa
+    last_name: Moniz
+    middle_name: Silva
+    name: Helena Silva Moniz
+    orcid: https://orcid.org/0000-0003-0900-6938
+    semantic_scholar_id: https://www.semanticscholar.org/author/Helena-Moniz/2504458
+    username: ~Helena_Silva_Moniz1
+  decision: Studies
+  file: 10012.pdf
+  id: 10012
+  openreview_id: E6166HIyma
+  pdf_file: 474850d47af3988a22378e751a7c6b50a0f1e323.pdf
+  title: 'Generating subject-matter expertise assessment questions with GPT-4: a medical
+    translation use-case'
+- abstract: "While large language models (LLMs) pre-trained on massive amounts of\
+    \ unpaired language data have reached the state-of-the-art in machine translation\
+    \ (MT) of general domain texts, post-editing (PE) is still required to correct\
+    \ errors and to enhance term translation quality in specialized domains.  In this\
+    \ paper we present a pilot study of enhancing translation memories (TM) produced\
+    \ by PE (source segments, machine translations, and reference translations, henceforth\
+    \ called PE-TM) for the needs of correct and consistent term translation in technical\
+    \ domains. \n\nWe investigate a light-weight two-step scenario where at inference\
+    \ time, a human translator marks errors in the first translation step,  and in\
+    \ a second step a few similar examples are extracted from the PE-TM to prompt\
+    \ an LLM. Our experiment shows that the additional effort of augmenting translations\
+    \ with human error markings guides the LLM to focus on a correction of the marked\
+    \ errors, yielding consistent improvements over automatic PE (APE) and MT from\
+    \ scratch."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/263/7193
+    emails: berger@cl.uni-heidelberg.de
+    first_name: Nathaniel
+    google_scholar_id: https://scholar.google.com/citations?user=0cosdmMAAAAJ&hl=en&oi=ao
+    last_name: Berger
+    name: Nathaniel Berger
+    semantic_scholar_id: https://www.semanticscholar.org/author/Nathaniel-Berger/2106225057
+    username: ~Nathaniel_Berger1
+  - dblp_id: https://dblp.org/pid/33/2631
+    emails: riezler@cl.uni-heidelberg.de
+    first_name: Stefan
+    google_scholar_id: https://scholar.google.com/citations?user=nY9tQLYAAAAJ&hl=en
+    homepage: https://www.cl.uni-heidelberg.de/statnlpgroup/members/riezler/
+    institution: Heidelberg University, Germany
+    last_name: Riezler
+    name: Stefan Riezler
+    semantic_scholar_id: https://www.semanticscholar.org/author/S.-Riezler/3289329
+    username: ~Stefan_Riezler1
+  - dblp_id: https://dblp.org/pid/272/4281.html
+    emails: miriam.exel@sap.com
+    first_name: Miriam
+    google_scholar_id: https://scholar.google.de/citations?user=J5QHGyEAAAAJ&hl=de&authuser=1
+    institution: SAP SE
+    last_name: Exel
+    name: Miriam Exel
+    username: ~Miriam_Exel1
+  - dblp_id: https://dblp.org/pid/91/11424
+    emails: matthias.huck@sap.com
+    first_name: Matthias
+    google_scholar_id: https://scholar.google.com/citations?user=IDO3e3EAAAAJ
+    institution: SAP SE
+    last_name: Huck
+    name: Matthias Huck
+    semantic_scholar_id: https://www.semanticscholar.org/author/Matthias-Huck/1839533
+    username: ~Matthias_Huck1
+  decision: Studies
+  file: 10013.pdf
+  id: 10013
+  openreview_id: j2BIfjXh40
+  pdf_file: 866dfe17aa6fbf0d97a4f40ef93c0c1ba0a17684.pdf
+  title: Prompting Large Language Models with Human Error Markings for Self-Correcting
+    Machine Translation
+- abstract: Machine translation (MT) research is most typically English-centric. In
+    recent years, massively multilingual translation systems have also been increasingly
+    popular. However, efforts purposefully focused on less-resourced languages are
+    less widespread. In this paper, we focus on MT from and into the Estonian language.
+    First, emphasizing the importance of data availability, we generate and publicly
+    release a back-translation corpus of over 2 billion sentence pairs. Second, using
+    these novel data, we create MT models covering 18 translation directions, all
+    either from or into Estonian. We re-use the encoder of the NLLB multilingual model
+    and train modular decoders separately for each language, surpassing the original
+    NLLB quality. Our resulting MT models largely outperform other open-source MT
+    systems, including previous Estonian-focused efforts, and are released as part
+    of this submission.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: elizaveta.korotkova@gmail.com
+    first_name: Elizaveta
+    google_scholar_id: https://scholar.google.com/citations?user=4f7JxEgAAAAJ
+    institution: University of Tartu
+    last_name: Korotkova
+    name: Elizaveta Korotkova
+    username: ~Elizaveta_Korotkova1
+  - dblp_id: https://dblp.org/pid/18/8157
+    emails: fishel@ut.ee
+    first_name: Mark
+    google_scholar_id: https://scholar.google.com/citations?user=K6jhzXcAAAAJ&hl=en
+    homepage: https://tartunlp.ai
+    institution: University of Tartu
+    last_name: Fishel
+    name: Mark Fishel
+    username: ~Mark_Fishel1
+  decision: Studies
+  file: 10014.pdf
+  id: 10014
+  openreview_id: 0YZJ7FgSUP
+  pdf_file: f58cedeed47b3e551d07633f62b31e75b7b5068b.pdf
+  title: 'Estonian-Centric Machine Translation: Data, Models, and Challenges'
+
+

@@ -13,3 +13,13 @@
   bio_file: invited2_bio.tex
   date: 2024-06-26 09:15:00
   location: 10:15:00
+
+- title: Linguistically Motivated Neural Machine Translation
+  custom_prefix: Tutorial
+  abstract_file: tutorial.tex
+  speaker_name: Haiyue Song, Hour Kaina, Raj Dabre 
+  institution: National Institute of Information and Communications Technology (NICT), Japan
+  #bio_file: invited2_bio.tex
+  date: 2024-06-27 09:00:00
+  location: 12:30:00
+
