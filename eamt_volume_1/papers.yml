@@ -1278,7 +1278,7 @@
   title: Enhancing Gender-Inclusive Machine Translation with Neomorphemes and Large
     Language Models
 
-- abstract: Research:Translators Users
+- abstract: 'Research: Translators & Users'
   attributes:
     paper_type: N/A
     presentation_type: N/A
@@ -1288,7 +1288,7 @@
     first_name: dummy
     last_name: dummy
     name: dummy
-  title: 'Research:Translators & Users'
+  title: 'Research: Translators & Users'
   file: translation_users.pdf
   id: 2
 
@@ -2335,7 +2335,7 @@
 
 
 
-- abstract: Implementations Case Studies
+- abstract: 'Implementations & Case Studies'
   attributes:
     paper_type: N/A
     presentation_type: N/A
@@ -2345,7 +2345,7 @@
     first_name: dummy
     last_name: dummy
     name: dummy
-  title: Implementations Case Studies
+  title: 'Implementations & Case Studies'
   file: implmentation.pdf
   id: 1
 
