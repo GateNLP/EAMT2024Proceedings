@@ -3,8 +3,6 @@
 */__pycache__/
 *.log
 *.aux
-*.pax
-*.pdf
 *.DS_Store
 .idea/aclpub2.iml
 .idea/inspectionProfiles/profiles_settings.xml
