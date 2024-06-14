@@ -5,7 +5,7 @@
 \usepackage{hyperref}
 \usepackage{eurosym}
 \usepackage{makecell}
-
+\usepackage{xcolor}
 
 
 %\usepackage[T1]{fontenc}
@@ -305,7 +305,7 @@ European Association for Machine Translation (EAMT)
     
     \vspace*{0.5cm}
     \BLOCK{if panel.date}
-    \textbf{\VAR{panel.date}} -- 
+    \textbf{\VAR{panel.date}}  
     \BLOCK{endif}
     \BLOCK{if panel.time}
     Time: \textbf{\VAR{panel.time}} --
@@ -320,6 +320,25 @@ European Association for Machine Translation (EAMT)
   \newline
     %\begin{minipage}[c][0.35\linewidth][c]{0.35\linewidth}
      % \end{minipage}\\
+        
+    \BLOCK{if panel.panelists} 
+        \textbf{Panelists: }\\
+    	\BLOCK{for panelist in panel.panelists} 
+    	    \BLOCK{if panelist.name}
+    			\textbf{\VAR{panelist.name}},
+    		\BLOCK{endif}
+    		\BLOCK{if panelist.institution}
+			\textbf{\VAR{panelist.institution}}
+    		\BLOCK{endif}
+    		\BLOCK{if panelist.bio_file}
+  				\VAR{load_file(root, "panels", panelist.bio_file)}\\
+  				\newline
+
+  			\BLOCK{endif}
+    		 
+    	\BLOCK{endfor}
+    \BLOCK{endif}
+
     \BLOCK{if panel.moderators} 
     	\BLOCK{for moderator in panel.moderators} 
     	    \BLOCK{if moderator.name}
@@ -335,24 +354,7 @@ European Association for Machine Translation (EAMT)
     		 
     	\BLOCK{endfor}
     \BLOCK{endif}  
-    
-    \BLOCK{if panel.panelists} 
-        \textbf{Panelists: }\\
-    	\BLOCK{for panelist in panel.panelists} 
-    	    \BLOCK{if panelist.name}
-    			\textbf{\VAR{panelist.name}},
-    		\BLOCK{endif}
-    		\BLOCK{if panelist.institution}
-    		 	\VAR{panelist.institution}
-    		\BLOCK{endif}
-    		\BLOCK{if panelist.bio_file}
-  				\VAR{load_file(root, "panels", panelist.bio_file)}\\
-  				\newline
 
-  			\BLOCK{endif}
-    		 
-    	\BLOCK{endfor}
-    \BLOCK{endif}
 
 
   \newpage
@@ -449,6 +451,8 @@ European Association for Machine Translation (EAMT)
 \setcounter{page}{1}
  \renewcommand{\headrulewidth}{0pt}
 \BLOCK{for paper in archival_papers}
+
+  %\includepdf[pagecommand={\thispagestyle{plain}},pages=-,addtotoc={1,section,1,{\VAR{paper.title}},ref:paper_{\VAR{paper.id}}}]{\VAR{root}/papers/\VAR{paper.file}}
   \AddToShipoutPicture*{
     \setlength{\unitlength}{1mm}
     \footnotesize
@@ -465,6 +469,8 @@ European Association for Machine Translation (EAMT)
   							\VAR{conference.start_date.year} European Association for Machine Translation}}
   }
   \includepdf[pagecommand={\thispagestyle{plain}},pages=-,addtotoc={1,section,1,{\VAR{paper.title}},ref:paper_{\VAR{paper.id}}}]{\VAR{root}/papers/\VAR{paper.file}}
+
+
 \BLOCK{endfor}
 
 
@@ -472,7 +478,7 @@ European Association for Machine Translation (EAMT)
 % Sponsors %
 %%%%%%%%%%%%
 \BLOCK{if sponsors}
-\setcounter{page}{653}
+\setcounter{page}{62}
 \phantomsection
 \addcontentsline{toc}{section}{Sponsors}
 %\vspace*{1cm}

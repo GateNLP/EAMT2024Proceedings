@@ -484,15 +484,6 @@
     orcid: https://orcid.org/0000-0001-8095-0038
     semantic_scholar_id: https://www.semanticscholar.org/author/Marcello-Federico/102811815
     username: ~Marcello_Federico1
-  - dblp_id: https://dblp.org/pid/18/8157
-    emails: fishel@ut.ee
-    first_name: Mark
-    google_scholar_id: https://scholar.google.com/citations?user=K6jhzXcAAAAJ&hl=en
-    homepage: https://tartunlp.ai
-    institution: University of Tartu
-    last_name: Fishel
-    name: Mark Fishel
-    username: ~Mark_Fishel1
   - dblp_id: https://dblp.org/pid/266/8121
     emails: mgaido@fbk.eu
     first_name: Marco
@@ -530,15 +521,6 @@
     name: Thanh-Le Ha
     orcid: https://orcid.org/0000-0003-4463-6978
     username: ~Thanh-Le_Ha1
-  - dblp_id: https://dblp.org/pid/12/5915
-    emails: bhaddow@ed.ac.uk
-    first_name: Barry
-    google_scholar_id: https://scholar.google.com/citations?user=6NqRjRYAAAAJ&hl=en
-    homepage: https://homepages.inf.ed.ac.uk/bhaddow/
-    institution: University of Edinburgh
-    last_name: Haddow
-    name: Barry Haddow
-    username: ~Barry_Haddow1
   - emails: rejwanul.haque@setu.ie
     first_name: Rejwanul
     google_scholar_id: https://scholar.google.co.uk/citations?user=oztv-gIAAAAJ&hl=en
@@ -614,15 +596,6 @@
     orcid: https://orcid.org/0000-0002-5628-1003
     semantic_scholar_id: https://www.semanticscholar.org/author/Kenton-Murray/38730896
     username: ~Kenton_Murray1
-  - dblp_id: https://dblp.org/pid/185/5556
-    emails: maria.nadejde@gmail.com
-    first_name: Maria
-    google_scholar_id: https://scholar.google.co.uk/citations?user=zAiGJPUAAAAJ&hl=en
-    institution: Amazon
-    last_name: Nadejde
-    name: Maria Nadejde
-    semantic_scholar_id: https://www.semanticscholar.org/author/Maria-Nadejde/3456844
-    username: ~Maria_Nadejde1
   - dblp_id: https://dblp.org/pers/n/Nagata:Masaaki
     emails: msknagata@gmail.com
     first_name: Masaaki
@@ -801,15 +774,6 @@
     name: Yves Scherrer
     semantic_scholar_id: https://www.semanticscholar.org/author/Yves-Scherrer/3080637
     username: ~Yves_Scherrer1
-  - dblp_id: https://dblp.org/pid/19/1467
-    emails: djame.seddah@gmail.com
-    first_name: Djamé
-    google_scholar_id: https://scholar.google.com/citations?user=P7EtARsAAAAJ&hl=fr
-    homepage: http://pauillac.inria.fr/~seddah
-    last_name: Seddah
-    name: Djamé Seddah
-    semantic_scholar_id: https://www.semanticscholar.org/author/Djamé-Seddah/1679170
-    username: ~Djamé_Seddah1
   - dblp_id: https://dblp.org/pid/19/1467
     emails: djame.seddah@gmail.com
     first_name: Djamé
@@ -1004,17 +968,6 @@
     name: Trang Vu
     semantic_scholar_id: https://www.semanticscholar.org/author/Thuy-Trang-Vu/122699890
     username: ~Trang_Vu1
-  - dblp_id: https://dblp.org/pid/153/5568
-    emails: evylomova@gmail.com
-    first_name: Ekaterina
-    google_scholar_id: https://scholar.google.com.au/citations?user=JlVHhVUAAAAJ&hl=en
-    homepage: https://kat.academy
-    institution: The University of Melbourne
-    last_name: Vylomova
-    name: Ekaterina Vylomova
-    orcid: https://orcid.org/0000-0002-4058-5459
-    semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Vylomova/2311126
-    username: ~Ekaterina_Vylomova1
   - dblp_id: https://dblp.org/pid/50/4741
     emails: taro@is.naist.jp
     first_name: Taro

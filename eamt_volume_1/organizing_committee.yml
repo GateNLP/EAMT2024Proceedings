@@ -1,6 +1,6 @@
 - members:
   - first_name: Helena
-    institution: 'Universidade de Lisboa / INESC-ID'
+    institution: Universidade de Lisboa / INESC-ID
     last_name: Moniz
   role: General Chair
 - members:
@@ -52,7 +52,7 @@
     institution: Strategic Agenda
     name: Konstantinos Chatzitheodorou
     username: ~Konstantinos_Chatzitheodorou1
-  role: Implementations Case Studies Track Programme Chairs
+  role: Implementations Case Studies Track Program Chairs
 - members:
   - first_name: Helena
     institution: Universidade de Lisboa
@@ -61,7 +61,7 @@
     last_name: Forcada
     name: Mikel Forcada
     institution: Prompsit Language Engineering
-  role: Products and Projects Track Programme Chairs
+  role: Products and Projects Track Program Chairs
 - members:
   - emails: patrick.cadwell@dcu.ie
     first_name: Patrick
@@ -81,7 +81,7 @@
     orcid: https://orcid.org/0000-0002-5618-8087
     semantic_scholar_id: https://www.semanticscholar.org/author/Ekaterina-Lapshinova-Koltunski/2706548
     username: ~Ekaterina_Lapshinova-Koltunski2
-  role: Research Translators Users Track Programme Chairs
+  role: Research Translators Users Track Program Chairs
 - members:
   - dblp_id: https://dblp.org/pid/146/4432
     emails: rachel.bawden@inria.fr
@@ -106,7 +106,7 @@
     orcid: https://orcid.org/0000-0001-9600-6885
     semantic_scholar_id: https://www.semanticscholar.org/author/V.-M.-S%C3%A1nchez-Cartagena/1399637675
     username: ~Víctor_M._Sánchez-Cartagena1
-  role: Technical Track Programme Chairs
+  role: Technical Track Program Chairs
 - members:
   - dblp_id: https://dblp.org/pid/12/5915
     emails: bhaddow@ed.ac.uk
@@ -117,7 +117,7 @@
     last_name: Haddow
     name: Barry Haddow
     username: ~Barry_Haddow1
-  role: Thesis Award Programme Chairs
+  role: Thesis Award Program Chairs
 - members:
   - dblp_id: https://dblp.org/pid/127/0183
     emails: dipteshkanojia@gmail.com
@@ -138,5 +138,5 @@
     name: Mary Nurminen
     orcid: https://orcid.org/0000-0002-2380-6950
     username: ~Mary_Nurminen1
-  role: Workshops and Tutorials Programme Chairs
+  role: Workshops and Tutorials Program Chairs
 

@@ -1,0 +1,33 @@
+- title: "LLMs and Machine Translation for Low-Resource Languages: Bridging Gaps or Widening Divides?"
+  abstract_file: panel.tex
+  speaker_name: Valter Mavrič
+  institution: European Parliament
+  date: 24-06-2024 16:30:00 - 17:30:00
+  moderators:
+    - name: Edward Gow-Smith
+      institution: University of Sheffield, UK
+    - name: Carolina Scarton
+      institution: University of Sheffield, UK
+  panelists:
+    - name: Adaeze Ngozi Ohuoba
+      institution: University of Leeds, UK
+      bio_file: Adaeze.tex
+    - name: Alexandra Birch
+      institution: University of Edinburgh, UK
+      bio_file: Alexandra.tex
+    - name: Chris Oakley
+      institution: ZOO Digital, UK
+      bio_file: Chris.tex
+    - name: Helena Moniz
+      institution: President of EAMT \& IAMT. University of Lisbon, Portugal. INESC-ID, Portugal
+      bio_file: Helena.tex
+    - name: Mirko Lorenz
+      institution: Deutsche Welle, Germany
+      bio_file: Mirko.tex
+    - name: Valter Mavrič
+      institution: DG TRAD, European Parliament
+      bio_file: Valter.tex
+
+
+
+
