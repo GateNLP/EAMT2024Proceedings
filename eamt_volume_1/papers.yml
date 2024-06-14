@@ -1,16 +1,16 @@
-- abstract: Thesis Award
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: dummy
-    first_name: dummy
-    last_name: dummy
-    name: dummy
-  title: Thesis Award
-  file: thesis.pdf
-  id: 4
+# - abstract: Thesis Award
+#   attributes:
+#     paper_type: N/A
+#     presentation_type: N/A
+#     submitted_area: ''
+#   authors:
+#   - emails: dummy
+#     first_name: dummy
+#     last_name: dummy
+#     name: dummy
+#   title: Thesis Award
+#   file: thesis.pdf
+#   id: 4
 
 - abstract: 'When this PhD started, the translation of speech into text in a different
     language was mainly tackled with a cascade of automatic speech recognition (ASR)
@@ -115,19 +115,19 @@
   pdf_file: 433b59b81020f38d8dfebae23d855e9a420610de.pdf
   title: 'Thesis: Model-based Evaluation of Multilinguality'
 
-- abstract: 'Research: Technical'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: dummy
-    first_name: dummy
-    last_name: dummy
-    name: dummy
-  title: 'Research: Technical'
-  file: technical.pdf
-  id: 3
+# - abstract: 'Research: Technical'
+#   attributes:
+#     paper_type: N/A
+#     presentation_type: N/A
+#     submitted_area: ''
+#   authors:
+#   - emails: dummy
+#     first_name: dummy
+#     last_name: dummy
+#     name: dummy
+#   title: 'Research: Technical'
+#   file: technical.pdf
+#   id: 3
 
 - abstract: Standard context-aware neural machine translation (NMT) typically relies
     on parallel document-level data, exploiting both source and target contexts. Concatenation-based
@@ -1278,19 +1278,19 @@
   title: Enhancing Gender-Inclusive Machine Translation with Neomorphemes and Large
     Language Models
 
-- abstract: 'Research: Translators & Users'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: dummy
-    first_name: dummy
-    last_name: dummy
-    name: dummy
-  title: 'Research: Translators & Users'
-  file: translation_users.pdf
-  id: 2
+# - abstract: 'Research: Translators & Users'
+#   attributes:
+#     paper_type: N/A
+#     presentation_type: N/A
+#     submitted_area: ''
+#   authors:
+#   - emails: dummy
+#     first_name: dummy
+#     last_name: dummy
+#     name: dummy
+#   title: 'Research: Translators & Users'
+#   file: translation_users.pdf
+#   id: 2
 
 - abstract: Prompt engineering has shown potential for improving translation quality
     in LLMs. However, the possibility of using translation concepts in prompt design
@@ -2333,19 +2333,21 @@
     Study for the Spanish-Basque Pair'
 
 
-- abstract: 'Implementations & Case Studies'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: dummy
-    first_name: dummy
-    last_name: dummy
-    name: dummy
-  title: 'Implementations & Case Studies'
-  file: implmentation.pdf
-  id: 1
+
+
+# - abstract: 'Implementations & Case Studies'
+#   attributes:
+#     paper_type: N/A
+#     presentation_type: N/A
+#     submitted_area: ''
+#   authors:
+#   - emails: dummy
+#     first_name: dummy
+#     last_name: dummy
+#     name: dummy
+#   title: 'Implementations & Case Studies'
+#   file: implmentation.pdf
+#   id: 1
 
 - abstract: Incorporating extra-textual context such as film metadata into the machine
     translation (MT) pipeline can enhance translation quality, as indicated by automatic
