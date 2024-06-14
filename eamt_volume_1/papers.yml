@@ -1,16 +1,16 @@
-- abstract: Thesis Award
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: dummy
-    first_name: dummy
-    last_name: dummy
-    name: dummy
-  title: Thesis Award
-  file: thesis.pdf
-  id: 4
+# - abstract: Thesis Award
+#   attributes:
+#     paper_type: N/A
+#     presentation_type: N/A
+#     submitted_area: ''
+#   authors:
+#   - emails: dummy
+#     first_name: dummy
+#     last_name: dummy
+#     name: dummy
+#   title: Thesis Award
+#   file: thesis.pdf
+#   id: 4
 
 - abstract: 'When this PhD started, the translation of speech into text in a different
     language was mainly tackled with a cascade of automatic speech recognition (ASR)
