@@ -447,12 +447,20 @@ European Association for Machine Translation (EAMT)
 %%%%%%%%%%
 % Papers %
 %%%%%%%%%%
+%\makeatletter
+%\def\ps@custom{
+%  \renewcommand{\@oddhead}{}%
+%  \renewcommand{\@evenhead}{}%
+%  \renewcommand{\@oddfoot}{}%
+%  \renewcommand{\@evenfoot}{}%
+%}
+%\makeatother
+
 \pagenumbering{arabic}
 \setcounter{page}{1}
  \renewcommand{\headrulewidth}{0pt}
 \BLOCK{for paper in archival_papers}
 
-  %\includepdf[pagecommand={\thispagestyle{plain}},pages=-,addtotoc={1,section,1,{\VAR{paper.title}},ref:paper_{\VAR{paper.id}}}]{\VAR{root}/papers/\VAR{paper.file}}
   \AddToShipoutPicture*{
     \setlength{\unitlength}{1mm}
     \footnotesize
@@ -466,7 +474,7 @@ European Association for Machine Translation (EAMT)
     \put(0,13){\parbox[t]{\paperwidth}{\centering
     							\emph{\VAR{title}}, pages \VAR{paper.start_page}--\VAR{paper.end_page} \\
   	  						\VAR{conference_dates}, \VAR{conference.start_date.year} \textcopyright
-  							\VAR{conference.start_date.year} European Association for Machine Translation}}
+							\VAR{conference.start_date.year} European Association for Machine Translation}}
   }
   \includepdf[pagecommand={\thispagestyle{plain}},pages=-,addtotoc={1,section,1,{\VAR{paper.title}},ref:paper_{\VAR{paper.id}}}]{\VAR{root}/papers/\VAR{paper.file}}
 
@@ -478,7 +486,7 @@ European Association for Machine Translation (EAMT)
 % Sponsors %
 %%%%%%%%%%%%
 \BLOCK{if sponsors}
-\setcounter{page}{62}
+\setcounter{page}{655}
 \phantomsection
 \addcontentsline{toc}{section}{Sponsors}
 %\vspace*{1cm}
