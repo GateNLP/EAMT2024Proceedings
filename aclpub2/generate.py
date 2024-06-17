@@ -16,13 +16,13 @@ import yaml
 
 PARENT_DIR = Path(__file__).parent
 
-
-def generate_proceedings(path: str, overwrite: bool, outdir: str, nopax: bool, frontmatter: bool):
+def generate_proceedings2(path: str, overwrite: bool, outdir: str, nopax: bool, frontmatter: bool):
     root = Path(path)
     build_dir = Path("build")
     build_dir.mkdir(exist_ok=True)
 
     # Throw if the build directory isn't empty, and the user did not specify an overwrite.
+    overwrite = True
     if len([build_dir.iterdir()]) > 0 and not overwrite:
         raise Exception(
             f"Build directory {build_dir} is not empty, and the overwrite flag is false."
@@ -55,6 +55,181 @@ def generate_proceedings(path: str, overwrite: bool, outdir: str, nopax: bool, f
             sessions_by_date = None
 
     id_to_paper, alphabetized_author_index, archival_papers = process_papers(papers, root)
+    print(id_to_paper.keys())
+    print(additional_pages)
+    #print(alphabetized_author_index)
+    #print(archival_papers)
+
+    template = load_template("proceedings2")
+    rendered_template = template.render(
+        root=str(root),
+        conference=conference,
+        conference_dates=get_conference_dates(conference),
+        sponsors=sponsors,
+        prefaces=prefaces,
+        organizing_committee=organizing_committee,
+        program_committee=program_committee,
+        invited_talks=invited_talks,
+        panels=panels,
+        additional_pages=additional_pages,
+        archival_papers=archival_papers,
+        id_to_paper=id_to_paper,
+        program=sessions_by_date,
+        alphabetized_author_index=alphabetized_author_index,
+        include_papers=False,
+        nopax=nopax,
+    )
+    tex_file = Path(build_dir, "front_matter.tex")
+    with open(tex_file, "w+") as f:
+        f.write(rendered_template)
+    subprocess.run(
+        [
+            "pdflatex",
+            f"-output-directory={build_dir}",
+            "-save-size=40000",
+            str(tex_file),
+        ]
+    )
+
+    # Regenerate the output directory.
+    output_dir = Path(outdir)
+    shutil.rmtree(str(output_dir), ignore_errors=True)
+    output_dir.mkdir()
+
+    # Copy the inputs yaml.
+    input_copy_dir = Path(output_dir, "inputs")
+    input_copy_dir.mkdir()
+    files = glob.iglob(os.path.join(root, "*.y*ml"))
+    for file in files:
+        if os.path.isfile(file):
+            shutil.copy2(file, input_copy_dir)
+
+    # If there are no papers, treat the front_matter as the proceedings and exit.
+    if papers is None:
+        shutil.copy2(
+            Path(build_dir, "front_matter.pdf"), Path(output_dir, "proceedings.pdf")
+        )
+        return
+
+    # If frontmatter is set, output the front matter and exit.
+    if frontmatter:
+        shutil.copy2(
+            Path(build_dir, "front_matter.pdf"), Path(output_dir, "front_matter.pdf")
+        )
+        return
+
+    generate_watermarked_pdfs(id_to_paper.values(), conference, root)
+    rendered_template = template.render(
+        root=str(root),
+        conference=conference,
+        conference_dates=get_conference_dates(conference),
+        sponsors=sponsors,
+        prefaces=prefaces,
+        organizing_committee=organizing_committee,
+        program_committee=program_committee,
+        invited_talks=invited_talks,
+        panels=panels,
+        additional_pages=additional_pages,
+        archival_papers=archival_papers,
+        id_to_paper=id_to_paper,
+        program=sessions_by_date,
+        alphabetized_author_index=alphabetized_author_index,
+        include_papers=True,
+        nopax=nopax,
+    )
+    tex_file = Path(build_dir, "proceedings.tex")
+    with open(tex_file, "w+") as f:
+        f.write(rendered_template)
+    subprocess.run(
+        [
+            "pdflatex",
+            f"-output-directory={build_dir}",
+            "-save-size=40000",
+            str(tex_file),
+        ]
+    )
+    # Must run the latex compilation twice to include internal links.
+    subprocess.run(
+        [
+            "pdflatex",
+            f"-output-directory={build_dir}",
+            "-save-size=40000",
+            str(tex_file),
+        ]
+    )
+
+    # Copy proceedings
+    shutil.copy2(
+        Path(build_dir, "proceedings.pdf"), Path(output_dir, "proceedings.pdf")
+    )
+    # Copy watermarked PDFs.
+    output_watermarked = Path(output_dir, "watermarked_pdfs")
+    output_watermarked.mkdir()
+    for file in Path(build_dir, "watermarked_pdfs").glob("*.pdf"):
+        shutil.copy2(file, output_watermarked)
+    # Copy the front matter as 0.pdf.
+    shutil.copy2(Path(build_dir, "front_matter.pdf"), Path(output_watermarked, "0.pdf"))
+    # Overwrite the papers.yml with information that contains page ranges
+    with open(Path(input_copy_dir, "papers.yml"), "w") as new_papers_yml:
+        yaml.dump(papers, new_papers_yml)
+    # Copy other input folders.
+    for folder_to_copy in [
+        "papers",
+        "invited_talks",
+        "panels",
+        "additional_pages",
+        "prefaces",
+        "sponsor_logos",
+    ]:
+        copy_folder(
+            Path(root, folder_to_copy), Path(input_copy_dir, folder_to_copy)
+        )
+
+    copy_folder(Path(root, "attachments"), Path(output_dir, "attachments"))
+
+def generate_proceedings(path: str, overwrite: bool, outdir: str, nopax: bool, frontmatter: bool):
+    root = Path(path)
+    build_dir = Path("build")
+    build_dir.mkdir(exist_ok=True)
+
+    # Throw if the build directory isn't empty, and the user did not specify an overwrite.
+    overwrite = True
+    if len([build_dir.iterdir()]) > 0 and not overwrite:
+        raise Exception(
+            f"Build directory {build_dir} is not empty, and the overwrite flag is false."
+        )
+    if overwrite:
+        shutil.rmtree(str(build_dir), ignore_errors=True)
+        build_dir.mkdir()
+
+    # Load and preprocess the .yml configuration.
+    (
+        conference,
+        papers,
+        sponsors,
+        prefaces,
+        organizing_committee,
+        program_committee,
+        invited_talks,
+        panels,
+        additional_pages,
+        program,
+    ) = load_configs(root)
+
+    sessions_by_date = None
+    if program is not None:
+        try:
+            sessions_by_date = process_program(program)
+        except:
+            print("Sorry. Your program.yml file seems malformed. It will be skipped.")
+            traceback.print_exc()
+            sessions_by_date = None
+
+    id_to_paper, alphabetized_author_index, archival_papers = process_papers(papers, root)
+    print(id_to_paper.keys())
+    print(additional_pages)
+    #print(alphabetized_author_index)
+    #print(archival_papers)
 
     template = load_template("proceedings")
     rendered_template = template.render(

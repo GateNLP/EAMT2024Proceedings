@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import argparse
-from aclpub2.generate import generate_proceedings, generate_handbook
+from aclpub2.generate import generate_proceedings, generate_handbook, generate_proceedings2
 
 if __name__ == "__main__":
     print("======================================================")
@@ -19,6 +19,9 @@ if __name__ == "__main__":
     parser.add_argument("path", type=str, help="Path to directory containing inputs.")
     parser.add_argument(
         "--proceedings", action="store_true", help="If set, generates the proceedings."
+    )
+    parser.add_argument(
+        "--proceedings2", action="store_true", help="If set, generates the proceedings."
     )
     parser.add_argument(
         "--handbook", action="store_true", help="If set, generates the handbook."
@@ -48,5 +51,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.proceedings == True:
         generate_proceedings(args.path, args.overwrite, args.outdir, args.nopax, args.frontmatter)
+    if args.proceedings2 == True:
+        generate_proceedings2(args.path, args.overwrite, args.outdir, args.nopax, args.frontmatter)
     if args.handbook == True:
         generate_handbook(args.path, args.overwrite)
