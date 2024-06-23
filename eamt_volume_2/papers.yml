@@ -1497,10 +1497,9 @@
     orcid: https://orcid.org/0000-0003-4709-2988
     username: ~Marija_Todorova1
   - emails: rachelhyliu@hkbu.edu.hk
-    first_name: rachelhyliu@hkbu.edu.hk
-    institution: NA
-    last_name: rachelhyliu@hkbu.edu.hk
-    name: rachelhyliu@hkbu.edu.hk
+    first_name: Rachel Hang Yi
+    institution: Hong Kong Baptist University
+    last_name: Liu
     username: rachelhyliu@hkbu.edu.hk
   decision: track
   file: 60027.pdf
@@ -1660,16 +1659,16 @@
     name: Pilar Sánchez-Gijón
     username: ~Pilar_Sánchez-Gijón1
   - emails: ester.torres@uab.cat
-    first_name: ester.torres@uab.cat
-    institution: NA
-    last_name: ester.torres@uab.cat
-    name: ester.torres@uab.cat
+    first_name: Esther
+    institution: Universitat Autònoma de Barcelona
+    middle_name: Torres
+    last_name: Simon
     username: ester.torres@uab.cat
   - emails: mireia.vargas@uab.cat
-    first_name: mireia.vargas@uab.cat
+    first_name: Mireia
     institution: NA
-    last_name: mireia.vargas@uab.cat
-    name: mireia.vargas@uab.cat
+    middle_name: Vargas
+    last_name: Urpí
     username: mireia.vargas@uab.cat
   - emails: nora.aranberri@ehu.eus
     first_name: Nora
@@ -1728,10 +1727,10 @@
     name: Miguel Rios
     username: ~Miguel_Rios2
   - emails: isabel.rivasginel@dcu.ie
-    first_name: isabel.rivasginel@dcu.ie
-    institution: NA
-    last_name: isabel.rivasginel@dcu.ie
-    name: isabel.rivasginel@dcu.ie
+    first_name: Isabel
+    middle_name: Rivas
+    institution: Dublin City University
+    last_name: Ginel
     username: isabel.rivasginel@dcu.ie
   - emails: caroline.rossi@univ-grenoble-alpes.fr
     first_name: Caroline
